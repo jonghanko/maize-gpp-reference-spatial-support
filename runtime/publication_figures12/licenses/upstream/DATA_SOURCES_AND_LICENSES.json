@@ -1,0 +1,110 @@
+{
+  "checked_date": "2026-10-27",
+  "status": "prepared_for_author_review_not_uploaded",
+  "sources": [
+    {
+      "source_id": "AMF_US_Ne1",
+      "title": "AmeriFlux FLUXNET-1F US-Ne1 Mead - irrigated continuous maize site",
+      "creator_as_cited": "Andy Suyker",
+      "citation_year": 2026,
+      "version": "v1.3_r1 (2001-2024)",
+      "doi": "10.17190/AMF/1871140",
+      "license_or_terms": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "policy_or_metadata_url": "https://ameriflux.lbl.gov/data/data-policy/",
+      "experiment_scope": "Principal and separate Mead hindcast",
+      "redistributed_or_derived_content": "Used processed daily GPP references/eligibility fields and their project snapshots; source-product attribution retained.",
+      "attribution_requirements": "Retain source creator/title/version/DOI, license and notices; identify extraction/transformation and do not imply source endorsement."
+    },
+    {
+      "source_id": "AMF_US_Ne3",
+      "title": "AmeriFlux FLUXNET-1F US-Ne3 Mead - rainfed maize-soybean rotation site",
+      "creator_as_cited": "Andy Suyker",
+      "citation_year": 2026,
+      "version": "v1.3_r1 (2001-2024)",
+      "doi": "10.17190/AMF/3028954",
+      "license_or_terms": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "policy_or_metadata_url": "https://ameriflux.lbl.gov/data/data-policy/",
+      "experiment_scope": "Principal and separate Mead hindcast",
+      "redistributed_or_derived_content": "Used processed daily GPP references/eligibility fields and their project snapshots; source-product attribution retained.",
+      "attribution_requirements": "Retain source creator/title/version/DOI, license and notices; identify extraction/transformation and do not imply source endorsement."
+    },
+    {
+      "source_id": "AMF_US_Ro1",
+      "title": "AmeriFlux FLUXNET-1F US-Ro1 Rosemount- G21",
+      "creator_as_cited": "John Baker; Tim Griffis; Timothy Griffis",
+      "citation_year": 2026,
+      "version": "v1.3_r1 (2004-2016)",
+      "doi": "10.17190/AMF/1881588",
+      "license_or_terms": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "policy_or_metadata_url": "https://ameriflux.lbl.gov/data/data-policy/",
+      "experiment_scope": "Principal only",
+      "redistributed_or_derived_content": "Used processed daily GPP references/eligibility fields and their project snapshots; actual2015 operations remain unknown.",
+      "attribution_requirements": "Retain source creator/title/version/DOI, license and notices; identify extraction/transformation and do not imply source endorsement."
+    },
+    {
+      "source_id": "AMF_US_IAC",
+      "title": "AmeriFlux FLUXNET-1F US-IAC Iowa State University SE tower",
+      "creator_as_cited": "Guler Aslan Sungur (Rojda); Vanloocke Andy",
+      "citation_year": 2026,
+      "version": "v1.3_r1 (2019-2024)",
+      "doi": "10.17190/AMF/3027373",
+      "license_or_terms": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "policy_or_metadata_url": "https://ameriflux.lbl.gov/data/data-policy/",
+      "experiment_scope": "Separate supporting2431-case point-input context only",
+      "redistributed_or_derived_content": "Citation applies to separately reported contextual results; IAC is not part of the642-case spatial or437-date hindcast population.",
+      "attribution_requirements": "Retain source creator/title/version/DOI, license and notices; identify extraction/transformation and do not imply source endorsement."
+    },
+    {
+      "source_id": "MOD09A1_061",
+      "title": "MODIS/Terra Surface Reflectance 8-Day L3 Global 500m SIN Grid V061",
+      "creator_as_cited": "Vermote, E.",
+      "citation_year": 2021,
+      "version": "Collection6.1 (V061)",
+      "doi": "10.5067/MODIS/MOD09A1.061",
+      "license_or_terms": "NASA/LP DAAC open data use terms; retain any applicable product notices",
+      "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/data-use-policy",
+      "policy_or_metadata_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/data-use-policy",
+      "experiment_scope": "Principal and separate Mead hindcast",
+      "redistributed_or_derived_content": "Derived reflectance/NDVI inputs, QA/cell/scene construction records; full global native archive not redistributed.",
+      "attribution_requirements": "Retain source creator/title/version/DOI, license and notices; identify extraction/transformation and do not imply source endorsement."
+    },
+    {
+      "source_id": "AGERA5_V2",
+      "title": "Agrometeorological indicators from1979 to present derived from reanalysis",
+      "creator_as_cited": "Copernicus Climate Change Service",
+      "citation_year": 2019,
+      "version": "AgERA5 version2.0",
+      "doi": "10.24381/cds.6c68c9bb",
+      "license_or_terms": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "policy_or_metadata_url": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/sis-agrometeorological-indicators",
+      "experiment_scope": "Principal and separate Mead hindcast",
+      "redistributed_or_derived_content": "Used nearest-cell daily meteorology and unit conversions/derived VPD; extracted/modified subset, not the full global data archive.",
+      "attribution_requirements": "Retain source creator/title/version/DOI, license and notices; identify extraction/transformation and do not imply source endorsement."
+    },
+    {
+      "source_id": "CHU_FOOTPRINT_20200622",
+      "title": "Supplementary Dataset for \"Representativeness of Eddy-Covariance Flux Footprints for Areas Surrounding AmeriFlux Sites\"",
+      "creator_as_cited": "Chu, H.; Luo, X.; Ouyang, Z.; Chan, W. S.; Dengel, S.; Biraud, S. C.; et al.",
+      "citation_year": 2020,
+      "version": "20200622",
+      "doi": "10.5281/zenodo.4015350",
+      "license_or_terms": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "policy_or_metadata_url": "https://zenodo.org/api/records/4015350",
+      "experiment_scope": "Principal and separate Mead hindcast; fixed source-geometry examples",
+      "redistributed_or_derived_content": "Monthly DAY retained-core rasters/conditional weights and derived geometry; necessary original native raster subsets only where included. Not newly calculated daily footprints.",
+      "attribution_requirements": "Retain source creator/title/version/DOI, license and notices; identify extraction/transformation and do not imply source endorsement."
+    }
+  ],
+  "scope_note": "Source data retain their original rights; project CC-BY4.0 does not replace provider rights or create exclusive rights in NASA material. Source-derived numerical inputs and source geometry are transformed/extracted products, not independent observations.",
+  "acquisition_route_date": {
+    "four_AMF_products": "FLUXNET Shuttle,26October2026",
+    "MODIS_AgERA5_footprint": "Use the source acquisition manifests; the policy-check date is not a substitute for an unrecorded retrieval date."
+  },
+  "provider_creator_strings": "Literal acquired provider strings retained for Ro1 and IAC; no creator has been deleted/reordered by guessed identity."
+}

@@ -1,0 +1,25 @@
+{
+  "interpreter": "source://research/agentic-gpp-et/.venv/bin/python",
+  "python": "3.11.13",
+  "python_implementation": "CPython",
+  "system": "Linux",
+  "machine": "x86_64",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.0",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.11.1",
+    "Pillow": "12.3.0",
+    "python-dateutil": "2.9.0.post0",
+    "fonttools": "4.63.0",
+    "packaging": "26.2",
+    "rasterio": "1.4.4",
+    "shapely": "2.1.2",
+    "pyproj": "3.7.2"
+  },
+  "package_install_or_model_import_performed": false
+}

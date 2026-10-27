@@ -1,0 +1,210 @@
+{
+  "status": "prepared_not_uploaded",
+  "files": [
+    {
+      "path": "DATA_SOURCES_AND_LICENSES.csv",
+      "bytes": 4379,
+      "sha256": "61827fd13cb70fe2b7a9f0ed67e466f2c7ea4a04e190699ce7f3403a4e293f63"
+    },
+    {
+      "path": "DATA_SOURCES_AND_LICENSES.json",
+      "bytes": 7425,
+      "sha256": "88350a23c18945742a620bdc7eefe43696ff92b85df5c1d895c83b085a33e8c6"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 3328,
+      "sha256": "397d46647fa28f7b63eac0428f0a3c2ba733b106adb3aa7aa799a6dc67555e13"
+    },
+    {
+      "path": "provider_notices/US-IAC_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "provider_notices/US-Ne1_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "provider_notices/US-Ne3_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "provider_notices/US-Ro1_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "PUBLIC_PROVIDER_POLICY_METADATA.json",
+      "bytes": 598,
+      "sha256": "01c50967070b4f024d31e9eb49d09cf50d5c571cf13b3c91ee77e564ea814af3"
+    },
+    {
+      "path": "RIGHTS_QA.json",
+      "bytes": 636,
+      "sha256": "635d1bc82baef352376d9105f835a8c90f31c1f725200e1194aa7c6a16a1adce"
+    },
+    {
+      "path": "SOFTWARE_DEPENDENCY_LICENSES.json",
+      "bytes": 427063,
+      "sha256": "39b1a0594ef784ea81b34a7f4db0b0beedb1684d9169f4b42ea8a0e5d7653830"
+    },
+    {
+      "path": "third_party_licenses/joblib/01_LICENSE.txt",
+      "bytes": 1556,
+      "sha256": "1971a47fed6ef14b7deff526e1c38532a6ddfe8b05bf90a9ef462de163d3e54c"
+    },
+    {
+      "path": "third_party_licenses/matplotlib/01_LICENSE",
+      "bytes": 64695,
+      "sha256": "8727104bcd93313371a7ea8a6798c2eadd5fac36b52f5aaa7a613f65dc69e90b"
+    },
+    {
+      "path": "third_party_licenses/matplotlib/02_LICENSE_DEJAVU",
+      "bytes": 4915,
+      "sha256": "c61ba9e8668a511cbd0bcfdee8329e02ca6ca4048abda6ca7ee8ac68a059776a"
+    },
+    {
+      "path": "third_party_licenses/matplotlib/03_LICENSE_STIX",
+      "bytes": 5600,
+      "sha256": "20742462c1dc14913b39f00ca1e06a2e9885b64b593a06de4209066988dbdb8e"
+    },
+    {
+      "path": "third_party_licenses/numpy/01_LICENSE.txt",
+      "bytes": 47729,
+      "sha256": "18f90c0d6bdc206bae4936bcb7a08412fb50e12e8a746f2b220b83b59f1ff89b"
+    },
+    {
+      "path": "third_party_licenses/numpy/02_LICENSE.txt",
+      "bytes": 1039,
+      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+    },
+    {
+      "path": "third_party_licenses/numpy/03_COPYING",
+      "bytes": 704,
+      "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+    },
+    {
+      "path": "third_party_licenses/numpy/04_LICENSE",
+      "bytes": 21155,
+      "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+    },
+    {
+      "path": "third_party_licenses/numpy/05_dragon4_LICENSE.txt",
+      "bytes": 1441,
+      "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+    },
+    {
+      "path": "third_party_licenses/numpy/06_LICENSE.md",
+      "bytes": 1542,
+      "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+    },
+    {
+      "path": "third_party_licenses/numpy/07_LICENSE",
+      "bytes": 1573,
+      "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+    },
+    {
+      "path": "third_party_licenses/numpy/08_LICENSE.md",
+      "bytes": 1523,
+      "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+    },
+    {
+      "path": "third_party_licenses/numpy/09_LICENSE.txt",
+      "bytes": 2314,
+      "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+    },
+    {
+      "path": "third_party_licenses/numpy/10_LICENSE",
+      "bytes": 1616,
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+    },
+    {
+      "path": "third_party_licenses/numpy/11_LICENSE.md",
+      "bytes": 3582,
+      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+    },
+    {
+      "path": "third_party_licenses/numpy/12_LICENSE.md",
+      "bytes": 2805,
+      "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+    },
+    {
+      "path": "third_party_licenses/numpy/13_LICENSE.md",
+      "bytes": 2986,
+      "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+    },
+    {
+      "path": "third_party_licenses/numpy/14_LICENSE.md",
+      "bytes": 1176,
+      "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+    },
+    {
+      "path": "third_party_licenses/numpy/15_LICENSE.md",
+      "bytes": 1540,
+      "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+    },
+    {
+      "path": "third_party_licenses/numpy/16_LICENSE.md",
+      "bytes": 1253,
+      "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+    },
+    {
+      "path": "third_party_licenses/numpy/17_LICENSE.md",
+      "bytes": 340,
+      "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+    },
+    {
+      "path": "third_party_licenses/pandas/01_LICENSE",
+      "bytes": 63648,
+      "sha256": "699649739d3c2c35e3b64517225e6ec69d5d75584d8875c4e6071ecbc151fd96"
+    },
+    {
+      "path": "third_party_licenses/pyarrow/01_LICENSE.txt",
+      "bytes": 114602,
+      "sha256": "b410defd7f5f8cac9cfa54a3a49fcd971de2be0462bbab980c8f869f1aac94d3"
+    },
+    {
+      "path": "third_party_licenses/pyarrow/02_NOTICE.txt",
+      "bytes": 2997,
+      "sha256": "2ccca1e730e671f55b8028facf2261a6f74b561a4d96a2ccd743be19c5619236"
+    },
+    {
+      "path": "third_party_licenses/pyproj/01_LICENSE",
+      "bytes": 1137,
+      "sha256": "c25d436b6fc9009a3d337ca024ed1caf615e55e10f4a0ace1673b9953821c8da"
+    },
+    {
+      "path": "third_party_licenses/pyproj/02_LICENSE_proj",
+      "bytes": 1753,
+      "sha256": "ec8ad0defdbcfac5083e510c000c05a5b63144c685e0a879b7c081b5e44e24c7"
+    },
+    {
+      "path": "third_party_licenses/rasterio/01_LICENSE.txt",
+      "bytes": 1484,
+      "sha256": "6332e0bd7836f930a5ef39c0a6b84c348bf746fe9020c5c9811d543274d88ec5"
+    },
+    {
+      "path": "third_party_licenses/scikit-learn/01_COPYING",
+      "bytes": 5190,
+      "sha256": "d686377d995334a1ac4e9904c921fe98e2c219466096f278ecdd3dc474d49ef3"
+    },
+    {
+      "path": "third_party_licenses/scipy/01_LICENSE.txt",
+      "bytes": 47772,
+      "sha256": "81b0822556ca1d85d0afc39b4ad5606621b39f607434396e028a85593abbb4b8"
+    },
+    {
+      "path": "third_party_licenses/threadpoolctl/01_LICENSE",
+      "bytes": 1530,
+      "sha256": "26d0c50765c1ef4631377a39ea37c31e85834fae1713a9cdad003d16872c166c"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 6088,
+      "sha256": "dcc953bdaf7e66dd69cfb7dd30f5103df3ddda64abfb32d1261a69fecb2fbd59"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.11.13",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.0",
+    "sklearn": "1.9.0",
+    "scipy": "1.17.1",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "source_runtime_match": "Linux project environment; cross-platform or future-library byte identity not promised"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "operational_source_and_code_freeze_before_cross_prediction",
+  "frozen_utc": "2026-10-27T05:22:35.773949+00:00",
+  "protocol_sha256": "756e27f0ebf641a73af0bf04c2efa7811a43ab04ff2c9ad91716160cde31680d",
+  "code_sha256": "dcba94939de2c96780cd6eb82d8f3a994585afe16861b0ac8d271215e587e167",
+  "bindings_sha256": "8cf5a3c04e09c3b6df3fb4a851dc7383a1410d7171ab0ec708eb02c418f890fb",
+  "model_files": 120,
+  "other_source_files": 16,
+  "remote": "source://analysis/jag_crosspredict_v0_1",
+  "new_predictions_at_freeze": 0
+}

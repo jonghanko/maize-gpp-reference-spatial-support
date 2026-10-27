@@ -1,0 +1,7 @@
+{
+  "original_analysis_root": "/__unavailable_maize_original_sources__",
+  "original_source_probe": "/__unavailable_maize_original_sources__/probe.json",
+  "guard_scope": "Generic offline data/config guard; actual original source-path blocking is tested with private external test inputs, not disclosed here.",
+  "source_model_artifacts": 120,
+  "source_nonmodel_artifacts": 16
+}

@@ -1,0 +1,18 @@
+{
+  "status": "archived_checksum_only",
+  "regenerated": false,
+  "numeric_rows_parsed_for_analysis": 0,
+  "source": "Current authoring workspace tables; separately frozen2431-case experiment",
+  "files": [
+    {
+      "file": "TableS5_broader_2431_metrics.csv",
+      "bytes": 7297,
+      "sha256": "74f5e7b562316589ff73f9d7d150fd051a4bec480535601752fe0aa63f6fc7d9"
+    },
+    {
+      "file": "TableS5b_broader_2431_region_scores.csv",
+      "bytes": 48103,
+      "sha256": "a0ac65394169c9a48e5cd53c9355762cb76ee35f75f24df9a9fc18bd7e0612c8"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "reference_PDFs": [
+    {
+      "figure": "Fig1",
+      "file": "Figure1_controlled_design.pdf",
+      "sha256": "311abb4291e0edc78f202c04b00b84d5632ee0d4845ffb589f1b06dc1839800d",
+      "width_in": 7.16,
+      "height_in": 6.0,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    },
+    {
+      "figure": "Fig2",
+      "file": "Figure2_spatial_support.pdf",
+      "sha256": "7699f3f091446a81b9a56eb7714a2719828186b01f7e8280ed6cf37c99e83a12",
+      "width_in": 7.16,
+      "height_in": 4.800000000000001,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    },
+    {
+      "figure": "Fig3",
+      "file": "Figure3_BC_conditional_contrasts.pdf",
+      "sha256": "a2a05dd73c4436c86c02ed69f7f9f910e98b90dd41b780018232ad7b7610885f",
+      "width_in": 7.16,
+      "height_in": 6.699999999999999,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    },
+    {
+      "figure": "Fig4",
+      "file": "Figure4_primary_LOYO_input_effects.pdf",
+      "sha256": "b6240b466cc0b2180059dd2654a91be5830822b3ed6d40b632d226da236098f7",
+      "width_in": 7.16,
+      "height_in": 7.0,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    },
+    {
+      "figure": "FigS7",
+      "file": "FigureS7_HGB_conditional_contrasts.pdf",
+      "sha256": "7c05d641599974e8bed28be16538f1dba5603ae2f12ed24a37d437b8a98c88a5",
+      "width_in": 7.16,
+      "height_in": 4.199999999999999,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    },
+    {
+      "figure": "FigureS1",
+      "file": "FigureS1_fixed_OOF_summary_omissions.pdf",
+      "sha256": "9af096bc3aaa467fea73741e4018ae88a7a839a7fcba7382fbac15978498411a",
+      "width_in": 7.16,
+      "height_in": 3.75,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    },
+    {
+      "figure": "FigureS2",
+      "file": "FigureS2_T1_hindcast.pdf",
+      "sha256": "5e30e97b7ebe39058c5c9651d94f42c1c946c86cb1eb13b2bbceddf0ec6babb6",
+      "width_in": 7.16,
+      "height_in": 6.65,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    },
+    {
+      "figure": "FigureS3",
+      "file": "FigureS3_fixed_error_components.pdf",
+      "sha256": "17799f76b90240595c7bc9cd1617ef8a6fd30aff998e6121cbad88addf75bbdd",
+      "width_in": 7.16,
+      "height_in": 7.5,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    },
+    {
+      "figure": "FigureS4",
+      "file": "FigureS4_conditional_input_support.pdf",
+      "sha256": "ea57774b9ee1bff0ea0c8a057db75dde6d933b673c41e910c85d621c1fbdfc3a",
+      "width_in": 7.16,
+      "height_in": 7.5,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    },
+    {
+      "figure": "FigureS5",
+      "file": "FigureS5_reference_input_interactions.pdf",
+      "sha256": "0624ff466c3fff879366bf6d7b8430f6ae71734dc0730f2c9a3609a482fbec02",
+      "width_in": 7.16,
+      "height_in": 7.5,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    },
+    {
+      "figure": "FigureS6",
+      "file": "FigureS6_all_LOYO_site_season_effects.pdf",
+      "sha256": "a8da7c7b1c80d874fead9d1ae91d0282d575f9b75227e582a0a9a3812f6ee018",
+      "width_in": 7.16,
+      "height_in": 7.5,
+      "minimum_actual_PDF_font_size_pt": 12.0,
+      "file_is_not_bundled": true
+    }
+  ],
+  "independent_reference_value_checks": {
+    "conditional_and_aggregate_SVG_values": 96,
+    "S1_S6_source_table_values": 216,
+    "original_native_map_geometry_records": 3
+  },
+  "source_figures_visually_checked_by_respective_reviewers": true,
+  "new_fits": 0,
+  "new_predictions": 0
+}

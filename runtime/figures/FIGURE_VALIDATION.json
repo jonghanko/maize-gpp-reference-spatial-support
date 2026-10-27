@@ -1,0 +1,117 @@
+{
+  "status": "pass",
+  "CPU_execution": true,
+  "runtime": {
+    "python": "3.11.13",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.1"
+  },
+  "logical_figures": 11,
+  "formats_per_figure": [
+    "png",
+    "svg",
+    "pdf"
+  ],
+  "source_input_files_verified": 43,
+  "new_fits": 0,
+  "new_predictions": 0,
+  "RGB_pixel_matches": 9,
+  "pixel_comparison": [
+    {
+      "figure": "Figure1_controlled_design",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": true,
+      "size": [
+        2368,
+        2432
+      ]
+    },
+    {
+      "figure": "Figure2_spatial_support",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": true,
+      "size": [
+        2368,
+        1680
+      ]
+    },
+    {
+      "figure": "Figure3_BC_conditional_contrasts",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": true,
+      "size": [
+        2490,
+        2160
+      ]
+    },
+    {
+      "figure": "Figure4_primary_LOYO_input_effects",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": true,
+      "size": [
+        2604,
+        1806
+      ]
+    },
+    {
+      "figure": "FigureS1_fixed_OOF_summary_omissions",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": true,
+      "size": [
+        2772,
+        1166
+      ]
+    },
+    {
+      "figure": "FigureS2_T1_hindcast",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": true,
+      "size": [
+        2068,
+        1540
+      ]
+    },
+    {
+      "figure": "FigureS3_fixed_error_components",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": false,
+      "size": [
+        3366,
+        1144
+      ]
+    },
+    {
+      "figure": "FigureS4_conditional_input_support",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": false,
+      "size": [
+        3190,
+        1232
+      ]
+    },
+    {
+      "figure": "FigureS5_reference_input_interactions",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": true,
+      "size": [
+        3003,
+        1029
+      ]
+    },
+    {
+      "figure": "FigureS6_all_LOYO_site_season_effects",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": true,
+      "size": [
+        2646,
+        2352
+      ]
+    },
+    {
+      "figure": "FigureS7_HGB_conditional_contrasts",
+      "regenerated_RGB_pixels_identical_to_reviewed_original": true,
+      "size": [
+        2490,
+        1320
+      ]
+    }
+  ],
+  "original_resolution_visual_review": {
+    "contact_sheet": "all11 visually inspected",
+    "FigureS3": "fulloriginalresolution inspected, threepanels/allmodelreference rows/units/legend complete; no clip/overlap observed",
+    "FigureS4": "fulloriginalresolution inspected, usedmonths/supportmatrix and principal/T1 sevenrows plusmeans/maxima correct; no clip/overlap observed"
+  },
+  "scope": "Original plot bodies and source-bound values/styles/geometry preserved. Exact-image claim is9of11 in recorded environment; not universalpixelidentity.",
+  "private_path_scan": "pass: no original server/privateWindows path in public text/code/data"
+}

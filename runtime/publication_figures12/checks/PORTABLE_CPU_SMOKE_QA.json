@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "description": "Portable package rendered all11 figures from its own relative inputs on CPU; generated outputs excluded from source ZIP",
+  "new_fits": 0,
+  "new_predictions": 0,
+  "input_files_changed": 0,
+  "native_geometry_matches_reviewed_original_exact": true,
+  "contrast_and_bar_rows_identical": 96,
+  "contrast_rows_by_plot": [
+    48,
+    24,
+    24
+  ],
+  "all_SI_serialized_plot_values_match_reviewed_output": true,
+  "SI_numeric_comparisons_including_identifiers": 286,
+  "maximum_SI_numeric_difference": 0.0,
+  "SI_comparison_tolerance": 1e-14,
+  "all11_PDFs_exact_width_and_at_least_12pt": true,
+  "SI_text_bbox_overlap_or_outside_count": 0,
+  "runtime": {
+    "python": "3.11.13",
+    "matplotlib": "3.11.1",
+    "pandas": "2.3.3",
+    "numpy": "2.4.6",
+    "rasterio": "1.4.4",
+    "pyproj": "3.7.2"
+  },
+  "plots": [
+    {
+      "file": "contrasts/Figure3_BC_conditional_contrasts.pdf",
+      "width_in": 7.16,
+      "height_in": 6.699999999999999,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "03eb561ee6080e0a0492325c6374271de6b5843005739b823cd16d6ae99443b4"
+    },
+    {
+      "file": "contrasts/Figure4_primary_LOYO_input_effects.pdf",
+      "width_in": 7.16,
+      "height_in": 7.0,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "cc969bc8a3d6a01ccc1d7e92e8252859f6453849567434f41614381f49d8ca6a"
+    },
+    {
+      "file": "contrasts/FigureS7_HGB_conditional_contrasts.pdf",
+      "width_in": 7.16,
+      "height_in": 4.199999999999999,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "76c463fdc2490c21da6ebe45857a8debbbc86786308adbc6f0bc67a785e994d3"
+    },
+    {
+      "file": "main/Figure1_controlled_design.pdf",
+      "width_in": 7.16,
+      "height_in": 6.0,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "9e0a06df5a8f111270331f84b6ee3517da64db00de2ccbf0201d05a4c56ab282"
+    },
+    {
+      "file": "main/Figure2_spatial_support.pdf",
+      "width_in": 7.16,
+      "height_in": 4.800000000000001,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "232828d37d13a6cfbc474a08c468a486443e155b1511fb7f3bb7cb50d2ec886b"
+    },
+    {
+      "file": "supp/figures/FigureS1_fixed_OOF_summary_omissions.pdf",
+      "width_in": 7.16,
+      "height_in": 3.75,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "2a5a652a079f6b81593d06ef23665c346997d19b4a45b36614c844c1c2426734"
+    },
+    {
+      "file": "supp/figures/FigureS2_T1_hindcast.pdf",
+      "width_in": 7.16,
+      "height_in": 6.65,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "e07c536779ff08a51fef965aceac1e747dc6351370ad4c4e7cb2b696e7a07c29"
+    },
+    {
+      "file": "supp/figures/FigureS3_fixed_error_components.pdf",
+      "width_in": 7.16,
+      "height_in": 7.5,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "790910eb7f8b9e9d3f0a051e418e84f0911cf2ffe9c102f064c1c044160a2f20"
+    },
+    {
+      "file": "supp/figures/FigureS4_conditional_input_support.pdf",
+      "width_in": 7.16,
+      "height_in": 7.5,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "41187ce5eb1f1f8f6a7b1d7ef8373f7ac53f4ec947edc1ac61dc9df31a4cb007"
+    },
+    {
+      "file": "supp/figures/FigureS5_reference_input_interactions.pdf",
+      "width_in": 7.16,
+      "height_in": 7.5,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "811981e3cf79dda8da62e6f560d6a8fa25bf4f07cf4b9bda2a6773dd564a88f1"
+    },
+    {
+      "file": "supp/figures/FigureS6_all_LOYO_site_season_effects.pdf",
+      "width_in": 7.16,
+      "height_in": 7.5,
+      "minimum_actual_PDF_font_pt": 12.0,
+      "sha256": "31bccbfcf1028dcdf78db71eef636eed44ec03b0ee31fea5c379ba1c6938a86a"
+    }
+  ],
+  "scope_limit": "Cross-environment smoke replay establishes numerical/input/font/layout checks, not byte-identical graphics across library versions. Source figure reviewers separately inspected original final previews."
+}

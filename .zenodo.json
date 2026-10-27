@@ -1,0 +1,27 @@
+{
+  "version": "1.0.2",
+  "creators": [
+    {
+      "name": "Ko, Jonghan",
+      "affiliation": "Department of Applied Plant Science, Chonnam National University",
+      "orcid": "0000-0001-7974-3808"
+    }
+  ],
+  "description": "Reproducible processed-data comparisons accompanying \"Training–Test Representation and Reference-Path Sensitivity in a Satellite-Based Maize Gross Primary Production Benchmark\". The principal comparison retains 642 site–date observations (489 distinct calendar dates), four maize site-seasons and two regions. A separate retrospective Mead hindcast retains 437 site–date test observations (291 distinct calendar dates); its 480 later-year training observations reuse the principal population. The package retains 120 original B/C model objects, matched cases, dependent nighttime GPP fitting/scoring paths, unchanged validation roles and declared aggregation. The cross-input analysis is a post-review exposed-domain computational diagnosis. It does not establish independent regional or forecasting validation, physical daily-footprint correction, isolated uStar effects or unique causal attribution. The records include the matching Graphical Abstract in compact PNG, vector PDF and larger PNG renditions with its English caption. It illustrates the principal random-forest pipeline and conditional training contrasts, with no new model fit or scientific result. The software includes the deterministic drawing source; font software is excluded and retains its own rights.",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "gross primary production",
+    "maize",
+    "eddy covariance",
+    "MODIS",
+    "AgERA5",
+    "spatial support",
+    "model evaluation",
+    "reproducible research"
+  ],
+  "title": "Training–Test Representation and Reference-Path Sensitivity in a Satellite-Based Maize Gross Primary Production Benchmark — reproducible software",
+  "upload_type": "software",
+  "license": "mit",
+  "notes": "Supported by Chonnam National University (Grant No. 2026-1417-01) and the Basic Science Research Program through the National Research Foundation of Korea (Grant No. NRF-2021R1A2C2004459). Neither funder was involved in design, data collection, analysis or interpretation, manuscript preparation or the decision to submit. Project-owned source is MIT; documentation/data fixtures and third-party notices retain their file-level scopes. The companion data record supplies processed inputs, original model objects, prediction/score tables and current reference artwork. Source/model bindings and reproduction boundaries are documented in the README. Graphical Abstract content and caption are CC BY4.0; the drawing source is MIT. Embedded font rights remain with the font owner; font software is not redistributed."
+}

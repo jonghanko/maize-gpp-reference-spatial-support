@@ -1,0 +1,964 @@
+{
+  "cohorts": {
+    "principal": {
+      "protocol": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/protocol.json",
+      "folds": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/all_folds.json",
+      "original_predictions": "sources/manuscript_integration_v0_1/factorial_experiment/runs/cross_predictions.parquet",
+      "snapshots": {
+        "B_uniform_pixels": {
+          "VUT_REF": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/B_uniform_pixels__VUT_REF_snapshot.parquet",
+          "CUT_REF": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/B_uniform_pixels__CUT_REF_snapshot.parquet"
+        },
+        "C_core_weighted": {
+          "VUT_REF": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/C_core_weighted__VUT_REF_snapshot.parquet",
+          "CUT_REF": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/C_core_weighted__CUT_REF_snapshot.parquet"
+        }
+      },
+      "original_protocol_sha256": "a558444a518d5201af429b858fd4533ce1e6ad138056ccc10a81b0872af1accb"
+    },
+    "T1": {
+      "protocol": "sources/early_mead_v0_1/plan01/protocol.json",
+      "folds": "sources/early_mead_v0_1/plan01/fold.json",
+      "original_predictions": "sources/early_mead_v0_1/run01/cross_predictions.parquet",
+      "snapshots": {
+        "B_uniform_pixels": {
+          "VUT_REF": "sources/early_mead_v0_1/plan01/B_uniform_pixels__VUT_REF_snapshot.parquet",
+          "CUT_REF": "sources/early_mead_v0_1/plan01/B_uniform_pixels__CUT_REF_snapshot.parquet"
+        },
+        "C_core_weighted": {
+          "VUT_REF": "sources/early_mead_v0_1/plan01/C_core_weighted__VUT_REF_snapshot.parquet",
+          "CUT_REF": "sources/early_mead_v0_1/plan01/C_core_weighted__CUT_REF_snapshot.parquet"
+        }
+      },
+      "original_protocol_sha256": "233f0bc5ad008bbe87a588180e796f9dedf9d2e934e9d077b710c681b529248d"
+    }
+  },
+  "sources": [
+    {
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/protocol.json",
+      "bytes": 6193,
+      "sha256": "96adb3e50d0aa05534de71ec16a1f92b1e6bbb1395d1949cd209f41339280c69"
+    },
+    {
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/all_folds.json",
+      "bytes": 74142,
+      "sha256": "f4995f9bd4f70e4571d426b4219ba6be62d03c308ed09bdea25835c7acf04ae1"
+    },
+    {
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/cross_predictions.parquet",
+      "bytes": 251339,
+      "sha256": "7d924434d50d65cd18bafde6240baaf033f4fa853e00f3a714d476ba62dc7e32"
+    },
+    {
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/run_manifest.json",
+      "bytes": 50694,
+      "sha256": "cc09e0f883a6b1a52eed726cc5745aceb1f02a4730ae640d33872b40721665d6"
+    },
+    {
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/B_uniform_pixels__VUT_REF_snapshot.parquet",
+      "bytes": 149401,
+      "sha256": "4d2d70eb0f2262ef29bdc3e3cee879bee2819bee592bbbd11fc4f42970a144e5"
+    },
+    {
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/B_uniform_pixels__CUT_REF_snapshot.parquet",
+      "bytes": 149401,
+      "sha256": "da0dd303567070bb7f0e2b2edfcfab032bc3d50c9664cdf5f6dbf5d830c2ffc8"
+    },
+    {
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/C_core_weighted__VUT_REF_snapshot.parquet",
+      "bytes": 149396,
+      "sha256": "039bd32afde85e882b4055b02228b2b9ebbbf59765c8e567ecb007ada2b022bc"
+    },
+    {
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/plan01/C_core_weighted__CUT_REF_snapshot.parquet",
+      "bytes": 149396,
+      "sha256": "16a0b05ba8661984a5053129a6bdf5044f5886d52b4d35381c07a8a717732647"
+    },
+    {
+      "path": "sources/early_mead_v0_1/plan01/protocol.json",
+      "bytes": 3558,
+      "sha256": "64841727579c3f3a5b45e120f089649a8495d53aa97bf8d5e43ee93aaa3a3d62"
+    },
+    {
+      "path": "sources/early_mead_v0_1/plan01/fold.json",
+      "bytes": 8714,
+      "sha256": "0637a35d5887c142d4ae915f7d546d4bc774e69a9087980539e9f0bd8e33557c"
+    },
+    {
+      "path": "sources/early_mead_v0_1/run01/cross_predictions.parquet",
+      "bytes": 126482,
+      "sha256": "57e2313c0d5926aa12814c76e466a92cf10e2b6121194a417e7f3dc64b37f6a9"
+    },
+    {
+      "path": "sources/early_mead_v0_1/run01/run_manifest.json",
+      "bytes": 5825,
+      "sha256": "810444860b8bbc35095f1ed6afacdf313677c7e06c2e47eaac7916dc011a6cf1"
+    },
+    {
+      "path": "sources/early_mead_v0_1/plan01/B_uniform_pixels__VUT_REF_snapshot.parquet",
+      "bytes": 87419,
+      "sha256": "79c9b13dbd44224b2506f0e285a8039a1158b92bfaf35243fd9b8bd997a84321"
+    },
+    {
+      "path": "sources/early_mead_v0_1/plan01/B_uniform_pixels__CUT_REF_snapshot.parquet",
+      "bytes": 87411,
+      "sha256": "931e509192cf809870374cc5afcd3a0aac1cfe159c900acbe2cb6aa838fec9d7"
+    },
+    {
+      "path": "sources/early_mead_v0_1/plan01/C_core_weighted__VUT_REF_snapshot.parquet",
+      "bytes": 87419,
+      "sha256": "fecf5ed13eaf3a5e2c857b197561596030857727de77e8a2d80aa1f2910c7280"
+    },
+    {
+      "path": "sources/early_mead_v0_1/plan01/C_core_weighted__CUT_REF_snapshot.parquet",
+      "bytes": 87411,
+      "sha256": "f1aa5ae926f5b3507e128809317f308108df858b262d2fd7ba4fd874683f82c2"
+    }
+  ],
+  "models": [
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/cluster_loso/f001/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/cluster_loso/f001/GPP/hist_gradient_boosting.joblib",
+      "sha256": "d67461329703c690fd43a342a355b2aa2b0579aae33f64a845ad22fff3ab0d67",
+      "bytes": 128242
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/cluster_loso/f001/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/cluster_loso/f001/GPP/random_forest.joblib",
+      "sha256": "ddcaa5639fda68237fc99fa092739316ce113434cf6ed57b197ef50f43741151",
+      "bytes": 492719
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/cluster_loso/f001/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/cluster_loso/f001/GPP/ridge.joblib",
+      "sha256": "f239af7bc128fc81bcb03fc2ed7ab3ded17fb133f861fa38a203ec748f377113",
+      "bytes": 1417
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/cluster_loso/f001/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/cluster_loso/f001/GPP/seasonal_harmonic.joblib",
+      "sha256": "9875d567b050f3439cfa38bc4f15b6d48f632b6716f9c73c637a7803ff8b68ed",
+      "bytes": 820
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/cluster_loso/f001/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/cluster_loso/f001/GPP/train_mean.joblib",
+      "sha256": "a0d1660a45a5a9b83a6e2f82dffc20354116017dc61415866cb4d917ff8afed2",
+      "bytes": 368
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/cluster_year_disjoint/f002/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/cluster_year_disjoint/f002/GPP/hist_gradient_boosting.joblib",
+      "sha256": "7aaedca49cd447d69cebf881581d309b4314f33b37737ca33fb5f1ed816fd1bd",
+      "bytes": 128249
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/cluster_year_disjoint/f002/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/cluster_year_disjoint/f002/GPP/random_forest.joblib",
+      "sha256": "5a05377e44daf8b04ff1d73ee3a0d9853973fe3e395939cf68bec39ba5c086fc",
+      "bytes": 492726
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/cluster_year_disjoint/f002/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/cluster_year_disjoint/f002/GPP/ridge.joblib",
+      "sha256": "731744794771c8fedf0c25b438593dfa9add4c205785bd794a7324612633a604",
+      "bytes": 1427
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/cluster_year_disjoint/f002/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/cluster_year_disjoint/f002/GPP/seasonal_harmonic.joblib",
+      "sha256": "1c89bfcc4a9565fda164c5c4081a72939c14b949efd0866bab20de12bc52eaf3",
+      "bytes": 828
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/cluster_year_disjoint/f002/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/cluster_year_disjoint/f002/GPP/train_mean.joblib",
+      "sha256": "b6376d38c7aaa7c87a9cc89f6b3ee8b8399a7ca3bec5679af74dbdba160ce989",
+      "bytes": 374
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f000/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f000/GPP/hist_gradient_boosting.joblib",
+      "sha256": "78a401382fb04e037f0f0cdb9235c8d2fedd8a936b957b4783b4af9e6533616e",
+      "bytes": 126470
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f000/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f000/GPP/random_forest.joblib",
+      "sha256": "a6d3790f4212ab5e7b7c60cb4708ce685348d86e605f1a324cc09262c6317918",
+      "bytes": 497027
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f000/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f000/GPP/ridge.joblib",
+      "sha256": "a94bba159f99b423dcaf1fe0efa54704bc6add5aeaa12301edf6d1d189d9538f",
+      "bytes": 1421
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f000/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f000/GPP/seasonal_harmonic.joblib",
+      "sha256": "6a3ff7ac71ff064b8488499af2fd706c07df13cf7dd73ac735a0e54925dfc7cf",
+      "bytes": 819
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f000/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f000/GPP/train_mean.joblib",
+      "sha256": "98d27e0514909db2fe9233b250406ebb38bcfddcadc9455521c6cc204a65f6b5",
+      "bytes": 368
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f001/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f001/GPP/hist_gradient_boosting.joblib",
+      "sha256": "7ab056f10abddf72a1281ac78b89e7e83eec4023fd06e3eab8c1c9fc6fffd92a",
+      "bytes": 101610
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f001/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f001/GPP/random_forest.joblib",
+      "sha256": "bb5b20ef4e5618ea1241e3610eac7ede26da64268bf7cb2be9bdacaa022ed813",
+      "bytes": 322497
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f001/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f001/GPP/ridge.joblib",
+      "sha256": "1c6d91a633d75ea1b16f657eb6820956ad441989b4846b78a6196a876d1cef73",
+      "bytes": 1422
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f001/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f001/GPP/seasonal_harmonic.joblib",
+      "sha256": "683f8b3b882790e3126f7ad1edcf59fc2187f35c58ff285bb4a2e5c38bc09f77",
+      "bytes": 816
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f001/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f001/GPP/train_mean.joblib",
+      "sha256": "21cda4d136d4f60cf5da84c91a8beb689cf00e9b15f66a60b44e9a250cf89e6a",
+      "bytes": 363
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f002/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f002/GPP/hist_gradient_boosting.joblib",
+      "sha256": "89d7593a6535729ad314f8eacb05079162b5532b0d04f36243cb107e0dec1370",
+      "bytes": 128243
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f002/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f002/GPP/random_forest.joblib",
+      "sha256": "8e19c4d42d25abd81dafadbbdb3bde3eec0c6179dc8985f220d808fec08d0bed",
+      "bytes": 492718
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f002/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f002/GPP/ridge.joblib",
+      "sha256": "f4dd16264ddcc2aa457052b83dfb36aa4632c86308635b88518339ff30e2373d",
+      "bytes": 1413
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f002/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f002/GPP/seasonal_harmonic.joblib",
+      "sha256": "89e3300b2e5074127c192cb0b399b9eeecbe8568f8985c394a1dc923eab18772",
+      "bytes": 817
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/CUT_REF/models/year_loyo/f002/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/CUT_REF/models/year_loyo/f002/GPP/train_mean.joblib",
+      "sha256": "d28b53af68c51fa23ef639d545fa06ac41b1db86830ff49d80f22d7b3512f555",
+      "bytes": 364
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/cluster_loso/f001/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/cluster_loso/f001/GPP/hist_gradient_boosting.joblib",
+      "sha256": "ce37457891ddcaee23534d5381a44d23ff8968c3c6cc4a719a4814b678395088",
+      "bytes": 128888
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/cluster_loso/f001/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/cluster_loso/f001/GPP/random_forest.joblib",
+      "sha256": "a237ea808547fba101b5699f2f72c5f733246a6c0abb23a576a142cfa10fba5d",
+      "bytes": 492395
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/cluster_loso/f001/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/cluster_loso/f001/GPP/ridge.joblib",
+      "sha256": "b3dff68505f432eedb3210753d6d8a63b29bce0c02a84a67087a0bafd98c4efb",
+      "bytes": 1419
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/cluster_loso/f001/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/cluster_loso/f001/GPP/seasonal_harmonic.joblib",
+      "sha256": "dc3516bc35fd9f8dda6c89734b5b648d8dee5fafffe457dcde0d7efbf26d118b",
+      "bytes": 816
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/cluster_loso/f001/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/cluster_loso/f001/GPP/train_mean.joblib",
+      "sha256": "13ca2cb36ed0ad136472aad699ec4ab8e4a20286b57cb3047555727fba2512c4",
+      "bytes": 367
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/cluster_year_disjoint/f002/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/cluster_year_disjoint/f002/GPP/hist_gradient_boosting.joblib",
+      "sha256": "a10c8cec481de90665d639de1c2c01b54e21368be5b31cc9763baec196abfeb5",
+      "bytes": 128895
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/cluster_year_disjoint/f002/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/cluster_year_disjoint/f002/GPP/random_forest.joblib",
+      "sha256": "578412da94ace118e767d8b89fa455412bd5e71db31d2df445f491507b011d39",
+      "bytes": 492403
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/cluster_year_disjoint/f002/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/cluster_year_disjoint/f002/GPP/ridge.joblib",
+      "sha256": "943cfa7eaef5c2b627372e715dea38c5cc241312d9bfcdd05c4d809158179a20",
+      "bytes": 1427
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/cluster_year_disjoint/f002/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/cluster_year_disjoint/f002/GPP/seasonal_harmonic.joblib",
+      "sha256": "a9be8bd704ea954b4734a159f220770e8e62e5b6405c67af6e4cb941371e208a",
+      "bytes": 825
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/cluster_year_disjoint/f002/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/cluster_year_disjoint/f002/GPP/train_mean.joblib",
+      "sha256": "693a6c2b11635c3fde3fcdbda6c1754fcc0b45857455cb9096a8b56b6bba5571",
+      "bytes": 373
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f000/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f000/GPP/hist_gradient_boosting.joblib",
+      "sha256": "d8198e6437a5593e7458c789deacaab39eb64fca51a38cb6ebeba3aeafab80bf",
+      "bytes": 125588
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f000/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f000/GPP/random_forest.joblib",
+      "sha256": "e8548d117b25fd61044a27d371275eae5b01de7f5d8a6439bfc390491c79e400",
+      "bytes": 498866
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f000/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f000/GPP/ridge.joblib",
+      "sha256": "d379f2a6e3658bf2f3bfb47788a8b9da1c3b4cf293927068876b28b7e0b2b4ab",
+      "bytes": 1420
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f000/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f000/GPP/seasonal_harmonic.joblib",
+      "sha256": "d04a77ca9a476bfa2d51dcc222ad86d71761166593f33dd3393c14b76f1dc6df",
+      "bytes": 816
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f000/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f000/GPP/train_mean.joblib",
+      "sha256": "1fa7418c3b067b2888896cd564f7def6dffa7f06037bff5362d24697bbd405bb",
+      "bytes": 367
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f001/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f001/GPP/hist_gradient_boosting.joblib",
+      "sha256": "bd74527f55cfaf9dbd62d1c539a85d3801ee7164255de14e0111f634d88f22f9",
+      "bytes": 101855
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f001/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f001/GPP/random_forest.joblib",
+      "sha256": "fe336c39b24e6257448c3d5a201a7349de925ca1104e183a6b228a1e1aab4ff5",
+      "bytes": 321885
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f001/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f001/GPP/ridge.joblib",
+      "sha256": "18cff9f657fc734b6fd7f319c8c25a7da6b4adcb7fc3ab1c3c23c934694e4ec1",
+      "bytes": 1420
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f001/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f001/GPP/seasonal_harmonic.joblib",
+      "sha256": "49ff6bed7df4d45a2b5d3e3ae66b17f5c010ee35d0d6effaa08e35e113a17a42",
+      "bytes": 816
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f001/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f001/GPP/train_mean.joblib",
+      "sha256": "093c61e986c5e7e2c566f5a90fb9f62eb1ca161bc08ac095e6c0b669edc84e00",
+      "bytes": 362
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f002/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f002/GPP/hist_gradient_boosting.joblib",
+      "sha256": "ee4fbd018a7e408b3fbb1ab535e95da08cebf195cc47763534e76a52e5762f87",
+      "bytes": 128885
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f002/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f002/GPP/random_forest.joblib",
+      "sha256": "e87394bda8c957e6a56c6f243ba466eff00405f267b1caa69cd4f0986570804f",
+      "bytes": 492388
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f002/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f002/GPP/ridge.joblib",
+      "sha256": "9a0e11a2b6945bff1e3f3e20556635ef665f9a0d77217cc5d51b8d604b346ea8",
+      "bytes": 1414
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f002/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f002/GPP/seasonal_harmonic.joblib",
+      "sha256": "07184420b161654bc5c231647c720fc27995b231a2c075841f20f40aec5aab3f",
+      "bytes": 815
+    },
+    {
+      "cohort": "principal",
+      "key": "B_uniform_pixels/VUT_REF/models/year_loyo/f002/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/B_uniform_pixels/VUT_REF/models/year_loyo/f002/GPP/train_mean.joblib",
+      "sha256": "1ef4ea5fe46596a5797db7aacfecf9a0acd549be9a089d2ba8959d677c4596d3",
+      "bytes": 363
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/cluster_loso/f001/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/cluster_loso/f001/GPP/hist_gradient_boosting.joblib",
+      "sha256": "ffd1a5aa629a684c63e6bd43f1384327299f1eb7ff19002a8527441803f50c61",
+      "bytes": 127313
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/cluster_loso/f001/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/cluster_loso/f001/GPP/random_forest.joblib",
+      "sha256": "60c2ff9c088bb11a5bb58d86979750d9bf5252ca39ccc5d51cd4caaf765aa682",
+      "bytes": 491746
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/cluster_loso/f001/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/cluster_loso/f001/GPP/ridge.joblib",
+      "sha256": "8957a5f5d74250f460a1aac7f8d321ac343e5b295354a904e2c480c2d8a88c09",
+      "bytes": 1422
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/cluster_loso/f001/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/cluster_loso/f001/GPP/seasonal_harmonic.joblib",
+      "sha256": "9875d567b050f3439cfa38bc4f15b6d48f632b6716f9c73c637a7803ff8b68ed",
+      "bytes": 820
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/cluster_loso/f001/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/cluster_loso/f001/GPP/train_mean.joblib",
+      "sha256": "a0d1660a45a5a9b83a6e2f82dffc20354116017dc61415866cb4d917ff8afed2",
+      "bytes": 368
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/cluster_year_disjoint/f002/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/cluster_year_disjoint/f002/GPP/hist_gradient_boosting.joblib",
+      "sha256": "74356465d2249996a5dd7f083322ab2973ad79a2dd477b1d8a3e65ee33ad5bf6",
+      "bytes": 127323
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/cluster_year_disjoint/f002/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/cluster_year_disjoint/f002/GPP/random_forest.joblib",
+      "sha256": "ab1e34056c4238c769da68cccd039e352398788907c59cd4743ad62ab15c7f3a",
+      "bytes": 491755
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/cluster_year_disjoint/f002/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/cluster_year_disjoint/f002/GPP/ridge.joblib",
+      "sha256": "435c1a30900205fa9d9cab5f91d8b40cccb7b726a6e2b51d1317414d87926f99",
+      "bytes": 1430
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/cluster_year_disjoint/f002/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/cluster_year_disjoint/f002/GPP/seasonal_harmonic.joblib",
+      "sha256": "1c89bfcc4a9565fda164c5c4081a72939c14b949efd0866bab20de12bc52eaf3",
+      "bytes": 828
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/cluster_year_disjoint/f002/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/cluster_year_disjoint/f002/GPP/train_mean.joblib",
+      "sha256": "b6376d38c7aaa7c87a9cc89f6b3ee8b8399a7ca3bec5679af74dbdba160ce989",
+      "bytes": 374
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f000/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f000/GPP/hist_gradient_boosting.joblib",
+      "sha256": "82e54670d1135ed2c4dc213bfdaa7bcd732ab79c269cd9e4b694adbf301d5e5b",
+      "bytes": 126730
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f000/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f000/GPP/random_forest.joblib",
+      "sha256": "678eaabbd94509ccab19f3f0e125cdd723e648d5730d1f7307f25c6eba5e2862",
+      "bytes": 497074
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f000/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f000/GPP/ridge.joblib",
+      "sha256": "8915d67dd48a7e3c25ab0da6af0a552630e0e292a6cc2ada0b648541b34e498c",
+      "bytes": 1421
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f000/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f000/GPP/seasonal_harmonic.joblib",
+      "sha256": "6a3ff7ac71ff064b8488499af2fd706c07df13cf7dd73ac735a0e54925dfc7cf",
+      "bytes": 819
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f000/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f000/GPP/train_mean.joblib",
+      "sha256": "98d27e0514909db2fe9233b250406ebb38bcfddcadc9455521c6cc204a65f6b5",
+      "bytes": 368
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f001/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f001/GPP/hist_gradient_boosting.joblib",
+      "sha256": "afab8808b6072fcfd4b16d75feb31b26600a8a7f6131824d03bc4e6995bbe4ff",
+      "bytes": 101026
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f001/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f001/GPP/random_forest.joblib",
+      "sha256": "9a28d004298bd71e34156900c4e51c233ca9179e6cb053a9a5b30121a2235530",
+      "bytes": 321303
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f001/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f001/GPP/ridge.joblib",
+      "sha256": "03a34e6f8b787c23311f37a60ff25110fb148d8fb7270da991d899a7629a45e7",
+      "bytes": 1419
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f001/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f001/GPP/seasonal_harmonic.joblib",
+      "sha256": "683f8b3b882790e3126f7ad1edcf59fc2187f35c58ff285bb4a2e5c38bc09f77",
+      "bytes": 816
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f001/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f001/GPP/train_mean.joblib",
+      "sha256": "21cda4d136d4f60cf5da84c91a8beb689cf00e9b15f66a60b44e9a250cf89e6a",
+      "bytes": 363
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f002/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f002/GPP/hist_gradient_boosting.joblib",
+      "sha256": "0522a10032d420e1767091d47c7747b81368fbe4ced7d317539b2ab9a8a0a37b",
+      "bytes": 127312
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f002/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f002/GPP/random_forest.joblib",
+      "sha256": "9b6958a27fc732722af16d2ce066578319b75825685f5bfb40b4e3903389282f",
+      "bytes": 491743
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f002/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f002/GPP/ridge.joblib",
+      "sha256": "900dc72afa7bd19399be992ddc9fc5c178ab917543f39bab564076e9260dda82",
+      "bytes": 1417
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f002/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f002/GPP/seasonal_harmonic.joblib",
+      "sha256": "89e3300b2e5074127c192cb0b399b9eeecbe8568f8985c394a1dc923eab18772",
+      "bytes": 817
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/CUT_REF/models/year_loyo/f002/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/CUT_REF/models/year_loyo/f002/GPP/train_mean.joblib",
+      "sha256": "d28b53af68c51fa23ef639d545fa06ac41b1db86830ff49d80f22d7b3512f555",
+      "bytes": 364
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/cluster_loso/f001/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/cluster_loso/f001/GPP/hist_gradient_boosting.joblib",
+      "sha256": "0544a0451228529b21405d11fd53f07b2b552d151ff0a4513c67de558f45412c",
+      "bytes": 127972
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/cluster_loso/f001/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/cluster_loso/f001/GPP/random_forest.joblib",
+      "sha256": "2eccd9e1e9813df7d14ad7d0018e40b103c176b592633a9b3caf333c445d9858",
+      "bytes": 491811
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/cluster_loso/f001/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/cluster_loso/f001/GPP/ridge.joblib",
+      "sha256": "cb005cd396ef92ffecfd412093fbac3f2d19cca1a8c96c1728cd281fbbcbbf4b",
+      "bytes": 1417
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/cluster_loso/f001/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/cluster_loso/f001/GPP/seasonal_harmonic.joblib",
+      "sha256": "dc3516bc35fd9f8dda6c89734b5b648d8dee5fafffe457dcde0d7efbf26d118b",
+      "bytes": 816
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/cluster_loso/f001/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/cluster_loso/f001/GPP/train_mean.joblib",
+      "sha256": "13ca2cb36ed0ad136472aad699ec4ab8e4a20286b57cb3047555727fba2512c4",
+      "bytes": 367
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/cluster_year_disjoint/f002/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/cluster_year_disjoint/f002/GPP/hist_gradient_boosting.joblib",
+      "sha256": "0cff20f4ab56e98530a17a3146774a0f990090ece7de2069f553cbddeba65f0a",
+      "bytes": 127982
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/cluster_year_disjoint/f002/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/cluster_year_disjoint/f002/GPP/random_forest.joblib",
+      "sha256": "4641b1557dfc189c6974f376f92a456679b2bbfc62f5f271e7b5e2a7fc7e5499",
+      "bytes": 491816
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/cluster_year_disjoint/f002/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/cluster_year_disjoint/f002/GPP/ridge.joblib",
+      "sha256": "f9f013cfa73c22e5b73c9da69c223901ff8fee98ea13d1013738dbcb7353d350",
+      "bytes": 1426
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/cluster_year_disjoint/f002/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/cluster_year_disjoint/f002/GPP/seasonal_harmonic.joblib",
+      "sha256": "a9be8bd704ea954b4734a159f220770e8e62e5b6405c67af6e4cb941371e208a",
+      "bytes": 825
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/cluster_year_disjoint/f002/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/cluster_year_disjoint/f002/GPP/train_mean.joblib",
+      "sha256": "693a6c2b11635c3fde3fcdbda6c1754fcc0b45857455cb9096a8b56b6bba5571",
+      "bytes": 373
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f000/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f000/GPP/hist_gradient_boosting.joblib",
+      "sha256": "4aced5a2d8df308b818f35054a6169217fa804f0edcede5a877e1eecb5608119",
+      "bytes": 127486
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f000/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f000/GPP/random_forest.joblib",
+      "sha256": "60f238611c2d408f7ae0118b53f941f69178bbbcd0981d057ddacee38187c178",
+      "bytes": 496629
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f000/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f000/GPP/ridge.joblib",
+      "sha256": "4527759066d38de7caff0cff4fb80a6dbc3fcdf1a53f139bd99a43f6980fc44e",
+      "bytes": 1420
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f000/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f000/GPP/seasonal_harmonic.joblib",
+      "sha256": "d04a77ca9a476bfa2d51dcc222ad86d71761166593f33dd3393c14b76f1dc6df",
+      "bytes": 816
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f000/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f000/GPP/train_mean.joblib",
+      "sha256": "1fa7418c3b067b2888896cd564f7def6dffa7f06037bff5362d24697bbd405bb",
+      "bytes": 367
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f001/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f001/GPP/hist_gradient_boosting.joblib",
+      "sha256": "37d463c93d0559b161d3cc8545a9984be0d80137606704e345dd886a047d6ef1",
+      "bytes": 102096
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f001/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f001/GPP/random_forest.joblib",
+      "sha256": "21445e15483a955ab052e110f91a6943bff94c5a27450fc33600707af1692ea7",
+      "bytes": 321212
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f001/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f001/GPP/ridge.joblib",
+      "sha256": "82296358891943cd7c7718a73bbe5db699809debb20e2eb9f7ac013748db0882",
+      "bytes": 1423
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f001/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f001/GPP/seasonal_harmonic.joblib",
+      "sha256": "49ff6bed7df4d45a2b5d3e3ae66b17f5c010ee35d0d6effaa08e35e113a17a42",
+      "bytes": 816
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f001/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f001/GPP/train_mean.joblib",
+      "sha256": "093c61e986c5e7e2c566f5a90fb9f62eb1ca161bc08ac095e6c0b669edc84e00",
+      "bytes": 362
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f002/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f002/GPP/hist_gradient_boosting.joblib",
+      "sha256": "bcf6eed8361fa093257a04785a50b16a0b6d218d4197b8193abc59261c91f5e8",
+      "bytes": 127971
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f002/GPP/random_forest.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f002/GPP/random_forest.joblib",
+      "sha256": "1e5c77456fa2290945f3965dcbe62b42915d85182dbcb69008e98d44d9ebda21",
+      "bytes": 491805
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f002/GPP/ridge.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f002/GPP/ridge.joblib",
+      "sha256": "d92214d2333d16c046cea0b1d93d902dffa69546bf2744cdf7fd6b50ca8ed130",
+      "bytes": 1412
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f002/GPP/seasonal_harmonic.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f002/GPP/seasonal_harmonic.joblib",
+      "sha256": "07184420b161654bc5c231647c720fc27995b231a2c075841f20f40aec5aab3f",
+      "bytes": 815
+    },
+    {
+      "cohort": "principal",
+      "key": "C_core_weighted/VUT_REF/models/year_loyo/f002/GPP/train_mean.joblib",
+      "path": "sources/manuscript_integration_v0_1/factorial_experiment/runs/C_core_weighted/VUT_REF/models/year_loyo/f002/GPP/train_mean.joblib",
+      "sha256": "1ef4ea5fe46596a5797db7aacfecf9a0acd549be9a089d2ba8959d677c4596d3",
+      "bytes": 363
+    },
+    {
+      "cohort": "T1",
+      "key": "B_uniform_pixels/CUT_REF/models/temporal_hindcast/f000/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/early_mead_v0_1/run01/B_uniform_pixels/CUT_REF/models/temporal_hindcast/f000/GPP/hist_gradient_boosting.joblib",
+      "sha256": "1bbfddda76d7820469a8548a21d64374d05555be649a9cc8c82c2e8c0f38e5f9",
+      "bytes": 128244
+    },
+    {
+      "cohort": "T1",
+      "key": "B_uniform_pixels/CUT_REF/models/temporal_hindcast/f000/GPP/random_forest.joblib",
+      "path": "sources/early_mead_v0_1/run01/B_uniform_pixels/CUT_REF/models/temporal_hindcast/f000/GPP/random_forest.joblib",
+      "sha256": "0e28760701195fe83577c4da324f84481858b1ec41fd6abee9f5d43d876eef1a",
+      "bytes": 492723
+    },
+    {
+      "cohort": "T1",
+      "key": "B_uniform_pixels/CUT_REF/models/temporal_hindcast/f000/GPP/ridge.joblib",
+      "path": "sources/early_mead_v0_1/run01/B_uniform_pixels/CUT_REF/models/temporal_hindcast/f000/GPP/ridge.joblib",
+      "sha256": "76351f596194c7500032e2b4a956a97eb5f822426fc3ef0205fb8839a70d6256",
+      "bytes": 1423
+    },
+    {
+      "cohort": "T1",
+      "key": "B_uniform_pixels/CUT_REF/models/temporal_hindcast/f000/GPP/seasonal_harmonic.joblib",
+      "path": "sources/early_mead_v0_1/run01/B_uniform_pixels/CUT_REF/models/temporal_hindcast/f000/GPP/seasonal_harmonic.joblib",
+      "sha256": "0132702b20bf96fde7b1271dffe306035250f21b7d52291e0f4c3cfbb8ab7ce0",
+      "bytes": 823
+    },
+    {
+      "cohort": "T1",
+      "key": "B_uniform_pixels/CUT_REF/models/temporal_hindcast/f000/GPP/train_mean.joblib",
+      "path": "sources/early_mead_v0_1/run01/B_uniform_pixels/CUT_REF/models/temporal_hindcast/f000/GPP/train_mean.joblib",
+      "sha256": "94d1877206822ef46d4c8c479d0a6b6a84829a11f5be1c5ef48e21b1863a1f47",
+      "bytes": 375
+    },
+    {
+      "cohort": "T1",
+      "key": "B_uniform_pixels/VUT_REF/models/temporal_hindcast/f000/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/early_mead_v0_1/run01/B_uniform_pixels/VUT_REF/models/temporal_hindcast/f000/GPP/hist_gradient_boosting.joblib",
+      "sha256": "ed397d03d28b242828919d76741f6b84e3f60ed4f6b2ea2c82556fb322612e29",
+      "bytes": 128888
+    },
+    {
+      "cohort": "T1",
+      "key": "B_uniform_pixels/VUT_REF/models/temporal_hindcast/f000/GPP/random_forest.joblib",
+      "path": "sources/early_mead_v0_1/run01/B_uniform_pixels/VUT_REF/models/temporal_hindcast/f000/GPP/random_forest.joblib",
+      "sha256": "ba5e838a2d3e59f340cedad5e014cf7b6996e6f554eeb01d69f5f8c114839de2",
+      "bytes": 492400
+    },
+    {
+      "cohort": "T1",
+      "key": "B_uniform_pixels/VUT_REF/models/temporal_hindcast/f000/GPP/ridge.joblib",
+      "path": "sources/early_mead_v0_1/run01/B_uniform_pixels/VUT_REF/models/temporal_hindcast/f000/GPP/ridge.joblib",
+      "sha256": "e39607c8cbb1e941b260dd0077ad643b62fe150b9bae14b532ce5cf27e3d5bf4",
+      "bytes": 1425
+    },
+    {
+      "cohort": "T1",
+      "key": "B_uniform_pixels/VUT_REF/models/temporal_hindcast/f000/GPP/seasonal_harmonic.joblib",
+      "path": "sources/early_mead_v0_1/run01/B_uniform_pixels/VUT_REF/models/temporal_hindcast/f000/GPP/seasonal_harmonic.joblib",
+      "sha256": "9f0c73d0d81d996ddf6dfbd1785f084071f1049704e1573df0dccdb38a60e271",
+      "bytes": 820
+    },
+    {
+      "cohort": "T1",
+      "key": "B_uniform_pixels/VUT_REF/models/temporal_hindcast/f000/GPP/train_mean.joblib",
+      "path": "sources/early_mead_v0_1/run01/B_uniform_pixels/VUT_REF/models/temporal_hindcast/f000/GPP/train_mean.joblib",
+      "sha256": "f9b0fe1ee38c3fe2ed327cbb28abe69bb93a94e2276410b1928055fbdb00637b",
+      "bytes": 371
+    },
+    {
+      "cohort": "T1",
+      "key": "C_core_weighted/CUT_REF/models/temporal_hindcast/f000/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/early_mead_v0_1/run01/C_core_weighted/CUT_REF/models/temporal_hindcast/f000/GPP/hist_gradient_boosting.joblib",
+      "sha256": "c7e8c33c5625aa85289ee389af4841393a368b27d6cf2c2d7c9a5c0860121ddf",
+      "bytes": 127314
+    },
+    {
+      "cohort": "T1",
+      "key": "C_core_weighted/CUT_REF/models/temporal_hindcast/f000/GPP/random_forest.joblib",
+      "path": "sources/early_mead_v0_1/run01/C_core_weighted/CUT_REF/models/temporal_hindcast/f000/GPP/random_forest.joblib",
+      "sha256": "d42a55f4c5bc9507e170748315c5caaa2faf5b6e0444b283e95cde7f6b268c95",
+      "bytes": 491753
+    },
+    {
+      "cohort": "T1",
+      "key": "C_core_weighted/CUT_REF/models/temporal_hindcast/f000/GPP/ridge.joblib",
+      "path": "sources/early_mead_v0_1/run01/C_core_weighted/CUT_REF/models/temporal_hindcast/f000/GPP/ridge.joblib",
+      "sha256": "86df69a263e3698414f0de237e8f202f3969a4f24127bd3d7ce62cc4a77d2719",
+      "bytes": 1428
+    },
+    {
+      "cohort": "T1",
+      "key": "C_core_weighted/CUT_REF/models/temporal_hindcast/f000/GPP/seasonal_harmonic.joblib",
+      "path": "sources/early_mead_v0_1/run01/C_core_weighted/CUT_REF/models/temporal_hindcast/f000/GPP/seasonal_harmonic.joblib",
+      "sha256": "0132702b20bf96fde7b1271dffe306035250f21b7d52291e0f4c3cfbb8ab7ce0",
+      "bytes": 823
+    },
+    {
+      "cohort": "T1",
+      "key": "C_core_weighted/CUT_REF/models/temporal_hindcast/f000/GPP/train_mean.joblib",
+      "path": "sources/early_mead_v0_1/run01/C_core_weighted/CUT_REF/models/temporal_hindcast/f000/GPP/train_mean.joblib",
+      "sha256": "94d1877206822ef46d4c8c479d0a6b6a84829a11f5be1c5ef48e21b1863a1f47",
+      "bytes": 375
+    },
+    {
+      "cohort": "T1",
+      "key": "C_core_weighted/VUT_REF/models/temporal_hindcast/f000/GPP/hist_gradient_boosting.joblib",
+      "path": "sources/early_mead_v0_1/run01/C_core_weighted/VUT_REF/models/temporal_hindcast/f000/GPP/hist_gradient_boosting.joblib",
+      "sha256": "6bba246574543db0002e4790edd84520784b1b923c818815c1009dc61474da68",
+      "bytes": 127973
+    },
+    {
+      "cohort": "T1",
+      "key": "C_core_weighted/VUT_REF/models/temporal_hindcast/f000/GPP/random_forest.joblib",
+      "path": "sources/early_mead_v0_1/run01/C_core_weighted/VUT_REF/models/temporal_hindcast/f000/GPP/random_forest.joblib",
+      "sha256": "61ce8fbc9fd7541617e6a56a9598ca9c064cea850468d59b99e5c22ab20aacfa",
+      "bytes": 491817
+    },
+    {
+      "cohort": "T1",
+      "key": "C_core_weighted/VUT_REF/models/temporal_hindcast/f000/GPP/ridge.joblib",
+      "path": "sources/early_mead_v0_1/run01/C_core_weighted/VUT_REF/models/temporal_hindcast/f000/GPP/ridge.joblib",
+      "sha256": "384f2f83ee2b68a6ba04efe06471b97faf93733e3ec79ce36b6ea082d1400014",
+      "bytes": 1422
+    },
+    {
+      "cohort": "T1",
+      "key": "C_core_weighted/VUT_REF/models/temporal_hindcast/f000/GPP/seasonal_harmonic.joblib",
+      "path": "sources/early_mead_v0_1/run01/C_core_weighted/VUT_REF/models/temporal_hindcast/f000/GPP/seasonal_harmonic.joblib",
+      "sha256": "9f0c73d0d81d996ddf6dfbd1785f084071f1049704e1573df0dccdb38a60e271",
+      "bytes": 820
+    },
+    {
+      "cohort": "T1",
+      "key": "C_core_weighted/VUT_REF/models/temporal_hindcast/f000/GPP/train_mean.joblib",
+      "path": "sources/early_mead_v0_1/run01/C_core_weighted/VUT_REF/models/temporal_hindcast/f000/GPP/train_mean.joblib",
+      "sha256": "f9b0fe1ee38c3fe2ed327cbb28abe69bb93a94e2276410b1928055fbdb00637b",
+      "bytes": 371
+    }
+  ],
+  "model_manifest_hashes": {
+    "principal": "cc09e0f883a6b1a52eed726cc5745aceb1f02a4730ae640d33872b40721665d6",
+    "T1": "810444860b8bbc35095f1ed6afacdf313677c7e06c2e47eaac7916dc011a6cf1"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "analysis_id": "fixed_output_error_decomposition_v0_1",
+  "created_utc": "2026-10-27T00:48:42.215015+00:00",
+  "status": "post_review_descriptive_method_frozen_before_component_results",
+  "analysis_code_sha256": "80c7f57626865c1ae67fa0c42f707a36445285e44b568db6318998f9d3e45deb",
+  "references": [
+    "VUT_REF",
+    "CUT_REF"
+  ],
+  "models": [
+    "train_mean",
+    "seasonal_harmonic",
+    "ridge",
+    "random_forest",
+    "hist_gradient_boosting"
+  ],
+  "sources": [
+    {
+      "cohort": "principal_642",
+      "path": "assets/manuscript_integration_v0_1/factorial_experiment/runs/cross_predictions.csv.gz",
+      "sha256": "10d1260af0df363da8d8f8c6b47d062d009fe4bfaaa803888ef20dd8d0aa0e6c",
+      "all_source_rows": 77280,
+      "manifest_path": "protocols/PAYLOAD_EXPORT_MANIFEST.json",
+      "manifest_sha256": "9a61c6ff97b155fc5b1b775a529535b6d75dec3fda1c76648fd41e58a9e90abe",
+      "axis": "year_loyo",
+      "arms": [
+        "A_existing",
+        "A_shared_scene",
+        "B_uniform_pixels",
+        "C_core_weighted"
+      ],
+      "site_season_cases": {
+        "US-Ne1:2012": 156,
+        "US-Ne1:2013": 167,
+        "US-Ne3:2013": 157,
+        "US-Ro1:2015": 162
+      },
+      "contrasts": [
+        [
+          "C_core_weighted",
+          "B_uniform_pixels"
+        ],
+        [
+          "B_uniform_pixels",
+          "A_shared_scene"
+        ]
+      ],
+      "score_checks": [
+        {
+          "scope": "equal_site_season",
+          "path": "assets/manuscript_integration_v0_1/factorial_experiment/runs/summary/cross_scores_macro_summary.csv",
+          "sha256": "9dc2a595a3d52a303313423d2e20f2d406519cb1f4bb55c669d16bbedeb583b2"
+        },
+        {
+          "scope": "equal_region_pooled",
+          "path": "assets/manuscript_integration_v0_1/factorial_experiment/runs/summary/cross_scores_macro_summary.csv",
+          "sha256": "9dc2a595a3d52a303313423d2e20f2d406519cb1f4bb55c669d16bbedeb583b2"
+        }
+      ],
+      "portable_manifest_key": "assets/manuscript_integration_v0_1/factorial_experiment/runs/cross_predictions.csv.gz"
+    },
+    {
+      "cohort": "T1_437",
+      "path": "assets/early_mead_v0_1/run01/cross_predictions.csv.gz",
+      "sha256": "acc6386a4734ffac36f46592d3b7b826d245586ea8abea2d2e216eac7afa474b",
+      "all_source_rows": 17480,
+      "manifest_path": "protocols/PAYLOAD_EXPORT_MANIFEST.json",
+      "manifest_sha256": "9a61c6ff97b155fc5b1b775a529535b6d75dec3fda1c76648fd41e58a9e90abe",
+      "axis": "temporal_hindcast",
+      "arms": [
+        "B_uniform_pixels",
+        "C_core_weighted"
+      ],
+      "site_season_cases": {
+        "US-Ne1:2010": 128,
+        "US-Ne1:2011": 148,
+        "US-Ne3:2011": 161
+      },
+      "contrasts": [
+        [
+          "C_core_weighted",
+          "B_uniform_pixels"
+        ]
+      ],
+      "score_checks": [
+        {
+          "scope": "equal_site_season",
+          "path": "assets/early_mead_v0_1/run01/scores_macro.csv",
+          "sha256": "46a0bd8d197549d5751755be1eac1a4aab073b3a5e5886348955db197bcadd21"
+        },
+        {
+          "scope": "pooled_days",
+          "path": "assets/early_mead_v0_1/run01/scores_pooled.csv",
+          "sha256": "dba79c5616735debffa6428cbe771f2c3706e8384e9a9ae721ac279adc84fdbf"
+        }
+      ],
+      "portable_manifest_key": "assets/early_mead_v0_1/run01/cross_predictions.csv.gz"
+    }
+  ],
+  "aggregations": [
+    "equal_site_season",
+    "equal_region_pooled",
+    "pooled_days"
+  ],
+  "formula": {
+    "residual": "prediction - scoring_reference",
+    "MSE": "mean(e^2) = mean(e)^2 + mean((e - mean(e))^2), ddof=0",
+    "unit_RMSE_contrast": "delta_bias_squared/(RMSE_first+RMSE_second) + delta_centered_MSE/(RMSE_first+RMSE_second)",
+    "macro_RMSE_contrast": "average the TWO unit-normalized contributions using the unchanged unit weights",
+    "two_zero_RMSE": "define both contributions as0; percentages not interpreted",
+    "interpretation": "signed algebraic error accounting, not physical attribution or bias-corrected skill"
+  },
+  "primary_reporting": "equal-site-season own-reference C-B and B-A for principal; own-reference C-B for T1; all5 families and all4 fit-score paths preserved. RF/Ridge primary roles unchanged; HGB secondary displayed without winner selection.",
+  "restrictions": [
+    "No new fitted estimator or generated prediction",
+    "No new case, source data, eligibility, crop calendar, coordinate, footprint, model/seed or validation-membership change",
+    "No p values, population confidence interval or independent-region/forecast claim",
+    "Do not combine principal642 and T1437 into one evidence population",
+    "No estimated-component share of tiny net change; show signed contributions",
+    "Bias centering is accounting, not a deployable correction fitted to held-out labels"
+  ],
+  "scientific_files_before": {
+    "MANUSCRIPT_DRAFT_EN_v0_4.md": "3904d35c45f7788216c187c561df1344959e7ea9f31cc3f1cd26e7040e50df64",
+    "MANUSCRIPT_DRAFT_EN_v0_3.md": "bd535ff692735e5a7e7d0c2d70c3970e57b41badf44c71844bd01589b9126149",
+    "MANUSCRIPT_DRAFT_EN_v0_2.md": "eda505bbf541d863dc54ab6001c58b53d522fb0d622a9986d007618709e76fa1",
+    "SUPPLEMENTARY_ANALYSIS_EN_v0_1.md": "e372cf48986edcd8cc4e4b75896a897d22d3459e1538cbb02ad53802a0676e7d",
+    "SUPPLEMENTARY_TEMPORAL_EXTENSION_EN_v0_1.md": "cf88a110dcdf88e7d0f3a0cb0bbbf321de123e42f38b346e31460f511b070848"
+  },
+  "new_model_fits": 0,
+  "Cloud_calls": 0,
+  "recipient_sending": "Author sends manually; this analysis uses no mail service.",
+  "packaging_note": "New CSV I/O/path adapter; original protocol and code bytes retained. No cohort or numeric recipe change."
+}

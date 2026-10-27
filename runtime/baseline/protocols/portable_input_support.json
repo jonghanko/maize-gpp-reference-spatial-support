@@ -1,0 +1,521 @@
+{
+  "analysis_id": "conditional_weight_and_optical_input_audit_v0_1",
+  "created_utc": "2026-10-27T01:12:44.126611+00:00",
+  "status": "post_review_target_free_method_frozen_before_new_metrics",
+  "code_sha256": "4867571b18a8c84816ab6780068950956c4b8d662e3824290d84f07fdb407d4a",
+  "files": {
+    "primary_monthly_weights": {
+      "path": "assets/matched_support_pilot_v0_1/spatial_experiment/weights.json",
+      "sha256": "2b2011d0e401878a1ab60c71d52f6167ac1c1e2cb74555cf0105f2fe9dc39afe"
+    },
+    "primary_original_daily_optics": {
+      "path": "assets/matched_support_pilot_v0_1/spatial_experiment/inputs/daily_new_optical_curves.csv.gz",
+      "sha256": "c5694fe276a7b123ba8878a53ce5afefe6cf44664a12f58ed85a92947ecf5a2a"
+    },
+    "primary_original_accepted_scene_audit": {
+      "path": "assets/matched_support_pilot_v0_1/spatial_experiment/inputs/scene_audit.csv.gz",
+      "sha256": "fbe7aadaeb7b7ec7f11479de17763cad99881354e2369f9e17588b63f4a9cec5"
+    },
+    "primary_input_receipt": {
+      "path": "assets/matched_support_pilot_v0_1/spatial_experiment/inputs/input_receipt.json",
+      "sha256": "835841c0c64e27026b735d60482fc2b7d01a40d1683e4eaf04c5c4265e6a88c4"
+    },
+    "primary642_selected_keys": {
+      "path": "assets/manuscript_integration_v0_1/factorial_experiment/source_audit_01/selected_keys.csv.gz",
+      "sha256": "6ffda09019d7347380cac486bf5f7d15f095299beeb7efdfc984170f5072f83f"
+    },
+    "primary642_B_VUT": {
+      "path": "assets/manuscript_integration_v0_1/factorial_experiment/plan01/B_uniform_pixels__VUT_REF_snapshot.csv.gz",
+      "sha256": "5f7fbf21dd95fc4a1422f8aef924482ae4d4b3d6fe2d4f987eeee6fba6809531"
+    },
+    "primary642_C_VUT": {
+      "path": "assets/manuscript_integration_v0_1/factorial_experiment/plan01/C_core_weighted__VUT_REF_snapshot.csv.gz",
+      "sha256": "b2494334c3e149a97aff741454aa51a21cd336362d27fc57644d90cbb54910db"
+    },
+    "primary642_B_CUT": {
+      "path": "assets/manuscript_integration_v0_1/factorial_experiment/plan01/B_uniform_pixels__CUT_REF_snapshot.csv.gz",
+      "sha256": "12056786a4c6886801f328ab2d16d1c67e55098a828eb4cf2f18540d63dcfbbb"
+    },
+    "primary642_C_CUT": {
+      "path": "assets/manuscript_integration_v0_1/factorial_experiment/plan01/C_core_weighted__CUT_REF_snapshot.csv.gz",
+      "sha256": "e09e4cc02827d7ba0014693da8cf52ebc26f38abbc3e6722ffc59e0f3bb8b278"
+    },
+    "T1_monthly_weights_in_protocol": {
+      "path": "assets/early_mead_v0_1/optical_inputs/FROZEN_OPTICAL_PROTOCOL.json",
+      "sha256": "89b10b27f28695a7fe8931bd75550aac1965bdcc7ce3aee25e6a734e43e7e8c7"
+    },
+    "T1_daily_MayOct_optics": {
+      "path": "assets/early_mead_v0_1/optical_inputs/daily_BC_optical_MayOct.csv",
+      "sha256": "0ea94b052fdc13add0b90136df056e09180c789ed158732f0abac31a897ee4c0"
+    },
+    "T1_daily_full_year_optics": {
+      "path": "assets/early_mead_v0_1/optical_inputs/daily_BC_optical_full_year.csv.gz",
+      "sha256": "9694333dec44c98900974a342033f6776252ac5beeca63b82252ee266ba7c3f8"
+    },
+    "T1_accepted_scene_audit": {
+      "path": "assets/early_mead_v0_1/optical_inputs/SCENE_QA_AUDIT.json",
+      "sha256": "f4b5311341a43d8db99516acdbc20d1274a949dcfcc0962e3f730f4a1a45679b"
+    },
+    "T1_test_source_keys": {
+      "path": "assets/early_mead_v0_1/plan01/paired_test_source_snapshot.csv.gz",
+      "sha256": "886865036b100c029b2443f99775704edeac6e458672b8faa96e8f777f951d10"
+    },
+    "T1_B_VUT": {
+      "path": "assets/early_mead_v0_1/plan01/B_uniform_pixels__VUT_REF_snapshot.csv.gz",
+      "sha256": "968d95f2e2fac3ff1c2ac4033e829cf6c90ce7323d5d8f41aec821864c8f0ec0"
+    },
+    "T1_C_VUT": {
+      "path": "assets/early_mead_v0_1/plan01/C_core_weighted__VUT_REF_snapshot.csv.gz",
+      "sha256": "9188db9abf1755019b6844b7d7fdeeec2eb55bc9d8e5fa185ac81cc4f3c1bef5"
+    },
+    "T1_B_CUT": {
+      "path": "assets/early_mead_v0_1/plan01/B_uniform_pixels__CUT_REF_snapshot.csv.gz",
+      "sha256": "1839569e053cecb3733258b5ec6c5dfbacbe9280d8bb208c3a2c804f8fad8f42"
+    },
+    "T1_C_CUT": {
+      "path": "assets/early_mead_v0_1/plan01/C_core_weighted__CUT_REF_snapshot.csv.gz",
+      "sha256": "cf2e11e807c7d642ba1570654162d1d322d4aeb40df44063e7c523994a566067"
+    },
+    "T1_frozen_fold": {
+      "path": "assets/early_mead_v0_1/plan01/fold.json",
+      "sha256": "0637a35d5887c142d4ae915f7d546d4bc774e69a9087980539e9f0bd8e33557c"
+    },
+    "T1_input_eligibility": {
+      "path": "assets/early_mead_v0_1/plan01/input_eligibility.csv",
+      "sha256": "d30f232f28e1ed1bf390c55c001e7b3061f855c39893183b0019a6c5fe6da238"
+    }
+  },
+  "manifest_pins": [
+    {
+      "path": "assets/matched_support_pilot_v0_1/spatial_experiment/SPATIAL_PILOT_RELEASE_MANIFEST.json",
+      "sha256": "17135b274efd196586bf1a4e0c462d0182ffd47b056438719de551751fbcd96f"
+    },
+    {
+      "path": "assets/matched_support_pilot_v0_1/spatial_experiment/plan01/freeze.json",
+      "sha256": "88beb3e438fdc072a2a722c38e7a36f441f6f586d8069b7c855de7d1200c5cff"
+    },
+    {
+      "path": "assets/manuscript_integration_v0_1/factorial_experiment/plan01/freeze.json",
+      "sha256": "ab5d322e4580f889fffa125edf4cc0d3f2b3662393ed9b31c1456b2775481193"
+    },
+    {
+      "path": "assets/early_mead_v0_1/plan01/freeze.json",
+      "sha256": "7681a776bec31aaea2ff497a48ef1fdaa2be763caeb2af845b358d75fe6bf9c2"
+    },
+    {
+      "path": "assets/early_mead_v0_1/optical_inputs/FROZEN_OPTICAL_PROTOCOL.json",
+      "sha256": "89b10b27f28695a7fe8931bd75550aac1965bdcc7ce3aee25e6a734e43e7e8c7"
+    },
+    {
+      "path": "assets/early_mead_v0_1/optical_inputs/OPTICAL_CONSTRUCTION_RECEIPT.json",
+      "sha256": "4ad43de6b75a5db3b99a569141a334e8224988e6994edec48a69fd0915b78732"
+    },
+    {
+      "path": "assets/early_mead_v0_1/optical_inputs/CPU_DELIVERY_MANIFEST.json",
+      "sha256": "ad1a4a54766b8a845d38100245e5757d1991a8ffda8e5649bc63839eee1a552b"
+    }
+  ],
+  "code_pins": [
+    {
+      "path": "original_code/matched_support_pilot_v0_1/spatial_experiment/code/inputs.py",
+      "sha256": "445d25501254787ebcb2ff06819afe10c223c95ab23002516da387424e2212fc"
+    },
+    {
+      "path": "assets/matched_support_pilot_v0_1/spatial_experiment/code/INPUT_PROTOCOL.json",
+      "sha256": "639cb991337dd8979f1881aa037abf6fe1090369e5abbcdc5782eb7741b476a1"
+    },
+    {
+      "path": "original_code/manuscript_integration_v0_1/factorial_experiment/code_01/factorial.py",
+      "sha256": "3bcc73cedde3b0428439b6decc715090b85fc237561331b5c87b450e00e01b41"
+    },
+    {
+      "path": "assets/manuscript_integration_v0_1/factorial_experiment/code_01/source_config.json",
+      "sha256": "8c8c8284b24b717e2642057b3569974b76d1b1c89a1398b2966d9cef5e48ff6e"
+    },
+    {
+      "path": "original_code/manuscript_integration_v0_1/factorial_experiment/code_01/reference_adapter_frozen.py",
+      "sha256": "7b95663a6483e7fb4f26441fefcdcb11089a47e59205d8886512a6781fa03ca7"
+    },
+    {
+      "path": "original_code/early_mead_v0_1/optical_inputs/early_mead_optical.py",
+      "sha256": "c68d27b74d4437dd12ef38a7660d574bee3925efaf809e829355ef144152f5d0"
+    },
+    {
+      "path": "original_code/early_mead_v0_1/code_01/temporal_baseline.py",
+      "sha256": "935b964bf30a4e19d0c9e01ee92a304db4aad21058aa921de0fb87a21979418b"
+    },
+    {
+      "path": "assets/early_mead_v0_1/code_01/source_config.json",
+      "sha256": "188d3673bfd4ab91512bd70d8b29d3ff01e37e38589cd4cee41278485dbfe0f9"
+    }
+  ],
+  "map_pins": [
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_01_DAY_fpt_weight.tif",
+      "sha256": "e891c74431dda34f658e1c32e848e44a236bc504ac772a02f4321328b6c4582f"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_02_DAY_fpt_weight.tif",
+      "sha256": "8051838f50e487df84cb1ecb6b19e10db78342a4f68b7779cfd7516790413012"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_03_DAY_fpt_weight.tif",
+      "sha256": "351331987f02e426e9f0c2156e562741f652d4ac5aa320f8dc57c6f81367b8f4"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_04_DAY_fpt_weight.tif",
+      "sha256": "090b35b3d643d5633088e6567f6c8813db6ce64bde9d0d962e8bc08852eb0c3b"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_05_DAY_fpt_weight.tif",
+      "sha256": "9b9aba053c088a2aef640683a3955c1e9f22a246c5613a1749eff9fb7c9ed035"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_06_DAY_fpt_weight.tif",
+      "sha256": "ae6917f0348fb42d8a37821173eed6fd95fb12750f755f9665a5c0e51f7f1d1a"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_07_DAY_fpt_weight.tif",
+      "sha256": "3c387da6a022a22e21ca99443bc397d2821b7386133ec4b9fa997449172e31e1"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_08_DAY_fpt_weight.tif",
+      "sha256": "ba6b5c5fac77bdbfa349f2718dd35e41a497c5c31946baee43da7c51ca000abd"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_09_DAY_fpt_weight.tif",
+      "sha256": "7809815aae761bf74701796934b3e13f31718adb037531300c76bf143add389f"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_10_DAY_fpt_weight.tif",
+      "sha256": "d70bf7982a5be88d6a440ffb74d1d5e59b1f52b2c90a4ee32fb3e53b39caa2b4"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_11_DAY_fpt_weight.tif",
+      "sha256": "557684812c30d0aa0fc62378ed9fbf715396fa203f1a63641cb3c7017d244680"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2012_12_DAY_fpt_weight.tif",
+      "sha256": "12b0b26440da052d44727a9f8a9f7fcd8375e8b7c70984eb3cb1364d3eb8da31"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_01_DAY_fpt_weight.tif",
+      "sha256": "434d1f64923c675fca07f6425ef2065e97360d586d07489a44dc4700580dfd66"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_02_DAY_fpt_weight.tif",
+      "sha256": "cb2c0bc7c08afe7363a1a59b1f104a2faf567b690f1e186caa4fac63b304dc05"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_03_DAY_fpt_weight.tif",
+      "sha256": "33cd3b063801eb894df37475c3ca42482c64a9096290a93bcdaa5a6fd6b2f092"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_04_DAY_fpt_weight.tif",
+      "sha256": "be0041e690997b019c72d4b7bac4485243b73a342aae2d7226db976685d6dd78"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_05_DAY_fpt_weight.tif",
+      "sha256": "63ab19441dc159e152f9aba393779b8c340b622d02e2cd7a7dbeec79d1ebe3dd"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_06_DAY_fpt_weight.tif",
+      "sha256": "d2b75c4123086972b3979840f8e2cc3765867e02e746ec1d1a0f8e7caf8a82ae"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_07_DAY_fpt_weight.tif",
+      "sha256": "597a7f2e633ea5d047723c0308817a36a1789f7625d1bd5f855914b957487d3a"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_08_DAY_fpt_weight.tif",
+      "sha256": "e18786dd7dcea1140f32338756618ab02531df924f6d49ab967120cf6638a12d"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_09_DAY_fpt_weight.tif",
+      "sha256": "f2d35c8a954cdd081946c0c288ba73d835a36e84dffb612ed1b8b2c92ee71620"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_10_DAY_fpt_weight.tif",
+      "sha256": "75d8b4c8e5f0d9b7e68457e6c69eeb50fcf5bded40db5d6b10898ce06b15f098"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_11_DAY_fpt_weight.tif",
+      "sha256": "a84edee72d27ec6c77234dd1d948a17e61f50b4400928c58faab8b80f607c0de"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2013_12_DAY_fpt_weight.tif",
+      "sha256": "17dcaa10e059152b03c900d9f3c24fdc028153f6ec86e0cc830914463f788dab"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_01_DAY_fpt_weight.tif",
+      "sha256": "e73bf816e2eabcf3a7fee4f1898d199c4ff155b1447e901069fe12233c5b9def"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_02_DAY_fpt_weight.tif",
+      "sha256": "fb25946d18c188a62d2a436f64ce5fb155c42e999fd250ff9d91121a07ce5d0e"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_03_DAY_fpt_weight.tif",
+      "sha256": "683a4c4c5ff19f222359daf78ef5ef08a349a9d8874e1233602746d4b4e76665"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_04_DAY_fpt_weight.tif",
+      "sha256": "b9e914861e827e534866cb6a2eb77f4615e19156befe8204268fe2dea19c8f15"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_05_DAY_fpt_weight.tif",
+      "sha256": "914c7ca0d2169df487b5153fdc970a5dcd9f9d3c942fae0afe98c1904a0e60dd"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_06_DAY_fpt_weight.tif",
+      "sha256": "eb06fa9fa55810d67f50bbf69a96c23c75fd7d08de29f9566ca7bc57ec431e58"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_07_DAY_fpt_weight.tif",
+      "sha256": "9c1a38d88fc0dc2d10b9bb4475ec2f9a9ddfb157fef1560ba9f4dbf3624d12bf"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_08_DAY_fpt_weight.tif",
+      "sha256": "e3a1770e420c79f97dd1ef985afdaed10ccd02826c3f040ab8284be3fb42ea77"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_09_DAY_fpt_weight.tif",
+      "sha256": "ef148eeab9725bd529f9f010f8cc0e53820916d1cef475dfb2757a1a701e1905"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_10_DAY_fpt_weight.tif",
+      "sha256": "a4b553796c9173911e7680a25cc288902076d44fead9017beca3820af61070ef"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_11_DAY_fpt_weight.tif",
+      "sha256": "f544d24773e48a49e0bcdd2084c266c9fb649a912f662c3cc2a8ccf198513e0d"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2013_12_DAY_fpt_weight.tif",
+      "sha256": "a9a7ef0a51705b3b42ca64cac74f8f4cda6afccde02b7063d22c7d25801edbe9"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_01_DAY_fpt_weight.tif",
+      "sha256": "b578a5ac106fe543765b47ca77082b0850fe3c0a966448858174db556d302be3"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_02_DAY_fpt_weight.tif",
+      "sha256": "77301e1f3a33e7a083104194cade02cc39c65d7087e28d66fa0726d5f348da19"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_03_DAY_fpt_weight.tif",
+      "sha256": "2910d3804e26ff0269c77e05429429da1b450ef09e5943c88d45c35a88b07edf"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_04_DAY_fpt_weight.tif",
+      "sha256": "2c63915f36f2e946b6dd4c90a785adb7b55a3c611d56639ef2868b5f76bb7534"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_05_DAY_fpt_weight.tif",
+      "sha256": "ebeaed5d0971014f4752e7976152e3b7e80bd8fa2592a24eacd90f7ed5853142"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_06_DAY_fpt_weight.tif",
+      "sha256": "b19873dcd1d503031b40cf9c31a97d14a8c9376888057926e5f5b2bd7508a3b6"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_07_DAY_fpt_weight.tif",
+      "sha256": "9a5695f650d18ca40ff67a8bcdbb4aa3ea3e70efb8a10a4d4b060a854bff4f93"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_08_DAY_fpt_weight.tif",
+      "sha256": "9a0fcfb7cabd88db062241ff8fc091c2467897dc1a07319ccda86de10c9cc158"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_09_DAY_fpt_weight.tif",
+      "sha256": "e9b903194d91575c536a39caf81feb50b8ce4f83f9c1a6afe016c822c9853423"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_10_DAY_fpt_weight.tif",
+      "sha256": "7eb3e43665889effd295421c5c401e01c8bbfa37a8b6bcf656c320fddeabfd64"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_11_DAY_fpt_weight.tif",
+      "sha256": "bace084562228cedf3fc70d054c6728268e1a34657228f5162cc361df432cd60"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ro1_2015_12_DAY_fpt_weight.tif",
+      "sha256": "c07991b3ab1c1fae8daec175ac22ea639f67ca8e67778dea71e38549644d9d16"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_01_DAY_fpt_weight.tif",
+      "sha256": "784a410c03afcb087591981f3de30c66f501020d6fc6445aad4d4c461bd5c86c"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_02_DAY_fpt_weight.tif",
+      "sha256": "53649cb20e4e17852ba9ca1b6b70741cd21c807d62492cb5f02937b5072c5304"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_03_DAY_fpt_weight.tif",
+      "sha256": "01fa89dc9ab813137bef926e74eac14a475f0faa8b0977dddaa353750b36c559"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_04_DAY_fpt_weight.tif",
+      "sha256": "40e50bc4afbe975fc35907d3b304da78c5e79e0e331b7ed7ebda2604793d7a7c"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_05_DAY_fpt_weight.tif",
+      "sha256": "76fd8e8c15a755aeb1419229dc1dac6bb59ee86a7f803d76f5362e0a21a8ed63"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_06_DAY_fpt_weight.tif",
+      "sha256": "e9917f7367ffcc9f43afed1295281a33c4439fb1307049c07f59ffa5852e0849"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_07_DAY_fpt_weight.tif",
+      "sha256": "25cbe02eabcdb64ef44b8c6d385e9c5a4210f0a4cabd383b9744ec5815303cfb"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_08_DAY_fpt_weight.tif",
+      "sha256": "fb01e9668b5a53f44cab50f08012ad06b4706ca1ff8eb3e23478a726eb722b8b"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_09_DAY_fpt_weight.tif",
+      "sha256": "389a4f9d2ace64c0dcc509fe98d36e37c2e23b05e64f7df5ea4f2d00b4b77f7d"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_10_DAY_fpt_weight.tif",
+      "sha256": "d542abbcc735ed13884558e79b5b78785101cae1b97b6c63471430f353a3478c"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_11_DAY_fpt_weight.tif",
+      "sha256": "52553c81e8153c53cf238c27ebf16c8374716c285ec36b1be032c5ce67a49738"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2010_12_DAY_fpt_weight.tif",
+      "sha256": "daf5bb280f3cfdc04de7c54126dd3fb6811e3df6fe8728eb55aef7c9ae6b2d46"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_01_DAY_fpt_weight.tif",
+      "sha256": "7617dbf61d47551640d380694aa1aeb93c30d7841bd2a7788e8caffa6a7b22da"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_02_DAY_fpt_weight.tif",
+      "sha256": "51145e7910314fe3d50eaa19ae4e36bd8328d609dfb07fe5498bf4ccf048b165"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_03_DAY_fpt_weight.tif",
+      "sha256": "4f197dd1ad9ab29d9c126733b94fb4013594252625925bdeb052b6d50382d86b"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_04_DAY_fpt_weight.tif",
+      "sha256": "340f0cc2c3611a8e9aa379f8b4eb0ef8299fcc8848517a7da6a06b7a2b3dd125"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_05_DAY_fpt_weight.tif",
+      "sha256": "40c5266a7f97f28929a5bd5e971b9e9bf0d81a658c4e84e8ee8c77a80a08da1e"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_06_DAY_fpt_weight.tif",
+      "sha256": "604e404ee5ec87ce67eed724857228b33aea52103a95449243f579f8679664be"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_07_DAY_fpt_weight.tif",
+      "sha256": "2d9618838b502e7d5480d82d6d9b08b3088bf059d3bc665c360975b0d342276d"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_08_DAY_fpt_weight.tif",
+      "sha256": "1c06c76da881a6b397eb4019337884b633117ccaee2c50a0312de14269deff9f"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_09_DAY_fpt_weight.tif",
+      "sha256": "4bbc6e0178f114f77b3d2960963bf69d856570e6830043aca79e4ee317cc19e1"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_10_DAY_fpt_weight.tif",
+      "sha256": "6445c203ed0b0911114df9e47013696ba827697c79178e8ca2013d99ec5e53be"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_11_DAY_fpt_weight.tif",
+      "sha256": "198b23ba84c5273edfc8c3723c522baa4a0da758871bf41a82b023d433a415cf"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne1_2011_12_DAY_fpt_weight.tif",
+      "sha256": "000a8dff2d9e156585630ddff0d90ce2fd95c647780093bad75a56179c6bc7ab"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_01_DAY_fpt_weight.tif",
+      "sha256": "3c9780e92d9678106aa9bc763f9746b1ed0084a45bbf6122dbb4ae65eb888462"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_02_DAY_fpt_weight.tif",
+      "sha256": "9ca39387b95fea9579cc6e642f20b14077a45cb2a834eaa955893d308fa3e9a2"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_03_DAY_fpt_weight.tif",
+      "sha256": "438b4f12cf0445f68855c9e6e12a2bca8649b028e5332b7051f85a7375a3f0ec"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_04_DAY_fpt_weight.tif",
+      "sha256": "c291c938b77162c9fab0ac7ccc6282600a5b2a2085623e7434a171ad423b829e"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_05_DAY_fpt_weight.tif",
+      "sha256": "485a393cc7d0a9a04d7abcb3139dcdebcaee7eb4df9d54d4678ecce7bbe3f8e2"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_06_DAY_fpt_weight.tif",
+      "sha256": "6745f1f13cefb713bfbfb09cce6c9d27567308e02b88853da2bbb91440218722"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_07_DAY_fpt_weight.tif",
+      "sha256": "c3ece3792d7333faa56585a5efebd76165385bf076c2d809e09f9cd1c2095a2a"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_08_DAY_fpt_weight.tif",
+      "sha256": "560ddcf644995c4567b19bcd2d0df701c678571fdc261723221a21c95d0b0de8"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_09_DAY_fpt_weight.tif",
+      "sha256": "8ccac3c828fd58ef2f6df43c230a4f262905c2d0298b921903775a78e7e8d022"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_10_DAY_fpt_weight.tif",
+      "sha256": "1b9372324778fa9c85245cf5c9958b445c3c0c425c21fa7ac7c3b24039a08075"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_11_DAY_fpt_weight.tif",
+      "sha256": "73bb511734b610e0649e101ed7fd55fdc7b5ae71c408572784cc712a6ccb4897"
+    },
+    {
+      "path": "source://analysis/support_resolution_v0_1/us_spatial/raw/selected_maps/US-Ne3_2011_12_DAY_fpt_weight.tif",
+      "sha256": "684fa4e908e082b2d34ef7258aacfc4e30054f7b1332ea4d6749d0fce7fc9c56"
+    }
+  ],
+  "case_counts": {
+    "US-Ne1:2010": 128,
+    "US-Ne1:2011": 148,
+    "US-Ne3:2011": 161,
+    "US-Ne1:2012": 156,
+    "US-Ne1:2013": 167,
+    "US-Ne3:2013": 157,
+    "US-Ro1:2015": 162
+  },
+  "methods": {
+    "weights": "Use the same positive-cell conditional weights, divided by their sum as in the frozen constructor. N cells, Nc=1/sum(w^2), maxw, TV=.5sum(abs(w-1/N)). All84 archivedmapmonths; active only when an actual retained-date left/right anchor refers to that month.",
+    "input_contrast": "CminusB daily NDVI, signed/absolute summaries for the unchanged principal642 and separateT1test437; sevenweathercolumns and referenceX remain exact. T1train480 verified equal to existing principalMead subset. No target values read.",
+    "lineage": "Full-year same-site/year accepted source compositeanchors; exactanchor directreuse, otherwise nearest left/right acceptedanchors withgap<=24days, as in frozen constructor. ReplayB/C everyretaineddailycase within1e-12. Stop on mismatch; no extrapolation/clockshift/guessedanchor.",
+    "threshold": "1e-12 is only numericalreplay and nonzero-reporting precision, not case selection or skill tuning."
+  },
+  "interpretation": [
+    "Conditional published80%-core rasterweight concentration and realized input differences only",
+    "No daily-calendar-month weight assignment for interpolated values",
+    "No count as independent samples, field boundary, crop purity or fullfluxmass",
+    "Training and test representations change together; do not attribute testerror to localNDVIdifference",
+    "No target regression, new model, forecast, physical FFP or eligibility expansion"
+  ],
+  "scientific_pins_before": {
+    "MANUSCRIPT_DRAFT_EN_v0_5.md": "76ebcd0f92ca30609941ce192c8836b0a340d505e7e5fe7f564e03d7e3894425",
+    "MANUSCRIPT_DRAFT_EN_v0_4.md": "3904d35c45f7788216c187c561df1344959e7ea9f31cc3f1cd26e7040e50df64",
+    "SUPPLEMENTARY_ERROR_DECOMPOSITION_EN_v0_1.md": "b016cd39f6c49954e03fa3e887c38e5f7c9099dd81a2cbe8f1bbd63ed4861740"
+  },
+  "new_model_fits": 0,
+  "Cloud_calls": 0,
+  "revision_note": "Output header only: n_difference_above_tolerance consistently means abs(CminusB)>1e-12. No formula, source, threshold, case, role or analytical choice changed; first protocol/code and run01 preserved.",
+  "packaging_note": "CSV I/O/path adapter; native map-byte validation explicitly optional/off by default. Original weights and numeric algorithm retained."
+}

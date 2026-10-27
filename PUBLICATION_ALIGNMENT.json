@@ -1,0 +1,48 @@
+{
+  "artifact_version": "1.0.2",
+  "article_title": "Training–Test Representation and Reference-Path Sensitivity in a Satellite-Based Maize Gross Primary Production Benchmark",
+  "bundle_state": "prepared_artifact_bundle",
+  "provenance_as_of": "2026-10-27",
+  "source_12pt_addendum_sha256": "82ffdfb3024bc4dd65175fb8149c0a2dfd3e0471ac2fc93f07389a0336048ec7",
+  "original_public_candidate_version": "1.0.0",
+  "original_estimator_protocol_bindings_preserved": true,
+  "current_artwork_module": "runtime/publication_figures12",
+  "current_reference_artwork_in_data_record": "runtime/publication_artwork12",
+  "caption_sha256": "dcbefee26cd6cd66bf692eb0417ac5422dadd15e728652abcfdc87b5577b38b1",
+  "principal_site_date_observations": 642,
+  "principal_unique_calendar_dates": 489,
+  "hindcast_site_date_observations": 437,
+  "hindcast_unique_calendar_dates": 291,
+  "new_scientific_fits": 0,
+  "new_predictions": 0,
+  "graphical_abstract": {
+    "module": "graphical_abstract",
+    "one_diagram_multiple_renditions": true,
+    "assets": [
+      {
+        "path": "gagraphic.pdf",
+        "sha256": "7ee64d2ba155250d76691603098ef3fad64a00305ea5c29209e7934fdc0c2cad"
+      },
+      {
+        "path": "gagraphic.png",
+        "sha256": "63990f2ae60f2b1749d2f6f685cbeef007b0b0900a29998fd3899fa4fd7ffda6"
+      },
+      {
+        "path": "gagraphic_preview.png",
+        "sha256": "fc5e5eb82f3b63561eed16941253b72c966aacbfe9c5c704cdf1ea4e097ef3e8"
+      },
+      {
+        "path": "GRAPHICAL_ABSTRACT_CAPTION_EN.txt",
+        "sha256": "5b627169909d6fb7f84519abba7946d037e753d97b7aec3174d0ee028f21a2b9"
+      }
+    ],
+    "diagram_caption_license": "CC-BY-4.0 (project rights; font exceptions retained)",
+    "drawing_source_license": "MIT",
+    "font_software_included": false,
+    "principal_RF_callout_percent_RMSE_reduction": [
+      2.2,
+      2.51
+    ],
+    "scientific_runtime_changed": false
+  }
+}

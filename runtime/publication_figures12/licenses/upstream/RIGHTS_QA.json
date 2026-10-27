@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "source_dataset_records": 7,
+  "source_AMF_notices": 4,
+  "source_AMF_policy_sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8",
+  "exact_required_acknowledgments_preserved": true,
+  "installed_dependency_records": 10,
+  "software_binaries_bundled": false,
+  "clean_relative_paths_only": true,
+  "unresolved_third_party_copied_code_found_in_scanned_source": false,
+  "ownership_scope": "Author-approved project licenses, existing explicit third-party exceptions retained; no institutional legal opinion or comprehensive code-origin proof claimed.",
+  "not_uploaded": true
+}

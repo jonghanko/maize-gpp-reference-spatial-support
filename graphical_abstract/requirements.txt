@@ -1,0 +1,5 @@
+reportlab
+Pillow
+pypdf
+# External dependency: Poppler pdftoppm.
+# Supply a licensed Arial-compatible TTF via --font. Font software is not included.

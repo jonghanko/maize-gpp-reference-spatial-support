@@ -1,0 +1,176 @@
+{
+  "version": "JAG_BC_crossprediction_v0.1",
+  "status": "freeze_before_new_cross_input_predictions",
+  "purpose": "Post-review descriptive separation of training-representation and test-input contrasts using original saved B/C estimators; preserve original cases, roles, recipes and scientific holds.",
+  "exposure": "Historical domains and earlier diagonal results already exposed; not preregistered independent confirmation, chronological forecasting or a causal field intervention.",
+  "source_authority": {
+    "canonical_package": "source://manuscript/Reproducibility_v0_1",
+    "package_manifest_sha256": "d69fbf16ce6db031b32455774f5a0e2b7394b8ec34914925676ad3b9c23d1ab8",
+    "model_inventory_relative_path": "ORIGINAL_MODEL_MANIFEST_ENTRIES.json",
+    "original_model_manifests": {
+      "principal": "cc09e0f883a6b1a52eed726cc5745aceb1f02a4730ae640d33872b40721665d6",
+      "T1": "810444860b8bbc35095f1ed6afacdf313677c7e06c2e47eaac7916dc011a6cf1"
+    },
+    "model_subset_rule": "For each original inventory cohort retain exactly entries whose first path component is B_uniform_pixels or C_core_weighted. The archived source model file must match its recorded byte length and SHA256 before deserialization. No refit or replacement.",
+    "model_inventory_sha256": "03901daf7b3526945bd3dcc05cffab032935379f45d8a42c4b2b79925bdbc8ff",
+    "artifact_map_sha256": "f73e03c554afd15265cfb45cee55b1722791e7656d35b58efbaaa02e9675adaa",
+    "manuscript_v08_sha256": "b236ff78cc70a20fc670660a536574ee3534c317bb4998b49a36a13097acfb9c"
+  },
+  "arms": [
+    "B_uniform_pixels",
+    "C_core_weighted"
+  ],
+  "train_arm_definition": "Arm of the original saved fitted model; parameters/scaler/feature order and fit-reference fixed.",
+  "test_arm_definition": "B or C representation from the matching frozen positional test snapshot of that cohort, same fold and fit-reference. Only NDVI may differ between test arms; identities, meteorology and reference labels must agree.",
+  "models": [
+    "train_mean",
+    "seasonal_harmonic",
+    "ridge",
+    "random_forest",
+    "hist_gradient_boosting"
+  ],
+  "primary_display_models": [
+    "ridge",
+    "random_forest"
+  ],
+  "secondary_model": "hist_gradient_boosting",
+  "fit_references": [
+    "VUT_REF",
+    "CUT_REF"
+  ],
+  "score_references": [
+    "VUT_REF",
+    "CUT_REF"
+  ],
+  "target": "GPP",
+  "cohorts": {
+    "principal": {
+      "physical_eval_cases": 642,
+      "site_seasons": {
+        "US-Ne1:2012": 156,
+        "US-Ne1:2013": 167,
+        "US-Ne3:2013": 157,
+        "US-Ro1:2015": 162
+      },
+      "regions": 2,
+      "supported_fold_instances": 5,
+      "stored_models": 100,
+      "primary_axis": "year_loyo",
+      "primary_estimand": "Equal-site-season mean of four site-season RMSEs, each weight1/4. Same original LOYO predictions/test roles; do not average repeated axes.",
+      "all_supported_axes": "Retain all five supported fold instances; Ro1 LOSO/joint/LOYO share membership and are not independent replications.",
+      "expected_scored_rows_all_axes": 77280
+    },
+    "T1": {
+      "physical_eval_cases": 437,
+      "site_seasons": {
+        "US-Ne1:2010": 128,
+        "US-Ne1:2011": 148,
+        "US-Ne3:2011": 161
+      },
+      "training_cases": 480,
+      "regions": 1,
+      "supported_fold_instances": 1,
+      "stored_models": 20,
+      "primary_axis": "original_temporal_hindcast_axis_from_fold",
+      "primary_estimand": "Equal-test-site-season mean of three original earlier-year Mead site-seasons, each weight1/3; keep separate from principal.",
+      "expected_scored_rows_all_axes": 34960
+    }
+  },
+  "preserved_controls": [
+    "Case/record identity and order",
+    "Original positional train/test indices and their ID hashes",
+    "Eight original predictors and feature order",
+    "Original stored scalers/parameters/seed",
+    "Meteorology identical between test arms",
+    "Both dependent original processed GPP scoring references",
+    "No target/prediction clipping or imputation",
+    "No cropping/calendar/registration/QA threshold change",
+    "No held-source scientific eligibility released"
+  ],
+  "prediction_policy": {
+    "new_fit_tasks": 0,
+    "model_artifacts_loaded": 120,
+    "prediction_calls": 240,
+    "expected_unique_prediction_roles_before_score_expansion": 56120,
+    "expected_scored_rows": 112240,
+    "original_diagonal_prediction_roles": 28060,
+    "new_offdiagonal_prediction_roles": 28060,
+    "row_key": [
+      "cohort",
+      "axis",
+      "fold_id",
+      "model",
+      "fit_reference",
+      "score_reference",
+      "train_arm",
+      "test_arm",
+      "record_id"
+    ],
+    "serialized_model_validation": "Check source SHA and original protocol hash, feature columns, target, seed, train/test IDs, n_train/n_test against frozen plan before inference.",
+    "constant_and_calendar": "Replay train_mean from saved constant; replay seasonal_harmonic with original calendar_matrix; use original saved estimator.predict for learned families. No fit call permitted."
+  },
+  "cell_definition": "R_te denotes RMSE or the explicitly labelled mean of per-unit RMSEs for original model trained on arm t and evaluated on test input e; first index=train, second=test. B/C cell contrasts are computed within the same cohort/axis/model/fitref/scoreref/estimand.",
+  "conditional_contrasts": {
+    "training_given_test_B": "R_CB - R_BB",
+    "training_given_test_C": "R_CC - R_BC",
+    "test_given_training_B": "R_BC - R_BB",
+    "test_given_training_C": "R_CC - R_CB",
+    "interaction": "R_CC - R_CB - R_BC + R_BB",
+    "original_pipeline_contrast": "R_CC - R_BB"
+  },
+  "identities": [
+    "interaction = training_given_test_C - training_given_test_B",
+    "interaction = test_given_training_C - test_given_training_B",
+    "original_pipeline_contrast = training_given_test_B + test_given_training_C",
+    "original_pipeline_contrast = test_given_training_B + training_given_test_C"
+  ],
+  "interpretation": "All contrasts are conditional computational comparisons. Interaction may be nonzero; no unique additive causal allocation is claimed. Scalar RMSE nonlinearities and aggregation choices remain explicit.",
+  "units": {
+    "rmse_and_signed_contrasts": "g C m^-2 d^-1",
+    "normalized_contrasts": "Optional100*contrast/R_BB common-baseline percentage points within the identical metric/unit. Do not add condition-specific percentages with different denominators.",
+    "negative_sign": "Lower RMSE for the first-named arm condition."
+  },
+  "metrics": [
+    "RMSE",
+    "MAE",
+    "prediction_minus_reference_bias",
+    "NSE",
+    "Pearson_r",
+    "squared_Pearson_r"
+  ],
+  "aggregation_policy": {
+    "native_unit_metrics": [
+      "per_fold",
+      "per_site_season",
+      "per_spatial_cluster",
+      "pooled_days"
+    ],
+    "primary": "Equal-site-season mean RMSE on principal LOYO and separate T1; calculate each cell's metric before conditional differences.",
+    "sensitivity": "Equal-region pooled RMSE and pooled-day RMSE separately labelled; do not attribute their differences to weights alone.",
+    "score_paths": "Primary narrative retains both original own-fit/own-score paths; provide full2fit×2score outputs without selecting a preferred path.",
+    "replication": "Repeated fold roles and score expansions do not create additional physical days, independent sites or regions."
+  },
+  "verification": {
+    "diagonal": "BB and CC predictions must reproduce original frozen B/C diagonal rows. Report exact equality and maximum difference; hard tolerance1e-10 if needed with reason, never silently relax.",
+    "ro1": "For each fixed trained estimator and reference, all Ro1 B/C test features identical ⇒ p_tB = p_tC exactly; test-input contrasts zero. Training contrasts may differ.",
+    "optical_free": "Train mean and seasonal harmonic B/C train/test predictions exactly equal within same fold/reference.",
+    "reference_score": "For fixed fitted model and test arm, predictions must be invariant across scoring-reference expansion.",
+    "pairing": "Same record keys, dates, weather and labels across test arms; preserve frozen row order/positional ID hashes.",
+    "numeric": "Full cell/contrast/interaction identities checked before averaging and after labelled aggregation, tolerance1e-10; independent verifier must not import production scoring.",
+    "source_integrity": "Before/after hashes of all consumed snapshots/protocols/folds/original prediction tables/models; original files read-only.",
+    "no_selection": "All specified cases, families, references, supported axes and contrasts retained including adverse/near-zero results."
+  },
+  "execution": {
+    "host": "WS3_External CPU",
+    "workers": 4,
+    "estimator_threads": 1,
+    "network_acquisition_in_runner": false,
+    "optional_gpu": false,
+    "new_output_directory_required": true
+  },
+  "statistics": "Descriptive finite-domain contrasts only. No p-values, population CIs, daily independent bootstrap, universal superiority or new sealed-test claim.",
+  "publication": "New analysis version/SI/tables/figures; v0.8 and original model/data releases unchanged. Public availability/licensing and author/funding/COI remain separate.",
+  "new_raw_acquisition": false,
+  "new_FFP_runs": 0,
+  "frozen_utc": "2026-10-27T05:20:19.895167+00:00"
+}

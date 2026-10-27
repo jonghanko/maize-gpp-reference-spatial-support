@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "patches": [
+    {
+      "file": "code/contrasts12/plot_contrasts12.py",
+      "source_sha256": "640a4bdc7a0fe01d49730eecae0fa9447a2fb1cb9fc016933dca86a221590674",
+      "portable_sha256": "e335c822d154440970c7b03fa71c69e954a748a8e1d444c8f0c1e448147654ea",
+      "changes": "Add --source/--out with portable relative defaults; use output directory as ROOT; source-receipt path becomes logical CSV filename. Scientific plotting, selection, axes and numeric verification functions unchanged."
+    },
+    {
+      "file": "code/contrasts12/verify_contrasts12.py",
+      "source_sha256": "192bb4ab5d934de8152f8724f2a83b0a56a936e39ffdc2aedfe35c12fad8c5b0",
+      "portable_sha256": "79182790325229d1a028339d836235b239800f99ceace3f283f2918ab20a1303",
+      "changes": "Add --source/--out with portable relative defaults; use output directory as ROOT; source-receipt path becomes logical CSV filename. Scientific plotting, selection, axes and numeric verification functions unchanged."
+    },
+    {
+      "file": "code/supp12/build_supp12.py",
+      "source_sha256": "d9de72bac3cd79a9c0e8d7f60a7c101cbbb8176b6e882a0c287a537e449738fe",
+      "portable_sha256": "cccc891a9997a7d1affee9174ab9e6c9ecd24ad5890d014ed6df8cb68a1af71f",
+      "changes": "Remove the task-specific optional _plotdeps sys.path insertion only. The final source already supplies --source and --out. All plot functions, selections, values, axes, fonts, layout and verifications unchanged."
+    }
+  ],
+  "main_script_byte_exact": true,
+  "all_plot_function_ASTs_preserved_for_adapted_scripts": true
+}

@@ -1,0 +1,436 @@
+{
+  "files": {
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/cross_predictions.csv.gz": {
+      "sha256": "10d1260af0df363da8d8f8c6b47d062d009fe4bfaaa803888ef20dd8d0aa0e6c",
+      "bytes": 1864023
+    },
+    "assets/early_mead_v0_1/run01/cross_predictions.csv.gz": {
+      "sha256": "acc6386a4734ffac36f46592d3b7b826d245586ea8abea2d2e216eac7afa474b",
+      "bytes": 416217
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/protocol.json": {
+      "sha256": "a558444a518d5201af429b858fd4533ce1e6ad138056ccc10a81b0872af1accb",
+      "bytes": 6392
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/freeze.json": {
+      "sha256": "53eed84e58c51b7360424ea02a537567987585d2ecba83b342d47d159e176c3d",
+      "bytes": 107164
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/all_folds.json": {
+      "sha256": "f4995f9bd4f70e4571d426b4219ba6be62d03c308ed09bdea25835c7acf04ae1",
+      "bytes": 74142
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/supported_folds.json": {
+      "sha256": "97f0a8b4eaf8cb3469f272d48200c0ac2dc92fd57b7e7fe9149fe94da3196a7a",
+      "bytes": 39212
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/all_membership.csv.gz": {
+      "sha256": "2874e1adce737d67779392c9a353e1a99feda6602aa068d5bb718cba0abca6a2",
+      "bytes": 19496
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/fold_support.csv": {
+      "sha256": "aa4e2cc8e879f7c2d56431c47e0f302cafdab866cb7c5d6f79f238cb4739c6a0",
+      "bytes": 3518
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/source_audit_01/selected_keys.csv.gz": {
+      "sha256": "6ffda09019d7347380cac486bf5f7d15f095299beeb7efdfc984170f5072f83f",
+      "bytes": 3654
+    },
+    "assets/early_mead_v0_1/plan01/protocol.json": {
+      "sha256": "233f0bc5ad008bbe87a588180e796f9dedf9d2e934e9d077b710c681b529248d",
+      "bytes": 3586
+    },
+    "assets/early_mead_v0_1/plan01/freeze.json": {
+      "sha256": "072c316e053ed6a0bfeda04f559abd835eab3430623855d0c1a4266550ebee89",
+      "bytes": 76908
+    },
+    "assets/early_mead_v0_1/plan01/fold.json": {
+      "sha256": "0637a35d5887c142d4ae915f7d546d4bc774e69a9087980539e9f0bd8e33557c",
+      "bytes": 8714
+    },
+    "assets/early_mead_v0_1/plan01/input_eligibility.csv": {
+      "sha256": "d30f232f28e1ed1bf390c55c001e7b3061f855c39893183b0019a6c5fe6da238",
+      "bytes": 10398
+    },
+    "assets/early_mead_v0_1/plan01/paired_test_source_snapshot.csv.gz": {
+      "sha256": "886865036b100c029b2443f99775704edeac6e458672b8faa96e8f777f951d10",
+      "bytes": 41821
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/A_existing__CUT_REF_snapshot.csv.gz": {
+      "sha256": "5ceda5008f1e36c71d79d6910b4b5be50ffbbbcb2291b82831fc70e02067ec29",
+      "bytes": 92779
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/A_existing__VUT_REF_snapshot.csv.gz": {
+      "sha256": "db31aa849637a24aa719918af3b9e6c0fd09f688bf31ac58d8a62eea2d43e7a3",
+      "bytes": 92444
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/A_shared_scene__CUT_REF_snapshot.csv.gz": {
+      "sha256": "496851314f610eeed1bc9c00be3fcaaba5f0febd6f794d0bce21d584f79c4ca7",
+      "bytes": 92947
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/A_shared_scene__VUT_REF_snapshot.csv.gz": {
+      "sha256": "501a5cff287802727ca3d2180f65430e0ebc3f4ae80b94b8b18563f7c105aeaa",
+      "bytes": 92605
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/B_uniform_pixels__CUT_REF_snapshot.csv.gz": {
+      "sha256": "8463693c3572dc15b750248d0049d7b185dd860d145cec592550d9b561ace8e9",
+      "bytes": 92957
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/B_uniform_pixels__VUT_REF_snapshot.csv.gz": {
+      "sha256": "019132b2c5be782acb988dd350dbe41953b8c2182e2336fe156760a1296bf6d9",
+      "bytes": 92908
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/C_core_weighted__CUT_REF_snapshot.csv.gz": {
+      "sha256": "f577a545faf0cd2d1c4ac6052989f8002fc343d211377aae476c48f67e7d6b30",
+      "bytes": 92708
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/plan01/C_core_weighted__VUT_REF_snapshot.csv.gz": {
+      "sha256": "ed2b47d96cb874dfffd385d774ec9519e665769fb733c3e985e88203d840f2c2",
+      "bytes": 92593
+    },
+    "assets/early_mead_v0_1/plan01/B_uniform_pixels__CUT_REF_snapshot.csv.gz": {
+      "sha256": "1839569e053cecb3733258b5ec6c5dfbacbe9280d8bb208c3a2c804f8fad8f42",
+      "bytes": 74596
+    },
+    "assets/early_mead_v0_1/plan01/B_uniform_pixels__VUT_REF_snapshot.csv.gz": {
+      "sha256": "968d95f2e2fac3ff1c2ac4033e829cf6c90ce7323d5d8f41aec821864c8f0ec0",
+      "bytes": 74564
+    },
+    "assets/early_mead_v0_1/plan01/C_core_weighted__CUT_REF_snapshot.csv.gz": {
+      "sha256": "cf2e11e807c7d642ba1570654162d1d322d4aeb40df44063e7c523994a566067",
+      "bytes": 74565
+    },
+    "assets/early_mead_v0_1/plan01/C_core_weighted__VUT_REF_snapshot.csv.gz": {
+      "sha256": "9188db9abf1755019b6844b7d7fdeeec2eb55bc9d8e5fa185ac81cc4f3c1bef5",
+      "bytes": 74578
+    },
+    "assets/matched_support_pilot_v0_1/spatial_experiment/weights.json": {
+      "sha256": "475d05fa35eaf1572714ada7df048a7e580415d01de47a801e06e163053e8f2e",
+      "bytes": 86943
+    },
+    "assets/matched_support_pilot_v0_1/spatial_experiment/inputs/daily_new_optical_curves.csv.gz": {
+      "sha256": "c5694fe276a7b123ba8878a53ce5afefe6cf44664a12f58ed85a92947ecf5a2a",
+      "bytes": 35401
+    },
+    "assets/matched_support_pilot_v0_1/spatial_experiment/inputs/scene_audit.csv.gz": {
+      "sha256": "ee152aa3f856df4bc188deb2077a2726c84cd7c0e601da75cce085bbc45671c6",
+      "bytes": 12434
+    },
+    "assets/matched_support_pilot_v0_1/spatial_experiment/inputs/input_receipt.json": {
+      "sha256": "a6f5fb8880df3212f7142545d3bee5ad180f78b65fa393f68ee4440abcb611a4",
+      "bytes": 79246
+    },
+    "assets/early_mead_v0_1/optical_inputs/FROZEN_OPTICAL_PROTOCOL.json": {
+      "sha256": "54581bc23142712876a24229f55603694fa2d9c1a549502414a5dd6705e2ccf5",
+      "bytes": 190536
+    },
+    "assets/early_mead_v0_1/optical_inputs/daily_BC_optical_MayOct.csv": {
+      "sha256": "0ea94b052fdc13add0b90136df056e09180c789ed158732f0abac31a897ee4c0",
+      "bytes": 35561
+    },
+    "assets/early_mead_v0_1/optical_inputs/daily_BC_optical_full_year.csv.gz": {
+      "sha256": "9694333dec44c98900974a342033f6776252ac5beeca63b82252ee266ba7c3f8",
+      "bytes": 18910
+    },
+    "assets/early_mead_v0_1/optical_inputs/SCENE_QA_AUDIT.json": {
+      "sha256": "2642f5aa56fa76b29f3ab9a9090d81b29b426745a3c73fdf0303acacc44a191d",
+      "bytes": 206704
+    },
+    "assets/early_mead_v0_1/optical_inputs/OPTICAL_CONSTRUCTION_RECEIPT.json": {
+      "sha256": "8b7f31cc0de5d629b4e4828c83bc6e1d641bcc4a75bed8dfcc7f0fa7d394fc0e",
+      "bytes": 14893
+    },
+    "original_code/manuscript_integration_v0_1/factorial_experiment/code_01/engine.py": {
+      "sha256": "c6dab8c357fd0432dbf8b06fa263d04e19b4527ad41984982862ad69409b2e9d",
+      "bytes": 19696
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/code_01/base_model_protocol.json": {
+      "sha256": "2ea92e66fe137de3579d1b8ff14294d93e8972fa79439d604d829afa0a322d75",
+      "bytes": 3430
+    },
+    "original_code/manuscript_integration_v0_1/factorial_experiment/code_01/factorial.py": {
+      "sha256": "3bcc73cedde3b0428439b6decc715090b85fc237561331b5c87b450e00e01b41",
+      "bytes": 15247
+    },
+    "original_code/manuscript_integration_v0_1/factorial_experiment/code_01/reference_adapter_frozen.py": {
+      "sha256": "7b95663a6483e7fb4f26441fefcdcb11089a47e59205d8886512a6781fa03ca7",
+      "bytes": 22327
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/code_01/source_config.json": {
+      "sha256": "05fdc3fe16e66372780561f3de214df98a5ac5a8f8f6698ade05180834fd50dd",
+      "bytes": 1533
+    },
+    "original_code/early_mead_v0_1/code_01/temporal_baseline.py": {
+      "sha256": "935b964bf30a4e19d0c9e01ee92a304db4aad21058aa921de0fb87a21979418b",
+      "bytes": 16438
+    },
+    "assets/early_mead_v0_1/code_01/source_config.json": {
+      "sha256": "7710d648f657f78d9b90783f0f735aeadf0bf46dbebb832fb09ea77d24af66aa",
+      "bytes": 89126
+    },
+    "original_code/manuscript_integration_v0_1/factorial_experiment/reporting_helper_02.py": {
+      "sha256": "8f3873089be90722f3e1a3c70bf7e01d10289a6326fa1b39d281c9fb4aeda9ff",
+      "bytes": 8804
+    },
+    "original_code/early_mead_v0_1/code_01/report_temporal_02.py": {
+      "sha256": "00ac9e851bf359d3cc5f96121b37a286a0f317355fcfa2a8801a99d6eb8a62fd",
+      "bytes": 10659
+    },
+    "original_code/fixed_output_decomposition_v0_1/decompose_frozen_errors.py": {
+      "sha256": "60ae41160d8848e34b3edc0c214b0b7982670d312ba9ac6f6e0614c7cdc25fe2",
+      "bytes": 10736
+    },
+    "assets/fixed_output_decomposition_v0_1/protocol.json": {
+      "sha256": "b976269c2d1d7fb6043276faa5f980784c561772a9e00adb017f86a3c2650669",
+      "bytes": 5960
+    },
+    "original_code/fixed_output_decomposition_v0_1/plot_components.py": {
+      "sha256": "4573fd0db12a95c1cfcf5c6e6f6ab0b6514fe4125fda2a4ee174a2128302e21a",
+      "bytes": 3655
+    },
+    "original_code/maize_input_support_v0_1/audit_inputs.py": {
+      "sha256": "5e5222e2ea6199342e45599a4d5aee991fc98eb42b652b2a2b648ba1b4ad8591",
+      "bytes": 11593
+    },
+    "assets/maize_input_support_v0_1/protocol_v02.json": {
+      "sha256": "839a20c09e8940e084a3dc555c6afbab1c53ce695333e310991d66d995c1f986",
+      "bytes": 36823
+    },
+    "original_code/maize_input_support_v0_1/plot_input_support.py": {
+      "sha256": "b3e529a25331fe1d74a2e4e293bd8055af5abccc22c451d5457831cf4b33fbd9",
+      "bytes": 3770
+    },
+    "original_code/matched_support_pilot_v0_1/spatial_experiment/code/inputs.py": {
+      "sha256": "445d25501254787ebcb2ff06819afe10c223c95ab23002516da387424e2212fc",
+      "bytes": 15641
+    },
+    "original_code/early_mead_v0_1/optical_inputs/early_mead_optical.py": {
+      "sha256": "df7135e5b0e4a8e11723c98eef969e742bf76252aebcb19bb8868845bf60fc8d",
+      "bytes": 23131
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/all_LOYO_site_season_input_effects.csv": {
+      "sha256": "80bf87e29f47bf92296d2a7addbfbd0a1a522c921be23830e84fa6a0f625484b",
+      "bytes": 14746
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/all_family_LOYO_input_effects.csv": {
+      "sha256": "e2a0ff6a6ae50e791e64133a6fbea5d6c0c4895ead257d2063ed886c6d8aff8a",
+      "bytes": 5358
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/all_family_LOYO_reference_interactions.csv": {
+      "sha256": "6005a1974a01ec8490eecceea9a972f3a5f7c606ad0f42df8aad169926660bd3",
+      "bytes": 1654
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/all_own_reference_macro_scores.csv": {
+      "sha256": "506ef416428ec3eeb9f14dc0fe33eafcde5dd898a57d8b62e175550d2f7cefb5",
+      "bytes": 22913
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/partial_Ro1_input_effects.csv": {
+      "sha256": "1b4c180ff6c120afcdd491b82cec058cea912be1331d3091ceddf4d228f70198",
+      "bytes": 5450
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/primary_input_effects.csv": {
+      "sha256": "0a18f8c00f0b1bb41080f3a47c036cd15671f1fe164b77bb3ce998cdc4ac3cda",
+      "bytes": 1657
+    },
+    "assets/early_mead_v0_1/reports_02/TableS17_T1_case_counts.csv": {
+      "sha256": "60f107847c74fc212b8a04963103845d966ff711d4a2198a60f825067af096bd",
+      "bytes": 71
+    },
+    "assets/early_mead_v0_1/reports_02/TableS18_T1_all_reference_macro.csv": {
+      "sha256": "fe148a801a93c9421a48ff6fb0c184ed7efd55dd19291486dacce39f41849642",
+      "bytes": 3566
+    },
+    "assets/early_mead_v0_1/reports_02/TableS18b_T1_pooled.csv": {
+      "sha256": "373a29b647379a276906e917f90425de668b0718019960ec93133757e619b7bf",
+      "bytes": 7399
+    },
+    "assets/early_mead_v0_1/reports_02/TableS19_T1_site_season.csv": {
+      "sha256": "3e78554a62971dd248247c7908ab44e71f26ef1773099ec896ec85ba149a9037",
+      "bytes": 23335
+    },
+    "assets/early_mead_v0_1/reports_02/TableS20_T1_C_minus_B.csv": {
+      "sha256": "f6cf580da022bb5a55451b6acc99f43b0068c965814ee0f8a3063266f61af3c8",
+      "bytes": 2311
+    },
+    "original_code/fixed_output_decomposition_v0_1/independent_verification/verify_fixed_errors.py": {
+      "sha256": "cac86340b3b9938331c6394d0d0231a4e7101d4b10af82690ac73d7b86c8edfa",
+      "bytes": 21975
+    },
+    "original_code/maize_input_support_v0_1/independent_verification/verify_input_support.py": {
+      "sha256": "81bdd6ec2ff856a5e83c2c320c48ff615a27601aa0d07603a398df1ed1418a79",
+      "bytes": 21481
+    },
+    "original_code/early_mead_v0_1/independent_postfit/verify_saved_run.py": {
+      "sha256": "bd1af4f479c548c4c1633b692ae2e0e975d4cdc89c4fd3105c86085ece4f5a2a",
+      "bytes": 26754
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/summary/cross_scores_cluster.csv": {
+      "sha256": "aff8fd135adbf00af6af4247a77809963d055bccff534bde16d00b4a092719e3",
+      "bytes": 68742
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/summary/cross_scores_fold.csv": {
+      "sha256": "c888ebac77bfda5b08b76a67c163954fbd6fab34154c970daee95b27ccecd0e1",
+      "bytes": 82136
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/summary/cross_scores_macro_summary.csv": {
+      "sha256": "9dc2a595a3d52a303313423d2e20f2d406519cb1f4bb55c669d16bbedeb583b2",
+      "bytes": 45626
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/summary/cross_scores_pooled.csv": {
+      "sha256": "470de70cd093a49d00cc7c7b0e64f0cbbb1c5d8d2f5414fee39bffc5a579efdf",
+      "bytes": 49260
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/summary/cross_scores_site_season.csv": {
+      "sha256": "5f12338a3655779715d7651817900cc1b365a09a0787249ef414347052f2780b",
+      "bytes": 112483
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/summary/family_rankings.csv": {
+      "sha256": "8cd1ebf0ac13ea3a58f2b89199d905a54fa3f8337c6d5d6b400c7bcf7b7b95eb",
+      "bytes": 49036
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/summary/input_contrasts.csv": {
+      "sha256": "9efefb5dfd38f0abf404f7f071d30669953e5d08ac7c273767501c6a94a2c957",
+      "bytes": 63842
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/summary/reference_input_interactions.csv": {
+      "sha256": "86d04cde0971e0e0ede317438dd05152c608eee61e5712559eb7e68d68942340",
+      "bytes": 59337
+    },
+    "assets/early_mead_v0_1/run01/scores_macro.csv": {
+      "sha256": "46a0bd8d197549d5751755be1eac1a4aab073b3a5e5886348955db197bcadd21",
+      "bytes": 3570
+    },
+    "assets/early_mead_v0_1/run01/scores_pooled.csv": {
+      "sha256": "dba79c5616735debffa6428cbe771f2c3706e8384e9a9ae721ac279adc84fdbf",
+      "bytes": 7412
+    },
+    "assets/early_mead_v0_1/run01/scores_site_season.csv": {
+      "sha256": "973ad240bccda091792da6aadfe3259451857649801224f3db03fcf0bc7f15b1",
+      "bytes": 23395
+    },
+    "assets/early_mead_v0_1/run01/input_contrasts.csv": {
+      "sha256": "5a94f5d534578d70667f4872725ec81dd1983206fb6e325889cad13b2153fe29",
+      "bytes": 2322
+    },
+    "assets/early_mead_v0_1/run01/execution.json": {
+      "sha256": "656d9d09ce147ba8b9d6e58b5207417407b21a4ceb0ec2b66fa4d3d2c98a171f",
+      "bytes": 562
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/execution.json": {
+      "sha256": "7c339d49cfff7912d8eab629eb708740012b91ffd4961bbf715554c61e2b5674",
+      "bytes": 708
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/runs/run_manifest.json": {
+      "sha256": "cc09e0f883a6b1a52eed726cc5745aceb1f02a4730ae640d33872b40721665d6",
+      "bytes": 50694
+    },
+    "assets/early_mead_v0_1/run01/run_manifest.json": {
+      "sha256": "810444860b8bbc35095f1ed6afacdf313677c7e06c2e47eaac7916dc011a6cf1",
+      "bytes": 5825
+    },
+    "assets/fixed_output_decomposition_v0_1/run02/TableS21_error_components_by_unit.csv": {
+      "sha256": "0d5321f54ec900c944815a6dcd5210bc51914f1841500f98240b97e0cb62c4d0",
+      "bytes": 151283
+    },
+    "assets/fixed_output_decomposition_v0_1/run02/TableS22_paired_component_contrasts.csv": {
+      "sha256": "4840459e0a6f9fc997af121c99632904d1463c2608e96dd6a2c0cb98440c8f14",
+      "bytes": 118311
+    },
+    "assets/fixed_output_decomposition_v0_1/run02/TableS23_component_summary_estimands.csv": {
+      "sha256": "9524e7153971cdf46acab870979936806ae93b14182248ab4588a8810d316639",
+      "bytes": 57160
+    },
+    "assets/maize_input_support_v0_1/run02/TableS24_monthly_weight_concentration.csv": {
+      "sha256": "1f61103386c800dd8f5f2310c1e276ae7d8e0eddd0a8f25389fc99da435aba7e",
+      "bytes": 28938
+    },
+    "assets/maize_input_support_v0_1/run02/TableS25_retained_daily_input_lineage.csv": {
+      "sha256": "5f6ebee3c8e63ccf18eb79d58277d895b95dc3d5c40ddb80e2858b1279dedba9",
+      "bytes": 282079
+    },
+    "assets/maize_input_support_v0_1/run02/TableS26_site_season_input_summary.csv": {
+      "sha256": "d13f5fe263cda9096d31dd50baee2fefff33d2ac0d7efee4e94d247768e6bd30",
+      "bytes": 1644
+    },
+    "assets/maize_input_support_v0_1/run02/TableS27_scene_anchor_usage.csv": {
+      "sha256": "82849491d9f96e1c3fcf8caab875a0209de3b008b3696b8bc2c6e783d20c4286",
+      "bytes": 33451
+    },
+    "assets/fixed_output_decomposition_v0_1/run02/EXECUTION_RECEIPT.json": {
+      "sha256": "34d7175212db19854452fa13b21d8e46344f8e0267dceb1bfcc73d328871bbed",
+      "bytes": 2543
+    },
+    "assets/maize_input_support_v0_1/run02/EXECUTION_RECEIPT.json": {
+      "sha256": "7f817df79d73d5b3b7c61f6a2521914c2aee301504a7624b3afef0df46af56b7",
+      "bytes": 978
+    },
+    "assets/fixed_output_decomposition_v0_1/reports02/PLOT_RECEIPT.json": {
+      "sha256": "b483a2a3e68c2548e7a096751d7bff037bae5ddf73f6d48e682343277fb586be",
+      "bytes": 711
+    },
+    "assets/maize_input_support_v0_1/reports02/PLOT_RECEIPT.json": {
+      "sha256": "3c9fadcb8ad84cdeb79ca2ecb556716b4614b5b83fb2f263284a208c3c7cd51a",
+      "bytes": 698
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/all_LOYO_site_season_effects.png": {
+      "sha256": "45946a6cd2fb09adebeb988f1d7cde29e1afb053a6435814a167858601d3db9b",
+      "bytes": 279041
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/primary_LOYO_input_effects.png": {
+      "sha256": "50e59e7367b71c1a641e9d6f05c226c1bf26c4a8b916b51fb72a0fa875f3a0ba",
+      "bytes": 136822
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/reference_input_interactions.png": {
+      "sha256": "53dc7d3e7610c6e212109841c0a780a75433126b27cdb0b8181560b2312e400c",
+      "bytes": 144256
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/all_LOYO_site_season_effects.svg": {
+      "sha256": "9fa48702c67ba738f5ec4c0e171ba967c6b15b3ef088c3f2622534d3b473d97d",
+      "bytes": 121684
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/primary_LOYO_input_effects.svg": {
+      "sha256": "0efba6fb6d81a89561510f63903be743716bf13a2ff05a361a5a9030d5525da7",
+      "bytes": 68227
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/reports_02/reference_input_interactions.svg": {
+      "sha256": "d0292ff296c2a7d43ee330305656fa97baa7fe649d3efd7fdfab2822f1cd365c",
+      "bytes": 71561
+    },
+    "assets/early_mead_v0_1/reports_02/FigureS2_T1_hindcast.png": {
+      "sha256": "940e0e5428e7f58a4f528fd999921ce29fe1b4e194a5bc7a76597e80bbc0bacc",
+      "bytes": 236486
+    },
+    "assets/early_mead_v0_1/reports_02/FigureS2_T1_hindcast.svg": {
+      "sha256": "3e202c40b1ed5be1207ccbc20f5b9d7fcad28d8b016bb79a1796bcc41a63fbd8",
+      "bytes": 108168
+    },
+    "assets/fixed_output_decomposition_v0_1/reports02/FigureS3_fixed_error_components.png": {
+      "sha256": "9d4bf53e323666ff6297d758e38087459f02e2561c0a841b8a6ac79f15a471a3",
+      "bytes": 108262
+    },
+    "assets/fixed_output_decomposition_v0_1/reports02/FigureS3_fixed_error_components.svg": {
+      "sha256": "a7fbe802e88c8276e8c9c8cdd2acb96413e7839918a0b70fbb70f422379bb077",
+      "bytes": 33392
+    },
+    "assets/maize_input_support_v0_1/reports02/FigureS4_conditional_input_support.png": {
+      "sha256": "6039d1c1315531ae104f96f4441cb819eec877a3e5583fc1639b2a0efa8b31d8",
+      "bytes": 249463
+    },
+    "assets/maize_input_support_v0_1/reports02/FigureS4_conditional_input_support.svg": {
+      "sha256": "df92307851d9cf7e36ee6ecf2ed755e68c5b1994fab7028a68adf88c051d3691",
+      "bytes": 48661
+    },
+    "assets/manuscript_integration_v0_1/factorial_experiment/FACTORIAL_EXPERIMENT_RELEASE_MANIFEST.json": {
+      "sha256": "40ba1a231e5a4e997513d256ebd789b35d5a35635e180e2b6a3813edee3f227a",
+      "bytes": 70666
+    },
+    "assets/early_mead_v0_1/optical_inputs/CPU_DELIVERY_MANIFEST.json": {
+      "sha256": "2d0cff80f9e2eb4d7c1bc64be78c19d8660608bc9dd0d60d9284f5630e94099f",
+      "bytes": 39174
+    },
+    "assets/matched_support_pilot_v0_1/spatial_experiment/SPATIAL_PILOT_RELEASE_MANIFEST.json": {
+      "sha256": "17135b274efd196586bf1a4e0c462d0182ffd47b056438719de551751fbcd96f",
+      "bytes": 109660
+    }
+  }
+}

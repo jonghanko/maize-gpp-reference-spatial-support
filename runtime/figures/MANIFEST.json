@@ -1,0 +1,410 @@
+{
+  "status": "public_release_candidate_v1.0.0",
+  "files": [
+    {
+      "path": "code/plot_aggregate.py",
+      "bytes": 6931,
+      "sha256": "c724c52f0e04e98616db86ba2d685fb75945e55cf0f7237205abfea1a94a193c"
+    },
+    {
+      "path": "code/plot_components.py",
+      "bytes": 3705,
+      "sha256": "0ba3fc7593e1d6c96398fbaa96500812968d61ed0cbc3c60d0f9db708e2af159"
+    },
+    {
+      "path": "code/plot_conditional.py",
+      "bytes": 8100,
+      "sha256": "bf1fb9ec6da2614155e982c741a016ec74ecd643a1a1d65445ff05feeb5f083d"
+    },
+    {
+      "path": "code/plot_design_geometry.py",
+      "bytes": 12146,
+      "sha256": "faf69ddf9a33213b4e6031380f9720c9fde8610f676045cd5c54d82fbb2817c6"
+    },
+    {
+      "path": "code/plot_hindcast.py",
+      "bytes": 3112,
+      "sha256": "3bfe61802b01a8fac82dba5b69c61d01c4b14ac69b34b1a9c1fe2cadbc1f6122"
+    },
+    {
+      "path": "code/plot_input_support.py",
+      "bytes": 3819,
+      "sha256": "c2044c73fda97075e92532b0d1c98153d51f8bb611a14a99e74e4407f1d57f1c"
+    },
+    {
+      "path": "code/plot_omissions.py",
+      "bytes": 5562,
+      "sha256": "ec97fd5f661d81858257e076eb04806cf776eefdc93b42af163bd500fd7f438d"
+    },
+    {
+      "path": "data/FIGURE_DATA.json",
+      "bytes": 20296,
+      "sha256": "9b97c7d5739ba1ebe8a9923cbfcbdf12b6239dbf324b06ffadd2e8b69a2370ee"
+    },
+    {
+      "path": "data/MAIN_CONDITIONALS_OWN_PATHS.csv",
+      "bytes": 6683,
+      "sha256": "19af3bc25c029eee7ae6d80d98c8498b88293cfe4c6d3cc964e0d9d89916972a"
+    },
+    {
+      "path": "data/OMISSION_EXACT.json",
+      "bytes": 91189,
+      "sha256": "57ad0c673c0de795e0f65a5560822f91a3998aad622744d8ddd5590f68f1687b"
+    },
+    {
+      "path": "data/sources/US-Ne1_2013_07_DAY_fpt_weight.tif",
+      "bytes": 7988,
+      "sha256": "597a7f2e633ea5d047723c0308817a36a1789f7625d1bd5f855914b957487d3a"
+    },
+    {
+      "path": "data/sources/US-Ne3_2013_07_DAY_fpt_weight.tif",
+      "bytes": 5786,
+      "sha256": "9c1a38d88fc0dc2d10b9bb4475ec2f9a9ddfb157fef1560ba9f4dbf3624d12bf"
+    },
+    {
+      "path": "data/sources/US-Ro1_2015_07_DAY_fpt_weight.tif",
+      "bytes": 2103,
+      "sha256": "9a5695f650d18ca40ff67a8bcdbb4aa3ea3e70efb8a10a4d4b060a854bff4f93"
+    },
+    {
+      "path": "data/tables/Table1_primary_LOYO_scores.csv",
+      "bytes": 3116,
+      "sha256": "19dfc6c41ec9d7d284294f1ad8bed47165a3d42ff4273d1235e711e0f25b119c"
+    },
+    {
+      "path": "data/tables/Table1_source_contrasts.csv",
+      "bytes": 6434,
+      "sha256": "50044667c1a154204034bdbeaccfa95ed209e4201986b36bbf911ffc7d7b7fde"
+    },
+    {
+      "path": "data/tables/Table2_BC_crossprediction_primary.csv",
+      "bytes": 3641,
+      "sha256": "6594024b8087e60366e440818b710021b6ce536c20720182d945a592591ccace"
+    },
+    {
+      "path": "data/tables/TableS10_bias_shifts.csv",
+      "bytes": 3335,
+      "sha256": "c9f8eea27c2e213828174dfd8647675ec8a1911c8b2554f41d09b283d76384fb"
+    },
+    {
+      "path": "data/tables/TableS11_Ne1_contribution_decomposition.csv",
+      "bytes": 2602,
+      "sha256": "337dc5ba1e9dc4166d14d2698834ecd539f57a36b06a5d587345d55589ec8049"
+    },
+    {
+      "path": "data/tables/TableS12_regional_guard_asymmetry.csv",
+      "bytes": 489,
+      "sha256": "00ebe4062a9ce79127ae972e26ec8fd3e29884e0c24dd079c84b363837b6ac81"
+    },
+    {
+      "path": "data/tables/TableS13_fixed_OOF_summary_omissions.csv",
+      "bytes": 16030,
+      "sha256": "9fd850f9e2afeedb92d9e3b69f4630ad2831ce0942b9199e830a35d8d4a0874a"
+    },
+    {
+      "path": "data/tables/TableS14_omission_sign_stability.csv",
+      "bytes": 4962,
+      "sha256": "6a882430b1484260ba76cc6b2749dfe3a07674b096420fd213fc6150c0bdf3fb"
+    },
+    {
+      "path": "data/tables/TableS15_fixed_unit_contributions.csv",
+      "bytes": 11422,
+      "sha256": "23f564a9440cafdff935087a2b95183529c7c1c021f5fc77412dd7db52ae5ddd"
+    },
+    {
+      "path": "data/tables/TableS16_T1_case_counts.csv",
+      "bytes": 71,
+      "sha256": "60f107847c74fc212b8a04963103845d966ff711d4a2198a60f825067af096bd"
+    },
+    {
+      "path": "data/tables/TableS17a_T1_all_reference_macro.csv",
+      "bytes": 3566,
+      "sha256": "fe148a801a93c9421a48ff6fb0c184ed7efd55dd19291486dacce39f41849642"
+    },
+    {
+      "path": "data/tables/TableS17b_T1_pooled.csv",
+      "bytes": 7399,
+      "sha256": "373a29b647379a276906e917f90425de668b0718019960ec93133757e619b7bf"
+    },
+    {
+      "path": "data/tables/TableS18_T1_site_season.csv",
+      "bytes": 23335,
+      "sha256": "3e78554a62971dd248247c7908ab44e71f26ef1773099ec896ec85ba149a9037"
+    },
+    {
+      "path": "data/tables/TableS19_T1_C_minus_B.csv",
+      "bytes": 2311,
+      "sha256": "f6cf580da022bb5a55451b6acc99f43b0068c965814ee0f8a3063266f61af3c8"
+    },
+    {
+      "path": "data/tables/TableS1a_all_LOYO_models.csv",
+      "bytes": 7672,
+      "sha256": "d502f077cba3204a3c082e0290ce86f5e83cfdbde6259595f9639c3fe04fb837"
+    },
+    {
+      "path": "data/tables/TableS1b_all_LOYO_contrasts.csv",
+      "bytes": 6216,
+      "sha256": "ec84bf40a5c494bd688e33513735111d88122b6437a7783f94aecdf497d4b2d5"
+    },
+    {
+      "path": "data/tables/TableS20_error_components_by_unit.csv",
+      "bytes": 151283,
+      "sha256": "0d5321f54ec900c944815a6dcd5210bc51914f1841500f98240b97e0cb62c4d0"
+    },
+    {
+      "path": "data/tables/TableS21_paired_component_contrasts.csv",
+      "bytes": 118311,
+      "sha256": "4840459e0a6f9fc997af121c99632904d1463c2608e96dd6a2c0cb98440c8f14"
+    },
+    {
+      "path": "data/tables/TableS22_component_summary_estimands.csv",
+      "bytes": 57160,
+      "sha256": "9524e7153971cdf46acab870979936806ae93b14182248ab4588a8810d316639"
+    },
+    {
+      "path": "data/tables/TableS23_monthly_weight_concentration.csv",
+      "bytes": 18186,
+      "sha256": "d49678598136ff24099542b17402373f0c5d47b090cfb62b2319c48463907c74"
+    },
+    {
+      "path": "data/tables/TableS24_retained_daily_input_lineage.csv",
+      "bytes": 282079,
+      "sha256": "5f6ebee3c8e63ccf18eb79d58277d895b95dc3d5c40ddb80e2858b1279dedba9"
+    },
+    {
+      "path": "data/tables/TableS25_site_season_input_summary.csv",
+      "bytes": 1644,
+      "sha256": "d13f5fe263cda9096d31dd50baee2fefff33d2ac0d7efee4e94d247768e6bd30"
+    },
+    {
+      "path": "data/tables/TableS26_scene_anchor_usage.csv",
+      "bytes": 33451,
+      "sha256": "82849491d9f96e1c3fcf8caab875a0209de3b008b3696b8bc2c6e783d20c4286"
+    },
+    {
+      "path": "data/tables/TableS27_BC_cell_scores_estimands.csv",
+      "bytes": 161317,
+      "sha256": "3b5575ec5f22d0b892441aaf64f7408655bfe9a27c0f9d702267bc90997dce5d"
+    },
+    {
+      "path": "data/tables/TableS28_BC_conditional_contrasts_estimands.csv",
+      "bytes": 67880,
+      "sha256": "b3ec89f0a975c0c74b8ddf6f38cc6b60986f70024af8cb73373679dcceac2683"
+    },
+    {
+      "path": "data/tables/TableS29_BC_cell_scores_native_units.csv",
+      "bytes": 465027,
+      "sha256": "54db2eee5f7635e471fd693a580a4317e4dd913a978960cd93700e9f9e5cfc74"
+    },
+    {
+      "path": "data/tables/TableS2a_partial_Ro1_absolute_scores.csv",
+      "bytes": 11286,
+      "sha256": "233abbdfe50c5863b2bc6310f0e6cf899b26deac059155bc30eb8564db68f239"
+    },
+    {
+      "path": "data/tables/TableS2b_partial_Ro1_input_effects.csv",
+      "bytes": 5450,
+      "sha256": "1b4c180ff6c120afcdd491b82cec058cea912be1331d3091ceddf4d228f70198"
+    },
+    {
+      "path": "data/tables/TableS30_BC_conditional_contrasts_native_units.csv",
+      "bytes": 140732,
+      "sha256": "2ea8d0c8bff5d9d53a3ab862159626ed7b2c4f2f2539484e22fe6455223d43a0"
+    },
+    {
+      "path": "data/tables/TableS3_reference_input_interactions.csv",
+      "bytes": 1481,
+      "sha256": "a1cc46f0ca7b962edb4e45ab53ccb9007685b827419eac49a23ab15cd418e14a"
+    },
+    {
+      "path": "data/tables/TableS4_cohort_selection.csv",
+      "bytes": 253,
+      "sha256": "7e64827c2ad0febf5f4a9c16a15929d267d824034cd2884ed87db0624410b672"
+    },
+    {
+      "path": "data/tables/TableS5a_broader_2431_metrics.csv",
+      "bytes": 7297,
+      "sha256": "74f5e7b562316589ff73f9d7d150fd051a4bec480535601752fe0aa63f6fc7d9"
+    },
+    {
+      "path": "data/tables/TableS5b_broader_2431_region_scores.csv",
+      "bytes": 48103,
+      "sha256": "a0ac65394169c9a48e5cd53c9355762cb76ee35f75f24df9a9fc18bd7e0612c8"
+    },
+    {
+      "path": "data/tables/TableS6_aggregation_estimands.csv",
+      "bytes": 21240,
+      "sha256": "aff6c1383795d6b76ce3e1238be910f995a09000b2012aee8ebe5ae96411476d"
+    },
+    {
+      "path": "data/tables/TableS7_site_season_contrasts.csv",
+      "bytes": 21553,
+      "sha256": "3aa74dc5211bb826db1d200b137af2a99de736e34ff13fbe4bc9d4e0d9a7e1a4"
+    },
+    {
+      "path": "data/tables/TableS8_sign_counts.csv",
+      "bytes": 4007,
+      "sha256": "f730e606e0e4b1e3b2d7dd7f24cc1942b79012153530a46d9403aea89951f548"
+    },
+    {
+      "path": "data/tables/TableS9_LOYO_fold_composition.csv",
+      "bytes": 639,
+      "sha256": "dfce8f12fb65be9011812ad3be25f5b0bc8e4821db8ebf90418bf6ac184c209c"
+    },
+    {
+      "path": "FIGURE_INPUT_MANIFEST.json",
+      "bytes": 8016,
+      "sha256": "931a7ead4b93e1746f9d59fbee90d45398107740f8810c20a134c357320df159"
+    },
+    {
+      "path": "FIGURE_VALIDATION.json",
+      "bytes": 3175,
+      "sha256": "a5619d25f09eca8ea1496a9d54f481a36da53a62c32954412aaf3fbbad67ec81"
+    },
+    {
+      "path": "MAIN_FIGURE_CAPTIONS.txt",
+      "bytes": 3166,
+      "sha256": "339c76e093e7065c0e832875e1c929004b19392475038a97982dc68d3b75a5f8"
+    },
+    {
+      "path": "PATH_SANITIZATION.json",
+      "bytes": 451,
+      "sha256": "3f5ef18ec00a14f3a007411647a1a2c2ef5b7d1f579f578eda39c3047e3241f6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3333,
+      "sha256": "ff077903fc7c5e237b460eec9a489bf02e2bff2b5c63837fe393bf87d37e285d"
+    },
+    {
+      "path": "reference/Figure1_controlled_design.pdf",
+      "bytes": 40087,
+      "sha256": "cfaf477ae5333f99080935786450c3c974b1d1d1614408a7df617bd5a98468c5"
+    },
+    {
+      "path": "reference/Figure1_controlled_design.png",
+      "bytes": 478957,
+      "sha256": "3ec9d048d1649c9dcb743d192e6b63227385f01741e41e2818aa36c1ea87124c"
+    },
+    {
+      "path": "reference/Figure2_spatial_support.pdf",
+      "bytes": 44511,
+      "sha256": "eb7cd31ff79ba6dbe1680cc823c3637a1c96170af6f3a95ace39dee9c30711f6"
+    },
+    {
+      "path": "reference/Figure2_spatial_support.png",
+      "bytes": 247451,
+      "sha256": "f782e21bc14adabc1280ba02b8889db564618ec38d89e19754ccaaa7dd2dfc8f"
+    },
+    {
+      "path": "reference/Figure3_BC_conditional_contrasts.pdf",
+      "bytes": 32618,
+      "sha256": "0b146537352b9bbedca22c6512ec7dac75e80fde9471359a43d48986c207ef9d"
+    },
+    {
+      "path": "reference/Figure3_BC_conditional_contrasts.png",
+      "bytes": 258544,
+      "sha256": "9ddf7e588c5055f4b27f54c2fb865813db665eb74ac671d88ccce8b2db69b7f4"
+    },
+    {
+      "path": "reference/Figure4_primary_LOYO_input_effects.pdf",
+      "bytes": 17343,
+      "sha256": "786bd923f6e46a280201ae10686932dd0cd1457096a898615db12261ae717c56"
+    },
+    {
+      "path": "reference/Figure4_primary_LOYO_input_effects.png",
+      "bytes": 247880,
+      "sha256": "7b89d28ba9e97e2bce411a97ead5c0ab32cd269de9045fd488aac5545ce9933c"
+    },
+    {
+      "path": "reference/FigureS1_fixed_OOF_summary_omissions.pdf",
+      "bytes": 23032,
+      "sha256": "914c5a10971d63a6030dccf619cef6d5ee274eaaf35f94fe158e1d47f5fd912e"
+    },
+    {
+      "path": "reference/FigureS1_fixed_OOF_summary_omissions.png",
+      "bytes": 215202,
+      "sha256": "b408d9c956b8993cd3e132322604c66d9cbd37122c3f6a53040e292df950bff8"
+    },
+    {
+      "path": "reference/FigureS2_T1_hindcast.pdf",
+      "bytes": 148791,
+      "sha256": "f0858ec1ad52a98d667ddb487176bb58524756f6f63924d1c5c960badec0ba27"
+    },
+    {
+      "path": "reference/FigureS2_T1_hindcast.png",
+      "bytes": 236486,
+      "sha256": "940e0e5428e7f58a4f528fd999921ce29fe1b4e194a5bc7a76597e80bbc0bacc"
+    },
+    {
+      "path": "reference/FigureS3_fixed_error_components.pdf",
+      "bytes": 15779,
+      "sha256": "4d2f92f024ba9a7c0a5e636a518cd761ecf4859b8913076e03a645f4b4520195"
+    },
+    {
+      "path": "reference/FigureS3_fixed_error_components.png",
+      "bytes": 108262,
+      "sha256": "9d4bf53e323666ff6297d758e38087459f02e2561c0a841b8a6ac79f15a471a3"
+    },
+    {
+      "path": "reference/FigureS4_conditional_input_support.pdf",
+      "bytes": 38696,
+      "sha256": "29473972f9fa52174c43421f667f88b5d9cda301ed70451c750113313d900717"
+    },
+    {
+      "path": "reference/FigureS4_conditional_input_support.png",
+      "bytes": 249463,
+      "sha256": "6039d1c1315531ae104f96f4441cb819eec877a3e5583fc1639b2a0efa8b31d8"
+    },
+    {
+      "path": "reference/FigureS5_reference_input_interactions.pdf",
+      "bytes": 16127,
+      "sha256": "9b01219e490c3fceddc06752d686a97e1bc8fd6ed054f716767a9fff3dc2e575"
+    },
+    {
+      "path": "reference/FigureS5_reference_input_interactions.png",
+      "bytes": 145611,
+      "sha256": "ae3d44fc7dc6416f9cc2f7a2151040e343f67323d6ebd4f17c117f80ef7bb1b6"
+    },
+    {
+      "path": "reference/FigureS6_all_LOYO_site_season_effects.pdf",
+      "bytes": 19761,
+      "sha256": "d63181aba8ea1c9dc8645719bfa15014624d0fae69b72a40bb443fa569b2b161"
+    },
+    {
+      "path": "reference/FigureS6_all_LOYO_site_season_effects.png",
+      "bytes": 372479,
+      "sha256": "f144d4a206fbf994ab527a6ff2eb18cb4bfcb1bd58423fb51e341801cf968d9b"
+    },
+    {
+      "path": "reference/FigureS7_HGB_conditional_contrasts.pdf",
+      "bytes": 29965,
+      "sha256": "81a75b78a91d48104587d2bf00120e0c00d771a4458c39c9faaa65871e745f39"
+    },
+    {
+      "path": "reference/FigureS7_HGB_conditional_contrasts.png",
+      "bytes": 163791,
+      "sha256": "c134f4220a8588d1bcd0dfade8a49cf69771982d04e4189c932d7fb45fba3bf4"
+    },
+    {
+      "path": "requirements_figures.txt",
+      "bytes": 81,
+      "sha256": "066ce29bd2a84f2c06aaa2ae72e15a82e4da4486386db61106eee181dbb852b3"
+    },
+    {
+      "path": "run_figures.py",
+      "bytes": 3744,
+      "sha256": "c0348381829f9d2e920fb4e6b1b0e6e708199832fc501e31b5ee3428c2792a2c"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "bytes": 28971,
+      "sha256": "44b9cb1e64a7094013ef1e19431430f0c574a0c91dc7e87af2a4104b767a897e"
+    },
+    {
+      "path": "SUPPLEMENTARY_FIGURE_CAPTIONS.md",
+      "bytes": 3921,
+      "sha256": "93f1f4723c9eb75f7149a857047da10bdc84ad862adfaab15db0dd39ce08e1fc"
+    }
+  ]
+}

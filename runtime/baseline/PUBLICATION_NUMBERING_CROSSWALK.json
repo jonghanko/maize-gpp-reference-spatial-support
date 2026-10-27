@@ -1,0 +1,16 @@
+{
+  "scope": "Selected publication aliases confirmed by parent for manuscript v0.8; executable output IDs and frozen original source names remain unchanged.",
+  "historical_to_v08_publication": {
+    "TableS21_error_components_by_unit.csv": "TableS20_error_components_by_unit.csv",
+    "TableS22_paired_component_contrasts.csv": "TableS21_paired_component_contrasts.csv",
+    "TableS23_component_summary_estimands.csv": "TableS22_component_summary_estimands.csv",
+    "TableS24_monthly_weight_concentration.csv": "TableS23_monthly_weight_concentration.csv",
+    "TableS25_retained_daily_input_lineage.csv": "TableS24_retained_daily_input_lineage.csv",
+    "TableS26_site_season_input_summary.csv": "TableS25_site_season_input_summary.csv",
+    "TableS27_scene_anchor_usage.csv": "TableS26_scene_anchor_usage.csv",
+    "TableS18_T1_all_reference_macro.csv": "TableS17a_T1_all_reference_macro.csv",
+    "TableS18b_T1_pooled.csv": "TableS17b_T1_pooled.csv"
+  },
+  "figure_identifiers": "unchanged",
+  "source_outputs_renamed": false
+}

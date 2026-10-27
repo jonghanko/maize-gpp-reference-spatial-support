@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "changes": [
+    {
+      "path": "data/tables/TableS23_monthly_weight_concentration.csv",
+      "source_path_cells_replaced": 84,
+      "all_other_cells_including_numeric_strings_unchanged": true,
+      "sha256": "d49678598136ff24099542b17402373f0c5d47b090cfb62b2319c48463907c74"
+    }
+  ],
+  "scope": "Absolute path cells only; original numeric strings, dates, categories, row order and source hashes retained."
+}

@@ -1,0 +1,2284 @@
+{
+  "all_summaries": [
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "142151592780183277",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "3.553789819504581925"
+      },
+      "mean_second_RMSE": {
+        "numerator": "71916331130529101",
+        "denominator": "20000000000000000",
+        "decimal_40sig": "3.59581655652645505"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-67242779234997",
+        "denominator": "1600000000000000",
+        "decimal_40sig": "-0.042026737021873125"
+      },
+      "relative_difference_percent": {
+        "numerator": "-84053474043746250",
+        "denominator": "71916331130529101",
+        "decimal_40sig": "-1.168767548655785465417953048107084319560"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "114924055413236767",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.830801847107892233333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "39214531601508913",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "3.9214531601508913"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-679884847822493",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "-0.09065131304299906666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-271953939128997200",
+        "denominator": "117643594804526739",
+        "decimal_40sig": "-2.311676547974143030988883686764427328165"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "107475238362423559",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.582507945414118633333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "109186785680839007",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.639559522694633566666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-213943414801931",
+        "denominator": "3750000000000000",
+        "decimal_40sig": "-0.05705157728051493333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-171154731841544800",
+        "denominator": "109186785680839007",
+        "decimal_40sig": "-1.567540712681502049408761668475482344640"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "1342939572786077",
+        "denominator": "375000000000000",
+        "decimal_40sig": "3.581172194096205333333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "26588551982590123",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "3.545140264345349733333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "90079824377139",
+        "denominator": "2500000000000000",
+        "decimal_40sig": "0.0360319297508556"
+      },
+      "relative_difference_percent": {
+        "numerator": "27023947313141700",
+        "denominator": "26588551982590123",
+        "decimal_40sig": "1.016375293052313222543285838580161628415"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": false,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "6441354582800223",
+        "denominator": "2000000000000000",
+        "decimal_40sig": "3.2206772914001115"
+      },
+      "mean_second_RMSE": {
+        "numerator": "2048195799321841",
+        "denominator": "625000000000000",
+        "decimal_40sig": "3.2771132789149456"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-564359875148341",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "-0.0564359875148341"
+      },
+      "relative_difference_percent": {
+        "numerator": "-14108996878708525",
+        "denominator": "8192783197287364",
+        "decimal_40sig": "-1.722125014046511484595744304271088419203"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "71916331130529101",
+        "denominator": "20000000000000000",
+        "decimal_40sig": "3.59581655652645505"
+      },
+      "mean_second_RMSE": {
+        "numerator": "148590217409635761",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "3.714755435240894025"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-4757555148577559",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "-0.118938878714438975"
+      },
+      "relative_difference_percent": {
+        "numerator": "-475755514857755900",
+        "denominator": "148590217409635761",
+        "decimal_40sig": "-3.201795671017735264066169111306425117713"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "39214531601508913",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "3.9214531601508913"
+      },
+      "mean_second_RMSE": {
+        "numerator": "39761079406056751",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "3.9761079406056751"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-273273902273919",
+        "denominator": "5000000000000000",
+        "decimal_40sig": "-0.0546547804547838"
+      },
+      "relative_difference_percent": {
+        "numerator": "-54654780454783800",
+        "denominator": "39761079406056751",
+        "decimal_40sig": "-1.374579897507971371400664160246556484248"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "109186785680839007",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.639559522694633566666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "55312216928065501",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.687481128537700066666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-95843211686133",
+        "denominator": "2000000000000000",
+        "decimal_40sig": "-0.0479216058430665"
+      },
+      "relative_difference_percent": {
+        "numerator": "-71882408764599750",
+        "denominator": "55312216928065501",
+        "decimal_40sig": "-1.299575622833633143671503178760753736215"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "26588551982590123",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "3.545140264345349733333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "7118154265779737",
+        "denominator": "1875000000000000",
+        "decimal_40sig": "3.796348941749193066666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-75362603221153",
+        "denominator": "300000000000000",
+        "decimal_40sig": "-0.2512086774038433333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-47101627013220625",
+        "denominator": "7118154265779737",
+        "decimal_40sig": "-6.617112421918130150480915848886068236783"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "2048195799321841",
+        "denominator": "625000000000000",
+        "decimal_40sig": "3.2771132789149456"
+      },
+      "mean_second_RMSE": {
+        "numerator": "25493127975532559",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "3.399083730071007866666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-914778383670467",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "-0.1219704511560622666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-91477838367046700",
+        "denominator": "25493127975532559",
+        "decimal_40sig": "-3.588333234542423813370643125890287838149"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "142151592780183277",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "3.553789819504581925"
+      },
+      "mean_second_RMSE": {
+        "numerator": "148590217409635761",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "3.714755435240894025"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-1609656157363121",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "-0.1609656157363121"
+      },
+      "relative_difference_percent": {
+        "numerator": "-643862462945248400",
+        "denominator": "148590217409635761",
+        "decimal_40sig": "-4.333141670896399687750249141558655338380"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "114924055413236767",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.830801847107892233333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "39761079406056751",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "3.9761079406056751"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-2179591402466743",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "-0.1453060934977828666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-435918280493348600",
+        "denominator": "119283238218170253",
+        "decimal_40sig": "-3.654480604358255616464456385039435171675"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "107475238362423559",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.582507945414118633333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "55312216928065501",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.687481128537700066666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-3149195493707443",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "-0.1049731831235814333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-157459774685372150",
+        "denominator": "55312216928065501",
+        "decimal_40sig": "-2.846744958535133791021260694632527320624"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "1342939572786077",
+        "denominator": "375000000000000",
+        "decimal_40sig": "3.581172194096205333333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "7118154265779737",
+        "denominator": "1875000000000000",
+        "decimal_40sig": "3.796348941749193066666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-50432050231169",
+        "denominator": "234375000000000",
+        "decimal_40sig": "-0.2151767476529877333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-40345640184935200",
+        "denominator": "7118154265779737",
+        "decimal_40sig": "-5.667991824635688344221919202469185793464"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "6441354582800223",
+        "denominator": "2000000000000000",
+        "decimal_40sig": "3.2206772914001115"
+      },
+      "mean_second_RMSE": {
+        "numerator": "25493127975532559",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "3.399083730071007866666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-5352193160126891",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "-0.1784064386708963666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-133804829003172275",
+        "denominator": "25493127975532559",
+        "decimal_40sig": "-5.248662664369535941974810735569527017583"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "141821287147306787",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "3.545532178682669675"
+      },
+      "mean_second_RMSE": {
+        "numerator": "35888570476118269",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "3.5888570476118269"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-1732994757166289",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "-0.043324868929157225"
+      },
+      "relative_difference_percent": {
+        "numerator": "-43324868929157225",
+        "denominator": "35888570476118269",
+        "decimal_40sig": "-1.207205200830926795149034152877204695262"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "38236365233224537",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "3.8236365233224537"
+      },
+      "mean_second_RMSE": {
+        "numerator": "24461297701219",
+        "denominator": "6250000000000",
+        "decimal_40sig": "3.91380763219504"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-901711088725863",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "-0.0901711088725863"
+      },
+      "relative_difference_percent": {
+        "numerator": "-901711088725863",
+        "denominator": "391380763219504",
+        "decimal_40sig": "-2.303922863526490482529109978568185895392"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "3359200927297471",
+        "denominator": "937500000000000",
+        "decimal_40sig": "3.583147655783969066666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "109270087068429067",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.642336235614302233333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-355131478981999",
+        "denominator": "6000000000000000",
+        "decimal_40sig": "-0.05918857983033316666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-177565739490999500",
+        "denominator": "109270087068429067",
+        "decimal_40sig": "-1.625016912266218922607811079240764958257"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "26797817731572211",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "3.573042364209628133333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "26537651558084059",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "3.538353541077874533333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "10840257228673",
+        "denominator": "312500000000000",
+        "decimal_40sig": "0.0346888231317536"
+      },
+      "relative_difference_percent": {
+        "numerator": "26016617348815200",
+        "denominator": "26537651558084059",
+        "decimal_40sig": "0.9803662276547549880702058221838458042201"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": false,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "16011510857073139",
+        "denominator": "5000000000000000",
+        "decimal_40sig": "3.2023021714146278"
+      },
+      "mean_second_RMSE": {
+        "numerator": "3913116937872109",
+        "denominator": "1200000000000000",
+        "decimal_40sig": "3.260930781560090833333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-1758858304363891",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "-0.05862861014546303333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-7035433217455564",
+        "denominator": "3913116937872109",
+        "decimal_40sig": "-1.797910292269804011972176208166037073191"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "35888570476118269",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "3.5888570476118269"
+      },
+      "mean_second_RMSE": {
+        "numerator": "74173874451141699",
+        "denominator": "20000000000000000",
+        "decimal_40sig": "3.70869372255708495"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-2396733498905161",
+        "denominator": "20000000000000000",
+        "decimal_40sig": "-0.11983667494525805"
+      },
+      "relative_difference_percent": {
+        "numerator": "-18436411530039700",
+        "denominator": "5705682650087823",
+        "decimal_40sig": "-3.231236761784485699335170895357681220924"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "24461297701219",
+        "denominator": "6250000000000",
+        "decimal_40sig": "3.91380763219504"
+      },
+      "mean_second_RMSE": {
+        "numerator": "119167873686043357",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.972262456201445233333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-1753644720192157",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "-0.05845482400640523333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-175364472019215700",
+        "denominator": "119167873686043357",
+        "decimal_40sig": "-1.471575069646929077452880030537367856955"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "109270087068429067",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.642336235614302233333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "110646365397967829",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.688212179932260966666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-688139164769381",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "-0.04587594431795873333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-137627832953876200",
+        "denominator": "110646365397967829",
+        "decimal_40sig": "-1.243853175464577188465307015766292233071"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "26537651558084059",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "3.538353541077874533333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "18954056177859843",
+        "denominator": "5000000000000000",
+        "decimal_40sig": "3.7908112355719686"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-3786865417411411",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "-0.2524576944940940666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-378686541741141100",
+        "denominator": "56862168533579529",
+        "decimal_40sig": "-6.659727398850618767347943834289321324882"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "3913116937872109",
+        "denominator": "1200000000000000",
+        "decimal_40sig": "3.260930781560090833333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "676697803704533",
+        "denominator": "200000000000000",
+        "decimal_40sig": "3.383489018522665"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-147069884355089",
+        "denominator": "1200000000000000",
+        "decimal_40sig": "-0.1225582369625741666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-7353494217754450",
+        "denominator": "2030093411113599",
+        "decimal_40sig": "-3.622244265952630429788655245187847443736"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "141821287147306787",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "3.545532178682669675"
+      },
+      "mean_second_RMSE": {
+        "numerator": "74173874451141699",
+        "denominator": "20000000000000000",
+        "decimal_40sig": "3.70869372255708495"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-6526461754976611",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "-0.163161543874415275"
+      },
+      "relative_difference_percent": {
+        "numerator": "-326323087748830550",
+        "denominator": "74173874451141699",
+        "decimal_40sig": "-4.399434304375989358260201241593140029140"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "38236365233224537",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "3.8236365233224537"
+      },
+      "mean_second_RMSE": {
+        "numerator": "119167873686043357",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.972262456201445233333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-2229388993184873",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "-0.1486259328789915333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-445877798636974600",
+        "denominator": "119167873686043357",
+        "decimal_40sig": "-3.741593978689868084904195924896338498031"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "3359200927297471",
+        "denominator": "937500000000000",
+        "decimal_40sig": "3.583147655783969066666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "110646365397967829",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.688212179932260966666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-1050645241482919",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "-0.1050645241482919"
+      },
+      "relative_difference_percent": {
+        "numerator": "-315193572444875700",
+        "denominator": "110646365397967829",
+        "decimal_40sig": "-2.848657263265736324668717899455180415013"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "26797817731572211",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "3.573042364209628133333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "18954056177859843",
+        "denominator": "5000000000000000",
+        "decimal_40sig": "3.7908112355719686"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-3266533070435107",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "-0.2177688713623404666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-326653307043510700",
+        "denominator": "56862168533579529",
+        "decimal_40sig": "-5.744650889468065729189193554459417574822"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "ridge",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "16011510857073139",
+        "denominator": "5000000000000000",
+        "decimal_40sig": "3.2023021714146278"
+      },
+      "mean_second_RMSE": {
+        "numerator": "676697803704533",
+        "denominator": "200000000000000",
+        "decimal_40sig": "3.383489018522665"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-452967117770093",
+        "denominator": "2500000000000000",
+        "decimal_40sig": "-0.1811868471080372"
+      },
+      "relative_difference_percent": {
+        "numerator": "-3623736942160744",
+        "denominator": "676697803704533",
+        "decimal_40sig": "-5.355029855753719287065965085637428056377"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "133504161732087083",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "3.337604043302177075"
+      },
+      "mean_second_RMSE": {
+        "numerator": "13651317078186509",
+        "denominator": "4000000000000000",
+        "decimal_40sig": "3.41282926954662725"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-3009009049778007",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "-0.075225226244450175"
+      },
+      "relative_difference_percent": {
+        "numerator": "-30090090497780070",
+        "denominator": "13651317078186509",
+        "decimal_40sig": "-2.204189553684980256711005098910434021494"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "3648329759753143",
+        "denominator": "1000000000000000",
+        "decimal_40sig": "3.648329759753143"
+      },
+      "mean_second_RMSE": {
+        "numerator": "112357661867867567",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.745255395595585566666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-2907769075273277",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "-0.09692563584244256666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-290776907527327700",
+        "denominator": "112357661867867567",
+        "decimal_40sig": "-2.587957978951901689274003940920238660407"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "16156412466558793",
+        "denominator": "5000000000000000",
+        "decimal_40sig": "3.2312824933117586"
+      },
+      "mean_second_RMSE": {
+        "numerator": "49617609154394671",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.307840610292978066666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-287092938679573",
+        "denominator": "3750000000000000",
+        "decimal_40sig": "-0.07655811698121946666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-8833628882448400",
+        "denominator": "3816739165722667",
+        "decimal_40sig": "-2.314443953042787437057262971551302992993"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "51791488889563739",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.452765925970915933333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "34868938800731013",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "3.4868938800731013"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-1023838623065561",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "-0.03412795410218536666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "-102383862306556100",
+        "denominator": "104606816402193039",
+        "decimal_40sig": "-0.9787494336211312547013040340870282608313"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "90541139825186723",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.018037994172890766666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "46669907883372661",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.111327192224844066666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-932891980519533",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "-0.0932891980519533"
+      },
+      "relative_difference_percent": {
+        "numerator": "-139933797077929950",
+        "denominator": "46669907883372661",
+        "decimal_40sig": "-2.998373115019258828061908561489320330090"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "13651317078186509",
+        "denominator": "4000000000000000",
+        "decimal_40sig": "3.41282926954662725"
+      },
+      "mean_second_RMSE": {
+        "numerator": "68294136678654671",
+        "denominator": "20000000000000000",
+        "decimal_40sig": "3.41470683393273355"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-18775643861063",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "-0.0018775643861063"
+      },
+      "relative_difference_percent": {
+        "numerator": "-3755128772212600",
+        "denominator": "68294136678654671",
+        "decimal_40sig": "-0.05498464370201586148415734387045508685200"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "112357661867867567",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.745255395595585566666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "27373279155202267",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "3.649770554026968933333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "2864545247058499",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "0.09548484156861663333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "71613631176462475",
+        "denominator": "27373279155202267",
+        "decimal_40sig": "2.616187515219650584820811064978161145280"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": false,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "49617609154394671",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.307840610292978066666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "96738473709860297",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.224615790328676566666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "166449639928603",
+        "denominator": "2000000000000000",
+        "decimal_40sig": "0.0832248199643015"
+      },
+      "relative_difference_percent": {
+        "numerator": "249674459892904500",
+        "denominator": "96738473709860297",
+        "decimal_40sig": "2.580922050121779438948811620163812338794"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": false,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "34868938800731013",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "3.4868938800731013"
+      },
+      "mean_second_RMSE": {
+        "numerator": "110165370042982453",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.672179001432748433333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-2779276820394707",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "-0.1852851213596471333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-555855364078941400",
+        "denominator": "110165370042982453",
+        "decimal_40sig": "-5.045645141137066891949781095083804064020"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "46669907883372661",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.111327192224844066666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "5835491231142263",
+        "denominator": "1875000000000000",
+        "decimal_40sig": "3.112261989942540266666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-4673988588481",
+        "denominator": "5000000000000000",
+        "decimal_40sig": "-0.0009347977176962"
+      },
+      "relative_difference_percent": {
+        "numerator": "-350549144136075",
+        "denominator": "11670982462284526",
+        "decimal_40sig": "-0.03003595843528129781969362653100642207251"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "133504161732087083",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "3.337604043302177075"
+      },
+      "mean_second_RMSE": {
+        "numerator": "68294136678654671",
+        "denominator": "20000000000000000",
+        "decimal_40sig": "3.41470683393273355"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-3084111625222259",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "-0.077102790630556475"
+      },
+      "relative_difference_percent": {
+        "numerator": "-154205581261112950",
+        "denominator": "68294136678654671",
+        "decimal_40sig": "-2.257962231614385378172343996111720397487"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "3648329759753143",
+        "denominator": "1000000000000000",
+        "decimal_40sig": "3.648329759753143"
+      },
+      "mean_second_RMSE": {
+        "numerator": "27373279155202267",
+        "denominator": "7500000000000000",
+        "decimal_40sig": "3.649770554026968933333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-21611914107389",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "-0.001440794273825933333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-1080595705369450",
+        "denominator": "27373279155202267",
+        "decimal_40sig": "-0.03947629727672154913873815577285938979591"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "16156412466558793",
+        "denominator": "5000000000000000",
+        "decimal_40sig": "3.2312824933117586"
+      },
+      "mean_second_RMSE": {
+        "numerator": "96738473709860297",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.224615790328676566666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "200001089492461",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "0.006666702983082033333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "20000108949246100",
+        "denominator": "96738473709860297",
+        "decimal_40sig": "0.2067441027572005381331076738442249456631"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": false,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "51791488889563739",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.452765925970915933333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "110165370042982453",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.672179001432748433333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-87765230184733",
+        "denominator": "400000000000000",
+        "decimal_40sig": "-0.2194130754618325"
+      },
+      "relative_difference_percent": {
+        "numerator": "-658239226385497500",
+        "denominator": "110165370042982453",
+        "decimal_40sig": "-5.975010351516786975720375877692661520537"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "VUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "90541139825186723",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.018037994172890766666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "5835491231142263",
+        "denominator": "1875000000000000",
+        "decimal_40sig": "3.112261989942540266666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-188447991539299",
+        "denominator": "2000000000000000",
+        "decimal_40sig": "-0.0942239957696495"
+      },
+      "relative_difference_percent": {
+        "numerator": "-70667996827237125",
+        "denominator": "23341964924569052",
+        "decimal_40sig": "-3.027508483351978292199561616000792473099"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "8283581337881373",
+        "denominator": "2500000000000000",
+        "decimal_40sig": "3.3134325351525492"
+      },
+      "mean_second_RMSE": {
+        "numerator": "67976369298391517",
+        "denominator": "20000000000000000",
+        "decimal_40sig": "3.39881846491957585"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-1707718595340533",
+        "denominator": "20000000000000000",
+        "decimal_40sig": "-0.08538592976702665"
+      },
+      "relative_difference_percent": {
+        "numerator": "-170771859534053300",
+        "denominator": "67976369298391517",
+        "decimal_40sig": "-2.512223899226317893887563740255747230496"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "174117385046189",
+        "denominator": "48000000000000",
+        "decimal_40sig": "3.627445521795604166666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "1870802446618969",
+        "denominator": "500000000000000",
+        "decimal_40sig": "3.741604893237938"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-684956228654003",
+        "denominator": "6000000000000000",
+        "decimal_40sig": "-0.1141593714423338333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-17123905716350075",
+        "denominator": "5612407339856907",
+        "decimal_40sig": "-3.051080343855915354790227057158505882841"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "48282989883062317",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.218865992204154466666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "16459114640114847",
+        "denominator": "5000000000000000",
+        "decimal_40sig": "3.2918229280229694"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-68397127330139",
+        "denominator": "937500000000000",
+        "decimal_40sig": "-0.07295693581881493333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-109435403728222400",
+        "denominator": "49377343920344541",
+        "decimal_40sig": "-2.216308027923969204371717200424833304481"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "102772297380107371",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.425743246003579033333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "104142245790479513",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.471408193015983766666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-684974205186071",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "-0.04566494701240473333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-136994841037214200",
+        "denominator": "104142245790479513",
+        "decimal_40sig": "-1.315458870676073024318304401680889245028"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_B",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "44725130709102887",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "2.981675380606859133333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "92713135362042367",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.090437845401412233333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-1087624647945531",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "-0.1087624647945531"
+      },
+      "relative_difference_percent": {
+        "numerator": "-326287394383659300",
+        "denominator": "92713135362042367",
+        "decimal_40sig": "-3.519322187837953757895562576488709890043"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "67976369298391517",
+        "denominator": "20000000000000000",
+        "decimal_40sig": "3.39881846491957585"
+      },
+      "mean_second_RMSE": {
+        "numerator": "135052911366527297",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "3.376322784163182425"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "899827230255737",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "0.022495680756393425"
+      },
+      "relative_difference_percent": {
+        "numerator": "89982723025573700",
+        "denominator": "135052911366527297",
+        "decimal_40sig": "0.6662775508879241427181766857914263439198"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "1870802446618969",
+        "denominator": "500000000000000",
+        "decimal_40sig": "3.741604893237938"
+      },
+      "mean_second_RMSE": {
+        "numerator": "10855584932714291",
+        "denominator": "3000000000000000",
+        "decimal_40sig": "3.618528310904763666666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "369229746999523",
+        "denominator": "3000000000000000",
+        "decimal_40sig": "0.1230765823331743333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "36922974699952300",
+        "denominator": "10855584932714291",
+        "decimal_40sig": "3.401288362516658382333368820390038439977"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "16459114640114847",
+        "denominator": "5000000000000000",
+        "decimal_40sig": "3.2918229280229694"
+      },
+      "mean_second_RMSE": {
+        "numerator": "4792633340198813",
+        "denominator": "1500000000000000",
+        "decimal_40sig": "3.195088893465875333333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "1451010518356411",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "0.09673403455709406666666666666666666666667"
+      },
+      "relative_difference_percent": {
+        "numerator": "14510105183564110",
+        "denominator": "4792633340198813",
+        "decimal_40sig": "3.027585077677189202200009104627855714471"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "104142245790479513",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.471408193015983766666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "54335113417571983",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.622340894504798866666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-1509327014888151",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "-0.1509327014888151"
+      },
+      "relative_difference_percent": {
+        "numerator": "-226399052233222650",
+        "denominator": "54335113417571983",
+        "decimal_40sig": "-4.166717210900403973469036446053863219573"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": false,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "B_minus_A_shared",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "92713135362042367",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.090437845401412233333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "18415998226663751",
+        "denominator": "6000000000000000",
+        "decimal_40sig": "3.069333037777291833333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "52762019060301",
+        "denominator": "2500000000000000",
+        "decimal_40sig": "0.0211048076241204"
+      },
+      "relative_difference_percent": {
+        "numerator": "12662884574472240",
+        "denominator": "18415998226663751",
+        "decimal_40sig": "0.6876023997514389866754639977969323516375"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "full_four_site_seasons",
+      "omitted_site_season": "",
+      "n_retained_site_seasons": 4,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 642,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:3;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "8283581337881373",
+        "denominator": "2500000000000000",
+        "decimal_40sig": "3.3134325351525492"
+      },
+      "mean_second_RMSE": {
+        "numerator": "135052911366527297",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "3.376322784163182425"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-2515609960425329",
+        "denominator": "40000000000000000",
+        "decimal_40sig": "-0.062890249010633225"
+      },
+      "relative_difference_percent": {
+        "numerator": "-251560996042532900",
+        "denominator": "135052911366527297",
+        "decimal_40sig": "-1.862684732206979973508359148044202575997"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne1-2012",
+      "omitted_site_season": "US-Ne1-2012",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2013;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 486,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "174117385046189",
+        "denominator": "48000000000000",
+        "decimal_40sig": "3.627445521795604166666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "10855584932714291",
+        "denominator": "3000000000000000",
+        "decimal_40sig": "3.618528310904763666666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "17834421781681",
+        "denominator": "2000000000000000",
+        "decimal_40sig": "0.0089172108908405"
+      },
+      "relative_difference_percent": {
+        "numerator": "2675163267252150",
+        "denominator": "10855584932714291",
+        "decimal_40sig": "0.2464319779941385341838334015882116683481"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": false,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne1-2013",
+      "omitted_site_season": "US-Ne1-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne3-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 475,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "48282989883062317",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.218865992204154466666666666666666666667"
+      },
+      "mean_second_RMSE": {
+        "numerator": "4792633340198813",
+        "denominator": "1500000000000000",
+        "decimal_40sig": "3.195088893465875333333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "356656481074187",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "0.02377709873827913333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "3566564810741870",
+        "denominator": "4792633340198813",
+        "decimal_40sig": "0.7441764386244323146380650805700613782269"
+      },
+      "direction": "adverse",
+      "same_sign_as_full_mean": false,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ne3-2013",
+      "omitted_site_season": "US-Ne3-2013",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ro1-2015",
+      "n_retained_evaluation_days": 485,
+      "n_retained_regions": 2,
+      "retained_regions": "Mead_NE;Rosemount_MN",
+      "retained_region_site_season_counts": "Mead_NE:2;Rosemount_MN:1",
+      "mean_first_RMSE": {
+        "numerator": "102772297380107371",
+        "denominator": "30000000000000000",
+        "decimal_40sig": "3.425743246003579033333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "54335113417571983",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "3.622340894504798866666666666666666666667"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-1179585891007319",
+        "denominator": "6000000000000000",
+        "decimal_40sig": "-0.1965976485012198333333333333333333333333"
+      },
+      "relative_difference_percent": {
+        "numerator": "-294896472751829750",
+        "denominator": "54335113417571983",
+        "decimal_40sig": "-5.427364630409700975789984298042064716562"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    },
+    {
+      "model": "random_forest",
+      "reference": "CUT_REF",
+      "contrast": "C_minus_A_shared",
+      "scenario": "omit_US-Ro1-2015",
+      "omitted_site_season": "US-Ro1-2015",
+      "n_retained_site_seasons": 3,
+      "retained_site_seasons": "US-Ne1-2012;US-Ne1-2013;US-Ne3-2013",
+      "n_retained_evaluation_days": 480,
+      "n_retained_regions": 1,
+      "retained_regions": "Mead_NE",
+      "retained_region_site_season_counts": "Mead_NE:3",
+      "mean_first_RMSE": {
+        "numerator": "44725130709102887",
+        "denominator": "15000000000000000",
+        "decimal_40sig": "2.981675380606859133333333333333333333333"
+      },
+      "mean_second_RMSE": {
+        "numerator": "18415998226663751",
+        "denominator": "6000000000000000",
+        "decimal_40sig": "3.069333037777291833333333333333333333333"
+      },
+      "mean_RMSE_difference": {
+        "numerator": "-876576571704327",
+        "denominator": "10000000000000000",
+        "decimal_40sig": "-0.0876576571704327"
+      },
+      "relative_difference_percent": {
+        "numerator": "-52594594302259620",
+        "denominator": "18415998226663751",
+        "decimal_40sig": "-2.855918731905073386478033408269064135347"
+      },
+      "direction": "favourable",
+      "same_sign_as_full_mean": true,
+      "summary_omission_only_no_retraining": true,
+      "omitted_unit_information_removed_from_other_folds_training": false,
+      "Ro1_field_calendar_gate_resolved": false
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "created_utc": "2026-10-27T05:20:13.656031+00:00",
+  "selection_rule": "Fixed July illustration for US-Ne1/US-Ne3 in2013 and US-Ro1 in2015, selected before reading new cross-prediction outcomes. This illustrates geometry, not a representative-month or performance claim. All principal sites are included.",
+  "records": [
+    {
+      "site_id": "US-Ne1",
+      "year": 2013,
+      "month": 7,
+      "geometry": {
+        "site_id": "US-Ne1",
+        "lat": 41.1651,
+        "lon": -96.4766,
+        "containing_rule": "floor of inverse actual raster affine at registered coordinate; no coordinate relocation",
+        "item_id": "MOD09A1.A2012001.h10v04.061.2021201231510",
+        "stac_item_path": "source-id:US-Ne1_representative_item.json",
+        "stac_sha256": "7a07e36a7d78cc3bc21725b59ac99a68f76bd4ad659fb3e2b801be803d6f1d52",
+        "native_crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"Unknown datum based upon the custom spheroid\",DATUM[\"Not specified (based on custom spheroid)\",SPHEROID[\"Custom spheroid\",6371007.181,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Sinusoidal\"],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+        "tile_h": 10,
+        "tile_v": 4,
+        "row": 2120,
+        "column": 1769,
+        "transform": [
+          463.31271652749973,
+          0.0,
+          -8895604.157333,
+          0.0,
+          -463.31271652750013,
+          5559752.598333
+        ],
+        "shape": [
+          2400,
+          2400
+        ],
+        "pixel_polygon_native": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -8076003.9617958525,
+                4577529.6392947
+              ],
+              [
+                -8075540.649079325,
+                4577529.6392947
+              ],
+              [
+                -8075540.649079325,
+                4577066.326578172
+              ],
+              [
+                -8076003.9617958525,
+                4577066.326578172
+              ],
+              [
+                -8076003.9617958525,
+                4577529.6392947
+              ]
+            ]
+          ]
+        },
+        "pixel_area_native_m2": 214658.67329640847,
+        "registered_coordinate_native": [
+          -8075999.569071774,
+          4577355.434124091
+        ],
+        "registered_coordinate_pixel_fraction": [
+          0.00948112132755341,
+          0.375999113332
+        ],
+        "coordinate_distance_nearest_pixel_edge_native_m": 4.392724078148603,
+        "source_attrs": [
+          {
+            "path": "source-id:modis-09A1-061_US-Ne1_2012_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "495eb2ed1dfdf15c0d656ae59c0973e9c78f2f0c86bac1be275482b37ea815e0"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne1_2013_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "1f757e95c328fc5c8d49b8db60ed91b869e03e990fd7670fa5bea71ec260d43c"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne1_2014_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "0b96fbc60cb966b971a5bac8d3a96d790cd55660aa52c91018c0dfe686ea6c2f"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne1_2015_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "97f24847f246bdc829e2784c1476b687465e7dae7cb54800a8bf3379afb2b9cf"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne1_2016_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "c13f3d643b9b0ce5d67ace0688f769760aa3e1d03fafb43c9e5340f98c5908af"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne1_2017_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "f7011bb4c4e17ffcfc8aa12ab304ef42b6e4b17dc9b5b1da2a9358c98505d40b"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne1_2018_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "a35a9ea85d38783e08b50c35557d1c2312540aa880024b2624b64edd3fdf0e4e"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne1_2019_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "fd4070ccc1580be64b5a640b9beb8d107e4e2b62b222211ac32aff062b5fe03d"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne1_2020_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "d43c31bcc21a3ed54092a7193c18aeecf148ab69458b8476a433fa11c14be6b4"
+          }
+        ],
+        "cog_header_affine_crs_shape_verified": true,
+        "source_ndvi_sample_exact_within_1e_12": true,
+        "source_ndvi_abs_error": 0.0
+      },
+      "map": {
+        "month": 7,
+        "path": "source-id:US-Ne1_2013_07_DAY_fpt_weight.tif",
+        "sha256": "597a7f2e633ea5d047723c0308817a36a1789f7625d1bd5f855914b957487d3a",
+        "stored_weight_sum": 0.999999997773557,
+        "pixels": [
+          {
+            "row": 2120,
+            "col": 1768,
+            "stored_core_mass": 0.6398341357509504,
+            "conditional_core_weight": 0.6398341371755046
+          },
+          {
+            "row": 2120,
+            "col": 1769,
+            "stored_core_mass": 0.360165862022569,
+            "conditional_core_weight": 0.3601658628244578
+          }
+        ]
+      },
+      "local_map": "sources/US-Ne1_2013_07_DAY_fpt_weight.tif",
+      "coordinate_comparison": {
+        "site_id": "US-Ne1",
+        "published_lat": 41.16506,
+        "published_lon": -96.47664,
+        "registered_lat": 41.1651,
+        "registered_lon": -96.4766,
+        "coordinate_distance_m": 5.5680619522225205,
+        "published_coordinate_containing_row": 2120,
+        "published_coordinate_containing_column": 1768,
+        "registered_row": 2120,
+        "registered_column": 1769,
+        "same_containing_pixel": false,
+        "handling": "published georeferencing and existing registered pixel both retained; no translation or coordinate choice"
+      }
+    },
+    {
+      "site_id": "US-Ne3",
+      "year": 2013,
+      "month": 7,
+      "geometry": {
+        "site_id": "US-Ne3",
+        "lat": 41.1797,
+        "lon": -96.4397,
+        "containing_rule": "floor of inverse actual raster affine at registered coordinate; no coordinate relocation",
+        "item_id": "MOD09A1.A2012017.h10v04.061.2021202214149",
+        "stac_item_path": "source-id:US-Ne3_representative_item.json",
+        "stac_sha256": "6d217c834c188df257e0ebcf8c9a6a19d5aeb58705189251e12c27f20aea8f43",
+        "native_crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"Unknown datum based upon the custom spheroid\",DATUM[\"Not specified (based on custom spheroid)\",SPHEROID[\"Custom spheroid\",6371007.181,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Sinusoidal\"],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+        "tile_h": 10,
+        "tile_v": 4,
+        "row": 2116,
+        "column": 1779,
+        "transform": [
+          463.31271652749973,
+          0.0,
+          -8895604.157333,
+          0.0,
+          -463.31271652750013,
+          5559752.598333
+        ],
+        "shape": [
+          2400,
+          2400
+        ],
+        "pixel_polygon_native": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -8071370.834630578,
+                4579382.89016081
+              ],
+              [
+                -8070907.52191405,
+                4579382.89016081
+              ],
+              [
+                -8070907.52191405,
+                4578919.577444282
+              ],
+              [
+                -8071370.834630578,
+                4578919.577444282
+              ],
+              [
+                -8071370.834630578,
+                4579382.89016081
+              ]
+            ]
+          ]
+        },
+        "pixel_area_native_m2": 214658.67329640847,
+        "registered_coordinate_native": [
+          -8071111.7662972,
+          4578978.88188295
+        ],
+        "registered_coordinate_pixel_fraction": [
+          0.5591651688700949,
+          0.8719991130146809
+        ],
+        "coordinate_distance_nearest_pixel_edge_native_m": 59.30443866737187,
+        "source_attrs": [
+          {
+            "path": "source-id:modis-09A1-061_US-Ne3_2012_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "4471eff92b02bbfde7ebf14d2e08401bf28b73d1d44eafc570dc7eba6ee7ee73"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne3_2013_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "c03ea34fe776b360fcea4463ec64244d23af9e93d437330c139a21734f860ec8"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne3_2014_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "018cc839fb0dd0752279f85d5f03a838749d0c7250172eb2863d9a65639391ad"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne3_2015_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "14548660af16b5ce0c563d7a19a2a2b4169bd7cb2136ad0779e2a7ab6adfc44b"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne3_2016_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "0b937616f3506516eb9165f3df21312738391c40de43abf6709f18a3052d213a"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne3_2017_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "d93e2210b0bb78e6f195c6b45919a7c40e75caac6bd860c0f5c157e071ffd1f9"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne3_2018_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "1ff22cdc2bd0e7301abafa9b917540206140291106d846b5070b679f94ec87aa"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne3_2019_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "a0810a61603650ebe0f0c496aa0c705e4429c0c051aac76c7434dc77ce8810bf"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ne3_2020_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "4afba7c7881374ed88387bb4a5c17c46efe144fe6ec81e976d511e8857b8597d"
+          }
+        ],
+        "cog_header_affine_crs_shape_verified": true,
+        "source_ndvi_sample_exact_within_1e_12": true,
+        "source_ndvi_abs_error": 0.0
+      },
+      "map": {
+        "month": 7,
+        "path": "source-id:US-Ne3_2013_07_DAY_fpt_weight.tif",
+        "sha256": "9c1a38d88fc0dc2d10b9bb4475ec2f9a9ddfb157fef1560ba9f4dbf3624d12bf",
+        "stored_weight_sum": 1.0000000022118911,
+        "pixels": [
+          {
+            "row": 2116,
+            "col": 1779,
+            "stored_core_mass": 0.9827997850097155,
+            "conditional_core_weight": 0.9827997828358694
+          },
+          {
+            "row": 2117,
+            "col": 1779,
+            "stored_core_mass": 0.01720021720217749,
+            "conditional_core_weight": 0.017200217164132482
+          }
+        ]
+      },
+      "local_map": "sources/US-Ne3_2013_07_DAY_fpt_weight.tif",
+      "coordinate_comparison": {
+        "site_id": "US-Ne3",
+        "published_lat": 41.17967,
+        "published_lon": -96.43965,
+        "registered_lat": 41.1797,
+        "registered_lon": -96.4397,
+        "coordinate_distance_m": 5.357334015519919,
+        "published_coordinate_containing_row": 2116,
+        "published_coordinate_containing_column": 1779,
+        "registered_row": 2116,
+        "registered_column": 1779,
+        "same_containing_pixel": true,
+        "handling": "published georeferencing and existing registered pixel both retained; no translation or coordinate choice"
+      }
+    },
+    {
+      "site_id": "US-Ro1",
+      "year": 2015,
+      "month": 7,
+      "geometry": {
+        "site_id": "US-Ro1",
+        "lat": 44.7143,
+        "lon": -93.0898,
+        "containing_rule": "floor of inverse actual raster affine at registered coordinate; no coordinate relocation",
+        "item_id": "MOD09A1.A2004081.h11v04.061.2020121200342",
+        "stac_item_path": "source-id:US-Ro1_representative_item.json",
+        "stac_sha256": "d90d27970afe770420b6f9a533b3fecc6107fc0f099001c82e09b2099dbe566e",
+        "native_crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"Unknown datum based upon the custom spheroid\",DATUM[\"Not specified (based on custom spheroid)\",SPHEROID[\"Custom spheroid\",6371007.181,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Sinusoidal\"],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+        "tile_h": 11,
+        "tile_v": 4,
+        "row": 1268,
+        "column": 923,
+        "transform": [
+          463.3127165279169,
+          0.0,
+          -7783653.637667,
+          0.0,
+          -463.31271652750013,
+          5559752.598333
+        ],
+        "shape": [
+          2400,
+          2400
+        ],
+        "pixel_polygon_native": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -7356016.000311733,
+                4972272.07377613
+              ],
+              [
+                -7355552.687595205,
+                4972272.07377613
+              ],
+              [
+                -7355552.687595205,
+                4971808.761059603
+              ],
+              [
+                -7356016.000311733,
+                4971808.761059603
+              ],
+              [
+                -7356016.000311733,
+                4972272.07377613
+              ]
+            ]
+          ]
+        },
+        "pixel_area_native_m2": 214658.67329597697,
+        "registered_coordinate_native": [
+          -7355756.892291292,
+          4972008.912599625
+        ],
+        "registered_coordinate_pixel_fraction": [
+          0.5592508282152266,
+          0.5679990363260004
+        ],
+        "coordinate_distance_nearest_pixel_edge_native_m": 200.1515400223434,
+        "source_attrs": [
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2004_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "4e06c77802a89bf41e3304c63b192316c9a38f095438542f341c1d572c93e9e1"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2005_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "505fa7b14aaa6d6ebd088e95fc782e7424dcc70de0590ffd1e10813bc6eab0d3"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2006_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "9b6da7a17ec9926214e34ec6a8209508741ca823ccab0e96154e17ce620c1e8b"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2007_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "e3aaf842fc36b753f4e0749877e274567e77b86a2aee0a947c4b65f8406150bd"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2008_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "b39f69d0e38904b52f3c96b864736575c6e87cd5033b79d30c64775a25afb013"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2009_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "bf794663710de3f5be8c7e9435eadc44713a5512fcf68f381f8aebae9f98911f"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2010_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "31f67c607c3ff652aa986ef8c6799608f421847349e3c56215123247f8ca23b3"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2011_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "d0d38b5527ad1f77d3847689ca4dae711e44b461bb92d7804931a4c321cacc47"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2012_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "0a3d13c581fba97fa57a3b71fad7c2c02871cbfcff3720b301c525332e815f30"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2013_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "2a6efed1e53eb84fab3b7f01498e254b8bdb76c3be360b87738d961e6bcf67b5"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2014_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "4b37b47ec5a926f0255c969bcfbbf83ad86f18cc3526b32c384f38ea2b917986"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2015_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "51197554d3a092539161ef55190f299361aa94ea37f9ac0b785855b7ab8d8032"
+          },
+          {
+            "path": "source-id:modis-09A1-061_US-Ro1_2016_terra_h0_c1c1a91b_observed.attrs.json",
+            "sha256": "f980f2baac381cf71e4827f1e98ba00575e6faf8b24580b92691db2ba69b40c1"
+          }
+        ],
+        "cog_header_affine_crs_shape_verified": true,
+        "source_ndvi_sample_exact_within_1e_12": true,
+        "source_ndvi_abs_error": 0.0
+      },
+      "map": {
+        "month": 7,
+        "path": "source-id:US-Ro1_2015_07_DAY_fpt_weight.tif",
+        "sha256": "9a5695f650d18ca40ff67a8bcdbb4aa3ea3e70efb8a10a4d4b060a854bff4f93",
+        "stored_weight_sum": 1.0000000005820766,
+        "pixels": [
+          {
+            "row": 1268,
+            "col": 923,
+            "stored_core_mass": 1.0000000005820766,
+            "conditional_core_weight": 1.0
+          }
+        ]
+      },
+      "local_map": "sources/US-Ro1_2015_07_DAY_fpt_weight.tif",
+      "coordinate_comparison": {
+        "site_id": "US-Ro1",
+        "published_lat": 44.7143,
+        "published_lon": -93.0898,
+        "registered_lat": 44.7143,
+        "registered_lon": -93.0898,
+        "coordinate_distance_m": 0.0,
+        "published_coordinate_containing_row": 1268,
+        "published_coordinate_containing_column": 923,
+        "registered_row": 1268,
+        "registered_column": 923,
+        "same_containing_pixel": true,
+        "handling": "published georeferencing and existing registered pixel both retained; no translation or coordinate choice"
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "source_path": "source-id:weights.json",
+      "local_copy": "sources/principal_weights_original.json",
+      "bytes": 86943,
+      "sha256": "475d05fa35eaf1572714ada7df048a7e580415d01de47a801e06e163053e8f2e"
+    },
+    {
+      "source_path": "source-id:coordinate_provenance_offsets.json",
+      "local_copy": "sources/coordinate_offsets_original.json",
+      "bytes": 1567,
+      "sha256": "4ceb629d7e680a69b97167e5413fe7637708f1e7906737c00bed04b05a9dfbea"
+    },
+    {
+      "source_path": "source-id:Ne1_COORDINATE_EVIDENCE.json",
+      "local_copy": "sources/Ne1_coordinate_evidence_original.json",
+      "bytes": 1652,
+      "sha256": "2facf49046dd110debd22afe925047d6e88eb4b1b94612de1b47c103f296c2bb"
+    },
+    {
+      "source_path": "source-id:BC_CROSSPREDICTION_PROTOCOL_v0_1.json",
+      "local_copy": "sources/BC_CROSSPREDICTION_PROTOCOL_v0_1.json",
+      "bytes": 9476,
+      "sha256": "756e27f0ebf641a73af0bf04c2efa7811a43ab04ff2c9ad91716160cde31680d"
+    }
+  ],
+  "map_source": "Chu et al.2021 footprint supplementary dataset, doi10.5281/zenodo.4015350",
+  "map_interpretation": "Published monthly DAY80% retained cores rescaled to unity; not complete daily footprints or verified crop boundaries.",
+  "geometry_source": "Frozen weights.json with verified native MODIS Sinusoidal affine/CRS and original registered point; not newly assigned field authority.",
+  "Ne1_authority": "Registered extraction coordinate and published footprint coordinate are both shown; neither establishes a dated2012/2013 mast position. No coordinate or pixel is moved."
+}

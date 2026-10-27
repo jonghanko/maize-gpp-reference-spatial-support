@@ -1,0 +1,923 @@
+{
+  "record": "software",
+  "files": [
+    {
+      "path": ".gitignore",
+      "license_scope": "MIT"
+    },
+    {
+      "path": ".zenodo.json",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "CITATION.cff",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "CREDIT.md",
+      "license_scope": "CC-BY-4.0 (project documentation/metadata; original notice exceptions retained)"
+    },
+    {
+      "path": "FILE_LEVEL_LICENSES.json",
+      "license_scope": "CC-BY-4.0 (project documentation/metadata; original notice exceptions retained)"
+    },
+    {
+      "path": "FUNDING.md",
+      "license_scope": "CC-BY-4.0 (project documentation/metadata; original notice exceptions retained)"
+    },
+    {
+      "path": "LICENSE",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "OBSERVATION_COUNT_CLARIFICATION.md",
+      "license_scope": "CC-BY-4.0 (project documentation)"
+    },
+    {
+      "path": "PUBLICATION_ALIGNMENT.json",
+      "license_scope": "CC-BY-4.0 (project metadata)"
+    },
+    {
+      "path": "README.md",
+      "license_scope": "CC-BY-4.0 (project documentation/metadata; original notice exceptions retained)"
+    },
+    {
+      "path": "RELEASE_MANIFEST.json",
+      "license_scope": "CC-BY-4.0 (project documentation/metadata; original notice exceptions retained)"
+    },
+    {
+      "path": "graphical_abstract/GRAPHICAL_ABSTRACT_CAPTION_EN.txt",
+      "license_scope": "CC-BY-4.0 (project figure/caption/documentation rights; embedded font exceptions retained)"
+    },
+    {
+      "path": "graphical_abstract/LICENSE_NOTICE.txt",
+      "license_scope": "CC-BY-4.0 (project figure/caption/documentation rights; embedded font exceptions retained)"
+    },
+    {
+      "path": "graphical_abstract/README_EN.md",
+      "license_scope": "CC-BY-4.0 (project figure/caption/documentation rights; embedded font exceptions retained)"
+    },
+    {
+      "path": "graphical_abstract/create_graphical_abstract.py",
+      "license_scope": "MIT (project-owned drawing source)"
+    },
+    {
+      "path": "graphical_abstract/gagraphic.pdf",
+      "license_scope": "CC-BY-4.0 (project figure/caption/documentation rights; embedded font exceptions retained)"
+    },
+    {
+      "path": "graphical_abstract/gagraphic.png",
+      "license_scope": "CC-BY-4.0 (project figure/caption/documentation rights; embedded font exceptions retained)"
+    },
+    {
+      "path": "graphical_abstract/gagraphic_preview.png",
+      "license_scope": "CC-BY-4.0 (project figure/caption/documentation rights; embedded font exceptions retained)"
+    },
+    {
+      "path": "graphical_abstract/requirements.txt",
+      "license_scope": "MIT (project-owned drawing source)"
+    },
+    {
+      "path": "runtime/PUBLIC_EXPORT_RELATION.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/ARTIFACT_MAP.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/CURRENT_RUNTIME_SNAPSHOT.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/MANIFEST.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/ORIGINAL_MODEL_MANIFEST_ENTRIES.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/PUBLICATION_NUMBERING_CROSSWALK.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/README_EN.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/baseline/SOURCE_EXPORT_RECEIPT.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/adapters/audit_processed_csv.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/adapters/decompose_processed_csv.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/context_archive/CONTEXT_ARCHIVE_STATUS.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/docs/DATA_LICENSE_AND_ATTRIBUTION_NOTES.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/baseline/docs/SOURCE_CITATIONS.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/baseline/docs/US-IAC_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/baseline/docs/US-Ne1_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/baseline/docs/US-Ne3_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/baseline/docs/US-Ro1_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/baseline/original_code/early_mead_v0_1/code_01/report_temporal_02.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/early_mead_v0_1/code_01/temporal_baseline.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/early_mead_v0_1/independent_postfit/verify_saved_run.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/early_mead_v0_1/optical_inputs/early_mead_optical.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/fixed_output_decomposition_v0_1/decompose_frozen_errors.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/fixed_output_decomposition_v0_1/independent_verification/verify_fixed_errors.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/fixed_output_decomposition_v0_1/plot_components.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/maize_input_support_v0_1/audit_inputs.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/maize_input_support_v0_1/independent_verification/verify_input_support.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/maize_input_support_v0_1/plot_input_support.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/manuscript_integration_v0_1/factorial_experiment/code_01/engine.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/manuscript_integration_v0_1/factorial_experiment/code_01/factorial.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/manuscript_integration_v0_1/factorial_experiment/code_01/reference_adapter_frozen.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/manuscript_integration_v0_1/factorial_experiment/reporting_helper_02.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/original_code/matched_support_pilot_v0_1/spatial_experiment/code/inputs.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/portable_io.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/protocols/PAYLOAD_EXPORT_MANIFEST.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/protocols/portable_error_decomposition.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/protocols/portable_input_support.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/public_guard.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/baseline/requirements_optional_plotting.txt",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/baseline/requirements_refit.txt",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/baseline/requirements_replay.txt",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/baseline/run_reproduce.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/BC_CROSSPREDICTION_PROTOCOL_v0_1.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/MANIFEST.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/PORTABLE_PATH_MAP.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/README_EN.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/crossprediction/RELATIVE_INPUT_BINDINGS.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/RUNTIME_SNAPSHOT.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/SOURCE_TO_PACKAGE_LEDGER.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/docs/DATA_LICENSE_AND_ATTRIBUTION_NOTES.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/crossprediction/docs/SOURCE_CITATIONS.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/crossprediction/docs/US-IAC_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/crossprediction/docs/US-Ne1_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/crossprediction/docs/US-Ne3_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/crossprediction/docs/US-Ro1_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/crossprediction/original_code/CPU_EXECUTION_PLAN_FREEZE.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/original_code/CPU_INPUT_BINDINGS.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/original_code/V08_REPRODUCTION_PACKAGE_MANIFEST.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/original_code/frozen_crossprediction.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/plot_crossprediction.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/portable_replay.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/public_guard.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/crossprediction/requirements_figures.txt",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/crossprediction/requirements_inference.txt",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/figures/FIGURE_INPUT_MANIFEST.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/FIGURE_VALIDATION.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/MAIN_FIGURE_CAPTIONS.txt",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/figures/MANIFEST.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/PATH_SANITIZATION.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/README.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/figures/SOURCE_BINDINGS.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/SUPPLEMENTARY_FIGURE_CAPTIONS.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/figures/code/plot_aggregate.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/code/plot_components.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/code/plot_conditional.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/code/plot_design_geometry.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/code/plot_hindcast.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/code/plot_input_support.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/code/plot_omissions.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/figures/requirements_figures.txt",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/figures/run_figures.py",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/licenses/DATA_SOURCES_AND_LICENSES.csv",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/licenses/DATA_SOURCES_AND_LICENSES.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/licenses/LICENSE_SCOPE.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/licenses/PUBLIC_PROVIDER_POLICY_METADATA.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/licenses/RIGHTS_DELIVERY_MANIFEST.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/licenses/RIGHTS_QA.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/licenses/SOFTWARE_DEPENDENCY_LICENSES.json",
+      "license_scope": "MIT (project-owned source/configuration; third-party exceptions retained)"
+    },
+    {
+      "path": "runtime/licenses/THIRD_PARTY_NOTICES.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "runtime/licenses/provider_notices/US-IAC_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/provider_notices/US-Ne1_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/provider_notices/US-Ne3_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/provider_notices/US-Ro1_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/joblib/01_LICENSE.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/matplotlib/01_LICENSE",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/matplotlib/02_LICENSE_DEJAVU",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/matplotlib/03_LICENSE_STIX",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/01_LICENSE.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/02_LICENSE.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/03_COPYING",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/04_LICENSE",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/05_dragon4_LICENSE.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/06_LICENSE.md",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/07_LICENSE",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/08_LICENSE.md",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/09_LICENSE.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/10_LICENSE",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/11_LICENSE.md",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/12_LICENSE.md",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/13_LICENSE.md",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/14_LICENSE.md",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/15_LICENSE.md",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/16_LICENSE.md",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/numpy/17_LICENSE.md",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/pandas/01_LICENSE",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/pyarrow/01_LICENSE.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/pyarrow/02_NOTICE.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/pyproj/01_LICENSE",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/pyproj/02_LICENSE_proj",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/rasterio/01_LICENSE.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/scikit-learn/01_COPYING",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/scipy/01_LICENSE.txt",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/licenses/third_party_licenses/threadpoolctl/01_LICENSE",
+      "license_scope": "LicenseRef-original-provider-or-software-notice"
+    },
+    {
+      "path": "runtime/publication_figures12/CAPTIONS_EN.md",
+      "license_scope": "CC-BY-4.0 (project caption text; original source attribution retained)"
+    },
+    {
+      "path": "runtime/publication_figures12/FILE_LEVEL_LICENSES.json",
+      "license_scope": "CC-BY-4.0 (project metadata; upstream rights retained)"
+    },
+    {
+      "path": "runtime/publication_figures12/LICENSE-CODE-MIT.txt",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/LICENSE-DATA.md",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/README.md",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/SHA256_MANIFEST.json",
+      "license_scope": "CC-BY-4.0 (project metadata; upstream rights retained)"
+    },
+    {
+      "path": "runtime/publication_figures12/STYLE_ENVIRONMENTS.json",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/checks/PORTABLE_CPU_SMOKE_QA.json",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/checks/REFERENCE_ARTWORK_CHECKS.json",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/code/contrasts12/plot_contrasts12.py",
+      "license_scope": "MIT (original project source/configuration)"
+    },
+    {
+      "path": "runtime/publication_figures12/code/contrasts12/verify_contrasts12.py",
+      "license_scope": "MIT (original project source/configuration)"
+    },
+    {
+      "path": "runtime/publication_figures12/code/main12/original_plot_design_geometry.py",
+      "license_scope": "MIT (original project source/configuration)"
+    },
+    {
+      "path": "runtime/publication_figures12/code/main12/plot_main12.py",
+      "license_scope": "MIT (original project source/configuration)"
+    },
+    {
+      "path": "runtime/publication_figures12/code/supp12/build_supp12.py",
+      "license_scope": "MIT (original project source/configuration)"
+    },
+    {
+      "path": "runtime/publication_figures12/data/contrasts12/MAIN_CONDITIONALS_OWN_PATHS.csv",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/contrasts12/TableS6_aggregation_estimands.csv",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/main12/FIGURE_DATA.json",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/main12/sources/US-Ne1_2013_07_DAY_fpt_weight.tif",
+      "license_scope": "CC-BY-4.0; Chu etal. dataset DOI10.5281/zenodo.4015350; extracted native subset"
+    },
+    {
+      "path": "runtime/publication_figures12/data/main12/sources/US-Ne3_2013_07_DAY_fpt_weight.tif",
+      "license_scope": "CC-BY-4.0; Chu etal. dataset DOI10.5281/zenodo.4015350; extracted native subset"
+    },
+    {
+      "path": "runtime/publication_figures12/data/main12/sources/US-Ro1_2015_07_DAY_fpt_weight.tif",
+      "license_scope": "CC-BY-4.0; Chu etal. dataset DOI10.5281/zenodo.4015350; extracted native subset"
+    },
+    {
+      "path": "runtime/publication_figures12/data/supp12/FIGURE_INPUT_MANIFEST.json",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/supp12/data/OMISSION_EXACT.json",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/supp12/data/tables/TableS13_fixed_OOF_summary_omissions.csv",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/supp12/data/tables/TableS17a_T1_all_reference_macro.csv",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/supp12/data/tables/TableS18_T1_site_season.csv",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/supp12/data/tables/TableS22_component_summary_estimands.csv",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/supp12/data/tables/TableS23_monthly_weight_concentration.csv",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/supp12/data/tables/TableS25_site_season_input_summary.csv",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/supp12/data/tables/TableS3_reference_input_interactions.csv",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/data/supp12/data/tables/TableS7_site_season_contrasts.csv",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/docs/CAPTION_MOVES_contrasts12.md",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/docs/CAPTION_MOVES_main12.md",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/docs/CAPTION_MOVES_supp12.md",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/docs/CREDIT.md",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/docs/PORTABLE_PATCH_LEDGER.json",
+      "license_scope": "CC-BY-4.0 to extent of project rights; upstream attribution retained"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/style_matplotlib_3_11_2/LICENSE",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/style_matplotlib_3_11_2/LICENSE_DEJAVU",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/style_matplotlib_3_11_2/LICENSE_STIX",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/DATA_SOURCES_AND_LICENSES.csv",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/DATA_SOURCES_AND_LICENSES.json",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/LICENSE_SCOPE.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/PUBLIC_PROVIDER_POLICY_METADATA.json",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/RIGHTS_DELIVERY_MANIFEST.json",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/RIGHTS_QA.json",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/SOFTWARE_DEPENDENCY_LICENSES.json",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/THIRD_PARTY_NOTICES.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/provider_notices/US-IAC_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/provider_notices/US-Ne1_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/provider_notices/US-Ne3_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/provider_notices/US-Ro1_DATA_POLICY_LICENSE_AND_INSTRUCTIONS.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/joblib/01_LICENSE.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/matplotlib/01_LICENSE",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/matplotlib/02_LICENSE_DEJAVU",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/matplotlib/03_LICENSE_STIX",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/01_LICENSE.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/02_LICENSE.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/03_COPYING",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/04_LICENSE",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/05_dragon4_LICENSE.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/06_LICENSE.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/07_LICENSE",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/08_LICENSE.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/09_LICENSE.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/10_LICENSE",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/11_LICENSE.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/12_LICENSE.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/13_LICENSE.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/14_LICENSE.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/15_LICENSE.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/16_LICENSE.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/numpy/17_LICENSE.md",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/pandas/01_LICENSE",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/pyarrow/01_LICENSE.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/pyarrow/02_NOTICE.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/pyproj/01_LICENSE",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/pyproj/02_LICENSE_proj",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/rasterio/01_LICENSE.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/scikit-learn/01_COPYING",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/scipy/01_LICENSE.txt",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/licenses/upstream/third_party_licenses/threadpoolctl/01_LICENSE",
+      "license_scope": "Original third-party/provider terms retained; see each notice"
+    },
+    {
+      "path": "runtime/publication_figures12/requirements-contrasts-reference-style.txt",
+      "license_scope": "MIT (original project source/configuration)"
+    },
+    {
+      "path": "runtime/publication_figures12/requirements-cpu-style.txt",
+      "license_scope": "MIT (original project source/configuration)"
+    },
+    {
+      "path": "runtime/publication_figures12/requirements-optional-checks.txt",
+      "license_scope": "MIT (original project source/configuration)"
+    },
+    {
+      "path": "runtime/publication_figures12/requirements-si-reference-style.txt",
+      "license_scope": "MIT (original project source/configuration)"
+    },
+    {
+      "path": "runtime/publication_figures12/run_figures.py",
+      "license_scope": "MIT (original project source/configuration)"
+    },
+    {
+      "path": "runtime/tables/DATA_DICTIONARY.md",
+      "license_scope": "CC-BY-4.0 (project rights only; upstream provider rights retained)"
+    },
+    {
+      "path": "tools/assemble_runtime.py",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "tools/render_publication_figures.py",
+      "license_scope": "MIT (project-owned verification wrapper)"
+    }
+  ],
+  "no_blanket_third_party_relicensing": true,
+  "artifact_version": "1.0.2"
+}

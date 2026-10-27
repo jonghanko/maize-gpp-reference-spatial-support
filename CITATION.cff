@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the version-specific software and data records and the original source datasets."
+title: "Training–Test Representation and Reference-Path Sensitivity in a Satellite-Based Maize Gross Primary Production Benchmark — reproducible software"
+type: software
+version: 1.0.2
+license: MIT
+authors:
+  - family-names: Ko
+    given-names: Jonghan
+    affiliation: "Department of Applied Plant Science, Chonnam National University"
+    orcid: "https://orcid.org/0000-0001-7974-3808"

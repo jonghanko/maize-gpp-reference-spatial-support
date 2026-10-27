@@ -1,0 +1,7 @@
+# Observation counts and archived field names
+
+The principal comparison contains 642 site–date observations from four site-seasons at three towers, spanning 489 distinct calendar dates. The separately evaluated Mead hindcast contains 437 site–date observations from three site-seasons at two previously represented towers, spanning 291 distinct calendar dates. Observations on the same calendar date at different towers are separate site–date records, not independent dates or independent replications. The 480 later-year hindcast training observations reuse principal-population observations; the cohorts are not pooled.
+
+Legacy table fields such as `n_days` and cohort-level retained/evaluation-day counts retain their archived names and numeric values. In these summaries they count site–date observations within the stated cohort/role, and may therefore count a calendar date more than once across towers. A count within a single site-season has its corresponding site-specific daily interpretation. Counts of prediction, model, fitting/scoring-reference and fold roles can repeat the same physical observation; 112,240 scored rows are not 112,240 independent observations.
+
+This clarification changes no field name, schema, row, numerical value, model, fold, reference path or aggregation. The 37 publication-table files remain byte-identical to the prior clean public candidate. Historical source manifests and original estimator-bound protocol hashes remain their as-of provenance authorities.

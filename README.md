@@ -2,6 +2,14 @@
 
 Software version 1.0.2 accompanies **Training–Test Representation and Reference-Path Sensitivity in a Satellite-Based Maize Gross Primary Production Benchmark**. The companion data record supplies processed observations, original model objects and analysis results.
 
+## Citable version and reproducibility pin
+
+- Software v1.0.2: [doi:10.5281/zenodo.23689895](https://doi.org/10.5281/zenodo.23689895).
+- Processed data, original model objects and results v1.0.2: [doi:10.5281/zenodo.23689996](https://doi.org/10.5281/zenodo.23689996).
+- [GitHub v1.0.2 release](https://github.com/jonghanko/maize-gpp-reference-spatial-support/releases/tag/v1.0.2), pinned source commit `f89593c17501d18e810d00d5629022d277dec1c5`.
+
+For exact reproduction, use the version-specific records and tagged source. The attached `maize-gpp-code-v1.0.2.zip` remains unchanged: SHA-256 `b1ed403e1c71062e2d442c5ecf4338a75cc9176795573abeb21bd301dcae85ca`. This default-branch metadata update adds the published identifiers; the scientific runtime and original release tag/archive are preserved. Cite the software/data version records together with the original source datasets.
+
 The principal comparison contains 642 site–date observations (489 distinct calendar dates); the separate Mead hindcast contains 437 site–date test observations (291 distinct calendar dates). The 480 later-year training observations reuse principal cases. Archived `n_days` fields count site–date observations within the reported cohort/role, not distinct dates across towers. See `OBSERVATION_COUNT_CLARIFICATION.md`. No schema or numerical values were renamed or recomputed.
 
 ## Assemble and reproduce

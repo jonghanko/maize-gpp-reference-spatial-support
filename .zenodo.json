@@ -23,5 +23,14 @@
   "title": "Training–Test Representation and Reference-Path Sensitivity in a Satellite-Based Maize Gross Primary Production Benchmark — reproducible software",
   "upload_type": "software",
   "license": "mit",
-  "notes": "Supported by Chonnam National University (Grant No. 2026-1417-01) and the Basic Science Research Program through the National Research Foundation of Korea (Grant No. NRF-2021R1A2C2004459). Neither funder was involved in design, data collection, analysis or interpretation, manuscript preparation or the decision to submit. Project-owned source is MIT; documentation/data fixtures and third-party notices retain their file-level scopes. The companion data record supplies processed inputs, original model objects, prediction/score tables and current reference artwork. Source/model bindings and reproduction boundaries are documented in the README. Graphical Abstract content and caption are CC BY4.0; the drawing source is MIT. Embedded font rights remain with the font owner; font software is not redistributed."
+  "notes": "Supported by Chonnam National University (Grant No. 2026-1417-01) and the Basic Science Research Program through the National Research Foundation of Korea (Grant No. NRF-2021R1A2C2004459). Neither funder was involved in design, data collection, analysis or interpretation, manuscript preparation or the decision to submit. Project-owned source is MIT; documentation/data fixtures and third-party notices retain their file-level scopes. The companion data record supplies processed inputs, original model objects, prediction/score tables and current reference artwork. Source/model bindings and reproduction boundaries are documented in the README. Graphical Abstract content and caption are CC BY4.0; the drawing source is MIT. Embedded font rights remain with the font owner; font software is not redistributed.",
+  "doi": "10.5281/zenodo.23689895",
+  "publication_date": "2026-10-27",
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.23689996",
+      "relation": "requires",
+      "resource_type": "dataset"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "artifact_version": "1.0.2",
   "article_title": "Training–Test Representation and Reference-Path Sensitivity in a Satellite-Based Maize Gross Primary Production Benchmark",
-  "bundle_state": "prepared_artifact_bundle",
+  "bundle_state": "published_artifact_bundle",
   "provenance_as_of": "2026-10-27",
   "source_12pt_addendum_sha256": "82ffdfb3024bc4dd65175fb8149c0a2dfd3e0471ac2fc93f07389a0336048ec7",
   "original_public_candidate_version": "1.0.0",
@@ -44,5 +44,16 @@
       2.51
     ],
     "scientific_runtime_changed": false
+  },
+  "published_version": {
+    "version": "1.0.2",
+    "publication_date": "2026-10-27",
+    "repository_url": "https://github.com/jonghanko/maize-gpp-reference-spatial-support",
+    "release_url": "https://github.com/jonghanko/maize-gpp-reference-spatial-support/releases/tag/v1.0.2",
+    "source_commit": "f89593c17501d18e810d00d5629022d277dec1c5",
+    "software_doi": "10.5281/zenodo.23689895",
+    "data_doi": "10.5281/zenodo.23689996",
+    "software_archive_sha256": "b1ed403e1c71062e2d442c5ecf4338a75cc9176795573abeb21bd301dcae85ca",
+    "metadata_only_default_branch_update": true
   }
 }

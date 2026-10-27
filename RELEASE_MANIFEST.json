@@ -8,13 +8,13 @@
     },
     {
       "path": ".zenodo.json",
-      "bytes": 2794,
-      "sha256": "48b156234ed1ae3522a8c06602d83f0feeb84c816cdc9eeb4168464829e95485"
+      "bytes": 3036,
+      "sha256": "05834432ffd5f109d83ff19d21b901e3c825ec8abd51e25547c0372c408afe90"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 515,
-      "sha256": "89c1a2e35796cf8d1c65b8aa509ca07ab2a6f2feaf4fbbcc942519fa2dba9441"
+      "bytes": 656,
+      "sha256": "29e4450fd0ba341324cb4deca68f4ab6803c93719a4df4cb170fbbf5f059f21e"
     },
     {
       "path": "CREDIT.md",
@@ -83,13 +83,13 @@
     },
     {
       "path": "PUBLICATION_ALIGNMENT.json",
-      "bytes": 1902,
-      "sha256": "acd1d6314088eeba68674c07c767fcdc6c64e3efc06968a0fee1a556e542bffa"
+      "bytes": 2494,
+      "sha256": "8e3c16db05349371572e4e6a539ef0fb94afbece00a625a15f42ad44e519e284"
     },
     {
       "path": "README.md",
-      "bytes": 5972,
-      "sha256": "2d0fa961dd56ddddbe91eb30fb4d676aba29c2a049d0f23cbc10d9348d9ba5c4"
+      "bytes": 6854,
+      "sha256": "8257c1a6dec84d55321c5b0c5f6a87ad49a73bffe34e3fb53b74bb6f3a9d35b3"
     },
     {
       "path": "runtime/baseline/adapters/audit_processed_csv.py",

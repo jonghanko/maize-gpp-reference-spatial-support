@@ -2,6 +2,8 @@
 
 Software version 1.0.2 accompanies **Training–Test Representation and Reference-Path Sensitivity in a Satellite-Based Maize Gross Primary Production Benchmark**. The companion data record supplies processed observations, original model objects and analysis results.
 
+The manuscript submitted to Scientific Reports is titled **Training and evaluation inputs alter performance comparisons in a maize gross primary production benchmark using satellite data**. It cites v1.0.2 for the original replay software, processed inputs, saved models, predictions and results for the main maize benchmark and the separate Mead hindcast. The additional site-season omission, mean squared error sensitivity and NDVI training-range checks are supplied separately with the manuscript as Supplementary Data 2 and Supplementary Code 1. Those files are outside the scope of the v1.0.2 archives.
+
 ## Citable version and reproducibility pin
 
 - Software v1.0.2: [doi:10.5281/zenodo.23689895](https://doi.org/10.5281/zenodo.23689895).
